@@ -1,0 +1,4131 @@
+{
+  "name": "Gmail",
+  "slug": "gmail",
+  "url_logo": "https://upload.wikimedia.org/wikipedia/commons/9/95/Gmail_new_logo_2020.png",
+  "url_app": "https://www.google.com/gmail/about/",
+  "url_shortcuts": "https://support.google.com/mail/answer/6594?co=GENIE.Platform%3DDesktop&hl=en",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1xGfSrETQto0kA-FGxeooDb08nuwHcO_THZ8H0DcyCQE/edit#gid=1240391001",
+  "operating_systems": [
+    {
+      "name": "macos",
+      "list": [
+        {
+          "name": "Just for text",
+          "group": "Compose & chat",
+          "description": "This is a very complex shortcut",
+          "shortcuts": [
+            {
+              "info": "info about this shortcut",
+              "distinct_keys": [
+                "Command",
+                "E",
+                "a",
+                "b",
+                "C"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "E"
+                },
+                {
+                  "mode": "reset",
+                  "text": "a"
+                },
+                {
+                  "mode": "next",
+                  "text": "b"
+                },
+                {
+                  "mode": "now",
+                  "text": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous message in an open conversation",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "p"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next message in an open conversation",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus main window",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus latest chat or compose",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Advance to the next chat or compose",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "."
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Advance to previous chat or compose",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                ","
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Send",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "return"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "return"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add cc recipients",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "c"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add bcc recipients",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Access custom from",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "f"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert a link",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "k"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to next misspelled word (Mac only)",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                ";"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": ";"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open spelling suggestions",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "m"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous font",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "5"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next font",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "6"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Decrease text size",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Increase text size",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "'",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "next",
+                  "text": "+"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bold",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Italics",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "i"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Underline",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "u"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Numbered list",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "7"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bulleted list",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "8"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quote",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Indent less",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "["
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "["
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Indent more",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "]"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Align left",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "l"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "l"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Align center",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "e"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Align right",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "r"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove formatting",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "\\"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus to toolbar",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ","
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select conversation",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "x"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle star/rotate among superstars",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "s"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Archive",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "e"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mute conversation",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "m"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Report as spam",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "!"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delete",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "#"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "#"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reply",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "r"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reply in a new window",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "r"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reply all",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "a"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reply all in a new window",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "a"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Forward",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "f"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Forward in a new window",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "f"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Update conversation",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Archive conversation and go previous",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "["
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "["
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Archive conversation and go next",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "]"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Undo last action",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "z"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark as read",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "i"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark as unread",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "u"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark unread from the selected message",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "_"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "_"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark as important",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "'",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "="
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "="
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark as not important",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Snooze",
+          "group": "Actions",
+          "description": "This shortcut isn't available in classic Gmail.",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Expand entire conversation",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ";"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ";"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Collapse entire conversation",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add conversation to Tasks",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "t"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show menu",
+          "group": "Hangouts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "h",
+                "m"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "h"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show archived hangouts",
+          "group": "Hangouts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "h",
+                "a"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "h"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Hangout requests",
+          "group": "Hangouts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "h",
+                "i"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "h"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus on the conversation list",
+          "group": "Hangouts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "h",
+                "c"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "h"
+                },
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open phone",
+          "group": "Hangouts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "h",
+                "p"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "h"
+                },
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Inbox",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "i"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Starred conversations",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "s"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Snoozed conversations",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Sent messages",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "t"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Drafts",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "d"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to All mail",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "a"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch between the Calendar/Keep/Tasks sidebar and your inbox.",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "option",
+                ","
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "option",
+                "."
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Tasks",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "k"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to label",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "l"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "l"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select all conversations",
+          "group": "Threadlist selection",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "*",
+                "a"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "*"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Deselect all conversations",
+          "group": "Threadlist selection",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "*",
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "*"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select read conversations",
+          "group": "Threadlist selection",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "*",
+                "r"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "*"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select unread conversations",
+          "group": "Threadlist selection",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "*",
+                "u"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "*"
+                },
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select starred conversations",
+          "group": "Threadlist selection",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "*",
+                "s"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "*"
+                },
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select unstarred conversations",
+          "group": "Threadlist selection",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "*",
+                "t"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "*"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to next page",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to previous page",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "p"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Back to threadlist",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "u"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Newer conversation",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "k"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Older conversation",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "j"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "j"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open conversation",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "o"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "return"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "return"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to next Inbox section",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "`"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "`"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to previous Inbox section",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "~"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "~"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Compose",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "c"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Compose in a new tab",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "d"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search mail",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "/"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search chat contacts",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open \"more actions\" menu",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "."
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open \"move to\" menu",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "v"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "v"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open \"label as\" menu",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "|"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open keyboard shortcut help",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "?"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "windows",
+      "list": [
+        {
+          "name": "Previous message in an open conversation",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "p"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next message in an open conversation",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus main window",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus latest chat or compose",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Advance to the next chat or compose",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "."
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Advance to previous chat or compose",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                ","
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Send",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "return"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "return"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add cc recipients",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "c"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add bcc recipients",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Access custom from",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "f"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert a link",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "k"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to next misspelled word (Mac only)",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                ";"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": ";"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open spelling suggestions",
+          "group": "Compose & chat",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "m"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous font",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "5"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next font",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "6"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Decrease text size",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Increase text size",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "'",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "next",
+                  "text": "+"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bold",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Italics",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "i"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Underline",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "u"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Numbered list",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "7"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bulleted list",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "8"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quote",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Indent less",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "["
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "["
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Indent more",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "]"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Align left",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "l"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "l"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Align center",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "e"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Align right",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "Shift",
+                "r"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove formatting",
+          "group": "Formatting text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "\\"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus to toolbar",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ","
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select conversation",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "x"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle star/rotate among superstars",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "s"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Archive",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "e"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mute conversation",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "m"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Report as spam",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "!"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delete",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "#"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "#"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reply",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "r"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reply in a new window",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "r"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reply all",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "a"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reply all in a new window",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "a"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Forward",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "f"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Forward in a new window",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "f"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Update conversation",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Archive conversation and go previous",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "["
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "["
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Archive conversation and go next",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "]"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Undo last action",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "z"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark as read",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "i"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark as unread",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "u"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark unread from the selected message",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "_"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "_"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark as important",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "'",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "="
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "="
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark as not important",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Snooze",
+          "group": "Actions",
+          "description": "This shortcut isn't available in classic Gmail.",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Expand entire conversation",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ";"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ";"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Collapse entire conversation",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add conversation to Tasks",
+          "group": "Actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "t"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show menu",
+          "group": "Hangouts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "h",
+                "m"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "h"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show archived hangouts",
+          "group": "Hangouts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "h",
+                "a"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "h"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Hangout requests",
+          "group": "Hangouts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "h",
+                "i"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "h"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus on the conversation list",
+          "group": "Hangouts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "h",
+                "c"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "h"
+                },
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open phone",
+          "group": "Hangouts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "h",
+                "p"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "h"
+                },
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Inbox",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "i"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Starred conversations",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "s"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Snoozed conversations",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Sent messages",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "t"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Drafts",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "d"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to All mail",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "a"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch between the Calendar/Keep/Tasks sidebar and your inbox.",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "option",
+                ","
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "ctrl",
+                "option",
+                "."
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Tasks",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "k"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to label",
+          "group": "Jumping",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "l"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "l"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select all conversations",
+          "group": "Threadlist selection",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "*",
+                "a"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "*"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Deselect all conversations",
+          "group": "Threadlist selection",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "*",
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "*"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select read conversations",
+          "group": "Threadlist selection",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "*",
+                "r"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "*"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select unread conversations",
+          "group": "Threadlist selection",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "*",
+                "u"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "*"
+                },
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select starred conversations",
+          "group": "Threadlist selection",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "*",
+                "s"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "*"
+                },
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select unstarred conversations",
+          "group": "Threadlist selection",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "*",
+                "t"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "*"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to next page",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to previous page",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g",
+                "p"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                },
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Back to threadlist",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "u"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Newer conversation",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "k"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Older conversation",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "j"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "j"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open conversation",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "o"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "return"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "return"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to next Inbox section",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "`"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "`"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to previous Inbox section",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "~"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "~"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Compose",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "c"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Compose in a new tab",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "d"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search mail",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "/"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search chat contacts",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "g"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open \"more actions\" menu",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "."
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open \"move to\" menu",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "v"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "v"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open \"label as\" menu",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "|"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open keyboard shortcut help",
+          "group": "Application",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "?"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "?"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
