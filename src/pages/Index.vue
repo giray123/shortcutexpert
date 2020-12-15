@@ -3,9 +3,12 @@
     <v-container fluid class="text-center pa-0">
       <v-row
         no-gutters
-        style="min-height:100vh;
-        background-image: url(http://localhost:8080/assets/img/home-main.svg);
-        background-position: right bottom;"
+        :style="{
+          'background-image':
+            'url(' + require('~/assets/img/home-main.svg') + ')',
+          'background-position': 'right bottom',
+          'min-height': '100vh',
+        }"
       >
         <v-col cols="12" class="text-center">
           <div class="mt-10">
