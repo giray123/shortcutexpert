@@ -1,0 +1,164 @@
+{
+  "name": "Shortcut Expert",
+  "slug": "shortcut-expert",
+  "url_logo": "https://shortcutexpert.com/img/logo/svg",
+  "url_app": "https://shortcutexpert.com",
+  "url_shortcuts": "https://shortcutexpert.com/shortcuts/shortcut-expert",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1nAUtccgZI0IWuQCrGa5aIbspxoUEN8uTanRYJMI2PLE/edit?usp=sharing",
+  "operating_systems": [
+    {
+      "name": "macos",
+      "list": [
+        {
+          "name": "Next List Item",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous List Item",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next Shortcut",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous Shortcut",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "windows",
+      "list": [
+        {
+          "name": "Next List Item",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous List Item",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next Shortcut",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous Shortcut",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
