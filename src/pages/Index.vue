@@ -1,53 +1,53 @@
 <template>
-  <!-- <Layout>
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Home</h1>
-
-    <h2>Applications</h2>
-    <div v-for="edge in $page.applications.edges" :key="edge.node.appname">
-      <g-link :to="'/shortcuts/' + edge.node.slug">{{ edge.node.name }}</g-link>
-    </div>
-  </Layout>  -->
   <Layout>
     <v-container fluid class="text-center pa-0">
       <v-row
         no-gutters
-        style="height: 100vh;"
-        class="d-flex flex-column justify-center align-center"
+        style="min-height:100vh;
+        background-image: url(http://localhost:8080/assets/img/home-main.svg);
+        background-position: right bottom;"
       >
-        <div>
-          <router-link to="/">
-            <v-img
-              alt="Vuetify Name"
-              contain
-              :src="require('@/assets/img/logo.svg')"
-              width="400"
+        <v-col cols="12" class="text-center">
+          <div class="mt-10">
+            <router-link to="/">
+              <v-img
+                alt="Vuetify Name"
+                class="mx-auto"
+                contain
+                :src="require('@/assets/img/logo.svg')"
+                width="400"
+              />
+            </router-link>
+          </div>
+
+          <div class="mt-10">
+            <h1 class="text-xs-h4 text-sm-h3 text-md-h2 text-lg-h1 text-center">
+              All Shortcuts in One Place
+            </h1>
+          </div>
+
+          <div class="mt-10" style="position: relative;">
+            <search-bar
+              solo
+              style="width:500px; max-width:90%;"
+              class="mx-auto"
             />
-          </router-link>
-        </div>
-
-        <div class="mt-10">
-          <h1 class="text-h1">All Shortcuts in One Place</h1>
-        </div>
-
-        <div class="mt-10" style="width: 50%;">
-          <search-bar solo class="mx-10" />
-        </div>
-
-        <div style="margin-top: 80px;">
-          <keyboard :pressed="['s', 'E']" layout="macos" />
-        </div>
+          </div>
+        </v-col>
       </v-row>
 
-      <v-row
-        no-gutters
-        style="height: 100vh;"
-        class="blue darken-1 d-flex justify-center align-stretch"
-      >
-        <v-col class="white--text d-flex justify-end align-center pa-10">
+      <v-row no-gutters class="blue darken-1" style="min-height:100vh;">
+        <v-col
+          cols="12"
+          md="6"
+          order="2"
+          order-md="1"
+          class="white--text d-flex justify-end align-center pa-10"
+        >
           <div>
-            <h2 class="text-h2 mb-10">Users are happy!</h2>
+            <h2 class="text-xs-h4 text-sm-h3 text-md-h2 mb-10">
+              Users are happy!
+            </h2>
 
             <div class="d-flex justify-start align-center text-left">
               <div class="d-flex justify-center align-center pa-8">
@@ -57,7 +57,7 @@
                 <div>
                   <h3 class="text-h5">Best User Experience</h3>
                   <p class="ma-0 mt-1">
-                    because they can filter shortcuts by name, stroke or group
+                    because they can find shortcuts very fast
                   </p>
                 </div>
               </div>
@@ -71,7 +71,7 @@
                 <div>
                   <h3 class="text-h5">Easier to learn</h3>
                   <p class="ma-0 mt-1">
-                    because graphical interface + animations is more memorable
+                    because UI & standardization matters
                   </p>
                 </div>
               </div>
@@ -85,44 +85,50 @@
                 <div>
                   <h3 class="text-h5">Accessible</h3>
                   <p class="ma-0 mt-1">
-                    because they can favorite shortcuts and reach all apps from
-                    one place
+                    because they can favorite shortcuts and reach all app
+                    shortcuts from one place
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </v-col>
-        <v-col class="d-flex justify-start align-center pa-10">
-          <div>
-            <v-img
-              alt="Vuetify Name"
-              contain
-              :src="require('@/assets/img/home-user.svg')"
-              width="500"
-            />
-          </div>
+        <v-col
+          cols="12"
+          md="6"
+          order="1"
+          order-md="2"
+          class="d-flex justify-start align-center pa-10"
+        >
+          <v-img
+            :position="$vuetify.breakpoint.mobile ? 'center' : 'left'"
+            alt="Vuetify Name"
+            contain
+            max-height="500px"
+            :src="require('@/assets/img/character-7.svg')"
+          />
         </v-col>
       </v-row>
 
-      <v-row
-        no-gutters
-        style="height: 100vh;"
-        class="d-flex justify-center align-stretch"
-      >
-        <v-col class="d-flex justify-end align-center pa-10">
-          <div>
-            <v-img
-              alt="Vuetify Name"
-              contain
-              :src="require('@/assets/img/home-developer.svg')"
-              width="500"
-            />
-          </div>
+      <v-row no-gutters style="min-height:100vh;">
+        <v-col
+          cols="12"
+          md="6"
+          class="white--text d-flex justify-end align-center pa-10"
+        >
+          <v-img
+            :position="$vuetify.breakpoint.mobile ? 'center' : 'right'"
+            alt="developer"
+            contain
+            max-height="500px"
+            :src="require('@/assets/img/home-developer.svg')"
+          />
         </v-col>
-        <v-col class="d-flex justify-start align-center pa-10">
+        <v-col cols="12" md="6" class="d-flex justify-start align-center pa-10">
           <div>
-            <h2 class="text-h2 mb-10">Developers are happy!</h2>
+            <h2 class="text-xs-h4 text-sm-h3 text-md-h2 mb-10">
+              Developers are happy!
+            </h2>
 
             <div class="d-flex justify-start align-center text-left">
               <div class="d-flex justify-center align-center pa-8">
@@ -132,7 +138,7 @@
               </div>
               <div class="d-flex justify-center align-center">
                 <div>
-                  <h3 class="text-h5">Easier to distribute</h3>
+                  <h3 class="text-h5">Easier to create</h3>
                   <p class="ma-0 mt-1">
                     because it takes 2 minutes to create a shortcuts page for
                     any application
@@ -166,9 +172,10 @@
               </div>
               <div class="d-flex justify-center align-center">
                 <div>
-                  <h3 class="text-h5">User Analytics</h3>
+                  <h3 class="text-h5">Fast & SEO Friendly</h3>
                   <p class="ma-0 mt-1">
-                    beacuse they can check which shortcuts are in demand!
+                    beacuse each app page is distributed completely static with
+                    CDNs
                   </p>
                 </div>
               </div>
@@ -194,7 +201,6 @@ query {
 </page-query>
 
 <script>
-import Keyboard from "../components/Keyboard";
 import SearchBar from "../components/SearchBar";
 
 export default {
@@ -205,7 +211,6 @@ export default {
       "Best way to learn application shortcuts. You can create your own shortcuts and keyboard layouts for your application. Completely open source!",
   },
   components: {
-    Keyboard,
     SearchBar,
   },
 };

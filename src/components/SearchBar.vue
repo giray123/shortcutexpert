@@ -9,7 +9,6 @@
       single-line
       clearable
       hide-details
-      style="width: 500px;"
       prepend-inner-icon="mdi-magnify"
       auto-select-first
       item-text="name"
