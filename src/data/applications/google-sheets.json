@@ -1,0 +1,5890 @@
+{
+  "name": "Google Sheets",
+  "slug": "google-sheets",
+  "url_logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Google_Sheets_logo.svg",
+  "url_app": "https://www.google.com/sheets/about/",
+  "url_shortcuts": "https://support.google.com/docs/answer/181110?co=GENIE.Platform%3DAndroid&hl=en",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1SXH60e85qFaXOeVovhXPbOkoCxk4WClfsL-9wprCb5Y/edit?usp=sharing",
+  "operating_systems": [
+    {
+      "name": "windows",
+      "list": [
+        {
+          "name": "Select column",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select row",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Shift", "Space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select all",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "a"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "Space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Undo",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "z"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Redo",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "y"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "y"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "z"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "z"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["F4"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Find",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "f"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Find and replace",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "h"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fill range",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Enter"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fill down",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "d"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fill right",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "r"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Save",
+          "group": "Common actions",
+          "description": "every change is saved automatically in Drive",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "s"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "o"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Print",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "p"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Copy",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cut",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "x"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "v"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "v"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste values only",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "v"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "v"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show common keyboard shortcuts",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "/"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert new sheet",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Shift", "F11"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Compact controls",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "f"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Input tools on/off",
+          "group": "Common actions",
+          "description": "available in spreadsheets in non-Latin languages",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "k"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select input tools",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "Shift", "k"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search the menus",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "/"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bold",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "b"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Underline",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "u"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Italic",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "i"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Strikethrough",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "5"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Center align",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "e"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left align",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "l"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "l"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Right align",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "r"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply top border",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "1"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply right border",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "2"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply bottom border",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "3"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply left border",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "4"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove borders",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "6"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply outer border",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "7"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "7"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "7"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert link",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "k"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert time",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", ";"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": ";"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert date",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", ";"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": ";"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert date and time",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "Shift", ";"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": ";"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format as decimal",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "1"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format as time",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "2"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format as date",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "3"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format as currency",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "4"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format as percentage",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "5"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format as exponent",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "6"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Clear formatting",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "\\"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to beginning of row",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Home"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to beginning of sheet",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Home"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to end of row",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["End"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to end of sheet",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "End"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll to active cell",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Backspace"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "backspace"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to next sheet",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "DownArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "downarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to previous sheet",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "UpArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "uparrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Display list of sheets",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "k"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open hyperlink",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Enter"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open Explore",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "x"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to side panel",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "."],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", ","],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus out of spreadsheet",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "Shift", "m"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to quicksum",
+          "group": "Navigate spreadsheet",
+          "description": "when a range of cells is selected",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "q"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus to popup",
+          "group": "Navigate spreadsheet",
+          "description": "for links, bookmarks, and images",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "e", "p"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "next",
+                  "text": "e"
+                },
+                {
+                  "mode": "next",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open drop-down menu on filtered cell",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "r"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open revision history",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "Shift", "h"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open chat inside the spreadsheet",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Shift", "Esc"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close drawing editor",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Shift", "Esc"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert/edit note",
+          "group": "Edit notes and comments",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Shift", "F2"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert/edit comment",
+          "group": "Edit notes and comments",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "m"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open comment discussion thread",
+          "group": "Edit notes and comments",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "Shift", "a"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enter current comment",
+          "group": "Edit notes and comments",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "e", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "next",
+                  "text": "e"
+                },
+                {
+                  "mode": "next",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to next comment",
+          "group": "Edit notes and comments",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "n", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "next",
+                  "text": "n"
+                },
+                {
+                  "mode": "next",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to previous comment",
+          "group": "Edit notes and comments",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "p", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "next",
+                  "text": "p"
+                },
+                {
+                  "mode": "next",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "File menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "f"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "f"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Edit menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "e"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "e"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "View menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "v"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "v"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "v"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "v"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "i"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "i"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "o"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "o"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Data menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "d"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "d"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tools menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "t"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "t"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open insert menu",
+          "group": "Open a menu",
+          "description": "with cells selected",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "Shift", "="],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "="
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "="],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "="
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open delete menu",
+          "group": "Open a menu",
+          "description": "with cells selected",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Form menu",
+          "group": "Open a menu",
+          "description": "present when the spreadsheet is connected to a form",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "m"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "m"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add-ons menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "n"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "n"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Help menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "h"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "h"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Accessibility menu",
+          "group": "Open a menu",
+          "description": "present when screen reader support is enabled",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "a"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "a"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sheet menu",
+          "group": "Open a menu",
+          "description": "copy, delete, and other sheet actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "s"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Context menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "\\"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert rows above",
+          "group": "Add or change rows and columns",
+          "description": "with rows selected",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "Shift", "="],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "="
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "="],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "="
+                }
+              ]
+            },
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "i", "r"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "next",
+                  "text": "r"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "i", "r"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "next",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert rows below",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "i", "w"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "next",
+                  "text": "w"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "i", "w"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "next",
+                  "text": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert columns to the left",
+          "group": "Add or change rows and columns",
+          "description": "with columns selected",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "Shift", "="],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "="
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "="],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "="
+                }
+              ]
+            },
+            {
+              "info": "with columns selected",
+              "distinct_keys": ["Alt", "i", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "next",
+                  "text": "c"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "i", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "next",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert columns to the right",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "i", "o"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "next",
+                  "text": "o"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "i", "o"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "next",
+                  "text": "o"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delete rows",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": "with rows selected",
+              "distinct_keys": ["Ctrl", "Alt", "", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            },
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "e", "d"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                },
+                {
+                  "mode": "next",
+                  "text": "d"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "e", "d"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                },
+                {
+                  "mode": "next",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delete columns",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": "with columns selected",
+              "distinct_keys": ["Ctrl", "Alt", "", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            },
+            {
+              "info": "in Google Chrome",
+              "distinct_keys": ["Alt", "e", "e"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                },
+                {
+                  "mode": "next",
+                  "text": "e"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["Alt", "Shift", "e", "e"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                },
+                {
+                  "mode": "next",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hide row",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "9"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unhide row",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "9"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hide column",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "0"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unhide column",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "0"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Group rows or columns",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "RightArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "rightarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ungroup rows or columns",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "LeftArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "leftarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Expand grouped rows or columns",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "DownArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "downarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Collapse grouped rows or columns",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Alt", "Shift", "UpArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "uparrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show all formulas",
+          "group": "Use formulas",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "~"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "~"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert array formula",
+          "group": "Use formulas",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "Enter"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Collapse an expanded array formula",
+          "group": "Use formulas",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "e"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show/hide formula help",
+          "group": "Use formulas",
+          "description": "when entering a formula",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Shift", "F1"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Full/compact formula help",
+          "group": "Use formulas",
+          "description": "when entering a formula",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["F1"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Absolute/relative references\n(when entering a formula)",
+          "group": "Use formulas",
+          "description": "when entering a formula",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["F4"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle formula result previews\n(when entering a formula)",
+          "group": "Use formulas",
+          "description": "when entering a formula",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["F9"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Resize formula bar",
+          "group": "Use formulas",
+          "description": "move up or down",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Up"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Down"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Turn on screen reader support",
+          "group": "Help for screen readers",
+          "description": "<a href=\"https://support.google.com/docs/answer/1632199\">Learn more about using Google Sheets with a screen reader</a>",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "z"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enable braille support",
+          "group": "Help for screen readers",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "h"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Read column",
+          "group": "Help for screen readers",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "Shift", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Read row",
+          "group": "Help for screen readers",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Alt", "Shift", "r"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "macos",
+      "list": [
+        {
+          "name": "Select column",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select row",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Shift", "Space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select all",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "a"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "Space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Undo",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "z"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Redo",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "y"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "y"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "z"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "z"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Fn", "F4"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "f4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Find",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "f"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Find and replace",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "h"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fill range",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Enter"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fill down",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "d"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fill right",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "r"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Save",
+          "group": "Common actions",
+          "description": "every change is saved automatically in Drive",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "s"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "o"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Print",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "p"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Copy",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cut",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "x"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "v"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "v"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste values only",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "v"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "v"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show common keyboard shortcuts",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "/"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert new sheet",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Shift", "Fn", "F11"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "f11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Compact controls",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "f"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Input tools on/off",
+          "group": "Common actions",
+          "description": "available in spreadsheets in non-Latin languages",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "k"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select input tools",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "Shift", "k"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search the menus",
+          "group": "Common actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "/"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bold",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "b"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Underline",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "u"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Italic",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "i"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Strikethrough",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "5"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Center align",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "e"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Left align",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "l"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "l"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Right align",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "r"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply top border",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "1"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply right border",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "2"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply bottom border",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "3"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply left border",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "4"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove borders",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "6"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply outer border",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "7"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "7"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "7"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert link",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "k"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert time",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", ";"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": ";"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert date",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", ";"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": ";"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert date and time",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "Shift", ";"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": ";"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format as decimal",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "1"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format as time",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "2"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format as date",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "3"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format as currency",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "4"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format as percentage",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "5"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format as exponent",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Shift", "6"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Clear formatting",
+          "group": "Format cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "\\"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to beginning of row",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Fn", "LeftArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "leftarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to beginning of sheet",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Fn", "LeftArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "leftarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to end of row",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Fn", "RightArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "rightarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to end of sheet",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Fn", "RightArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "rightarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll to active cell",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Backspace"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "backspace"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to next sheet",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "DownArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "downarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to previous sheet",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "UpArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "uparrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Display list of sheets",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "k"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open hyperlink",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Enter"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open Explore",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "x"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to side panel",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "."],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", ","],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus out of spreadsheet",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Command", "Shift", "m"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to quicksum",
+          "group": "Navigate spreadsheet",
+          "description": "when a range of cells is selected",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "q"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus to popup",
+          "group": "Navigate spreadsheet",
+          "description": "for links, bookmarks, and images",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Command", "e", "p"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "next",
+                  "text": "e"
+                },
+                {
+                  "mode": "next",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open drop-down menu on filtered cell",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Command", "r"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open revision history",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "Shift", "h"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close drawing editor",
+          "group": "Navigate spreadsheet",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Esc"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Shift", "Esc"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert/edit note",
+          "group": "Edit notes and comments",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Shift", "F2"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert/edit comment",
+          "group": "Edit notes and comments",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "m"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open comment discussion thread",
+          "group": "Edit notes and comments",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "Shift", "a"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enter current comment",
+          "group": "Edit notes and comments",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Command", "e", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "next",
+                  "text": "e"
+                },
+                {
+                  "mode": "next",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to next comment",
+          "group": "Edit notes and comments",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Command", "n", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "next",
+                  "text": "n"
+                },
+                {
+                  "mode": "next",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to previous comment",
+          "group": "Edit notes and comments",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Command", "p", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "next",
+                  "text": "p"
+                },
+                {
+                  "mode": "next",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "File menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "f"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Edit menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "e"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "View menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "v"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "v"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "i"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "o"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Data menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "d"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tools menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "t"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open insert menu",
+          "group": "Open a menu",
+          "description": "with cells selected",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "="],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "="
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open delete menu",
+          "group": "Open a menu",
+          "description": "with cells selected",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "'", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Form menu",
+          "group": "Open a menu",
+          "description": "present when the spreadsheet is connected to a form",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "m"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add-ons menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "n"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Help menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "h"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Accessibility menu",
+          "group": "Open a menu",
+          "description": "present when screen reader support is enabled",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "a"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sheet menu",
+          "group": "Open a menu",
+          "description": "copy, delete, and other sheet actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "s"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Context menu",
+          "group": "Open a menu",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "\\"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert rows above",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": "with rows selected",
+              "distinct_keys": ["Command", "Option", "="],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "="
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "i", "r"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "next",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert rows below",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "i", "b"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "next",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert columns to the left",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": "with columns selected",
+              "distinct_keys": ["Command", "Option", "="],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "="
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "i", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "next",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert columns to the right",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "i", "o"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "next",
+                  "text": "o"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delete rows",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": "with rows selected",
+              "distinct_keys": ["Command", "Option", "", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "e", "d"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                },
+                {
+                  "mode": "next",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delete columns",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": "with columns selected",
+              "distinct_keys": ["Command", "Option", "", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "e", "e"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                },
+                {
+                  "mode": "next",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hide row",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "9"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unhide row",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "9"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hide column",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "0"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unhide column",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "0"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Group rows or columns",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "RightArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "rightarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Ungroup rows or columns",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "LeftArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "leftarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Expand grouped rows or columns",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "DownArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "downarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Collapse grouped rows or columns",
+          "group": "Add or change rows and columns",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Option", "Shift", "UpArrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "uparrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show all formulas",
+          "group": "Use formulas",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "~"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "~"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert array formula",
+          "group": "Use formulas",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "Enter"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Collapse an expanded array formula",
+          "group": "Use formulas",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "e"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show/hide formula help",
+          "group": "Use formulas",
+          "description": "when entering a formula",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Shift", "Fn", "F1"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "f1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Full/compact formula help",
+          "group": "Use formulas",
+          "description": "when entering a formula",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Fn", "F1"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "f1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Absolute/relative references",
+          "group": "Use formulas",
+          "description": "when entering a formula",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Fn", "F4"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "f4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle formula result previews",
+          "group": "Use formulas",
+          "description": "when entering a formula",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Fn", "F9"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "f9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Resize formula bar",
+          "group": "Use formulas",
+          "description": "move up or down",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "Up"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["Ctrl", "Option", "Down"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Turn on screen reader support",
+          "group": "Help for screen readers",
+          "description": "<a href=\"https://support.google.com/docs/answer/1632199\">Learn more about using Google Sheets with a screen reader</a>",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "z"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enable braille support",
+          "group": "Help for screen readers",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "h"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Read column",
+          "group": "Help for screen readers",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "Shift", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Read row",
+          "group": "Help for screen readers",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "Shift", "r"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

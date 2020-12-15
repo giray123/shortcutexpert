@@ -1,787 +1,37 @@
 {
-  "name": "Figma",
-  "slug": "figma",
-  "url_logo": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
-  "url_app": "https://www.figma.com/",
-  "url_shortcuts": "https://shortcuts.design/toolspage-figma.html",
-  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1M5vlg4O6CK2496k42RwlLz57XUGx_St9V9A7xd_nOB8/edit#gid=0",
+  "name": "MacOS Finder",
+  "slug": "macos-finder",
+  "url_logo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Finder_Icon_macOS_Big_Sur.png",
+  "url_app": "https://support.apple.com/guide/macbook-air/the-finder-apddf030866a/mac",
+  "url_shortcuts": "https://support.apple.com/en-us/HT201236",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1GI_aowVTOTNcigAvUewViARAHlRxo3KTisx61jaYm3g/edit?usp=sharing",
   "operating_systems": [
     {
       "name": "macos",
       "list": [
         {
-          "name": "Export",
-          "group": "File & Properties",
+          "name": "Selects all items",
+          "group": "All Shortcuts",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Command", "Shift", "E"],
+              "distinct_keys": ["Command", "A"],
               "strokes": [
                 {
                   "mode": "now",
                   "text": "command"
                 },
-                {
-                  "mode": "now",
-                  "text": "shift"
-                },
-                {
-                  "mode": "now",
-                  "text": "E"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Save",
-          "group": "File & Properties",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "S"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Place",
-          "group": "File & Properties",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "Shift", "K"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "shift"
-                },
-                {
-                  "mode": "now",
-                  "text": "K"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Color Picker",
-          "group": "File & Properties",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Control", "C"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "control"
-                },
-                {
-                  "mode": "now",
-                  "text": "C"
-                }
-              ]
-            },
-            {
-              "info": null,
-              "distinct_keys": ["I"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "I"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Enter Image Crop Mode",
-          "group": "File & Properties",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Option", "double", "click"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "option"
-                },
-                {
-                  "mode": "now",
-                  "text": "double"
-                },
-                {
-                  "mode": "next",
-                  "text": "click"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Pan",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Space", "drag"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "space"
-                },
-                {
-                  "mode": "now",
-                  "text": "drag"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Zoom In",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["'", ""],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "+"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Zoom Out",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["–"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "–"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Zoom to Fit",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["1"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "1"
-                }
-              ]
-            },
-            {
-              "info": null,
-              "distinct_keys": ["9"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "9"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Zoom to Selection",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["2"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "2"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Zoom 100%",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["0"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "0"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Rename Layer",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "R"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "R"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Show Rulers",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Shift", "R"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "shift"
-                },
-                {
-                  "mode": "now",
-                  "text": "R"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Pixel Preview",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Control", "P"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "control"
-                },
-                {
-                  "mode": "now",
-                  "text": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Show Layout Grids",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Control", "G"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "control"
-                },
-                {
-                  "mode": "now",
-                  "text": "G"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Show Layers Panel",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "Shift", "", ""],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "shift"
-                },
-                {
-                  "mode": "now",
-                  "text": "\\"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Show Figma UI",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "", ""],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "\\"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Show Pixel Grid",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "'"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "'"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Show Transparency Checkerboard",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Control", "Shift", "'"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "control"
-                },
-                {
-                  "mode": "now",
-                  "text": "shift"
-                },
-                {
-                  "mode": "now",
-                  "text": "'"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Outline Mode",
-          "group": "View",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "Y"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "Y"
-                }
-              ]
-            },
-            {
-              "info": null,
-              "distinct_keys": ["Control", "Shift", "3"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "control"
-                },
-                {
-                  "mode": "now",
-                  "text": "shift"
-                },
-                {
-                  "mode": "now",
-                  "text": "3"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Move Tool",
-          "group": "Vector",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["V"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "V"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Pen Tool",
-          "group": "Vector",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["P"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Paint Bucket",
-          "group": "Vector",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["B"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "B"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Bend Tool",
-          "group": "Vector",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "DRAG"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "drag"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Join Selection",
-          "group": "Vector",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "J"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "J"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Duplicate",
-          "group": "Vector",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Option", "DRAG"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "option"
-                },
-                {
-                  "mode": "now",
-                  "text": "drag"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Exit Vector Edit Mode",
-          "group": "Vector",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["ESC"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "esc"
-                }
-              ]
-            },
-            {
-              "info": null,
-              "distinct_keys": ["RETURN"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "return"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Type Tool",
-          "group": "Text",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["T"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "T"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Toggle Underline",
-          "group": "Text",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "U"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "U"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Toggle Italic",
-          "group": "Text",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "I"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "I"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Toggle Bold",
-          "group": "Text",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "B"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "B"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Move Tool",
-          "group": "Object",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["V"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "V"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Pen Tool",
-          "group": "Object",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["P"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "P"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Rectangle Tool",
-          "group": "Object",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["R"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "R"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Ellipse Tool",
-          "group": "Object",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["O"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "O"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Line Tool",
-          "group": "Object",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["L"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "L"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Frame Tool",
-          "group": "Object",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["A"],
-              "strokes": [
                 {
                   "mode": "now",
                   "text": "A"
                 }
               ]
-            },
-            {
-              "info": null,
-              "distinct_keys": ["F"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "F"
-                }
-              ]
             }
           ]
         },
         {
-          "name": "Slice Tool",
-          "group": "Object",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["S"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "S"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Copy",
-          "group": "Object",
+          "name": "Copies selected items",
+          "group": "All Shortcuts",
           "shortcuts": [
             {
               "info": null,
@@ -800,12 +50,12 @@
           ]
         },
         {
-          "name": "Cut",
-          "group": "Object",
+          "name": "Duplicates the selected item(s)",
+          "group": "All Shortcuts",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Command", "X"],
+              "distinct_keys": ["Command", "D"],
               "strokes": [
                 {
                   "mode": "now",
@@ -813,15 +63,255 @@
                 },
                 {
                   "mode": "now",
-                  "text": "X"
+                  "text": "D"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Paste",
-          "group": "Object",
+          "name": "Ejects the selected volume",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "E"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "E"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Displays the Find dialog",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "F"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hides All Finder windows",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "H"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "H"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shows info for selected item or items",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "I"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "I"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shows the view options for the active window",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "J"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "J"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Displays the Connect to Server dialog",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "K"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Creates an alias for the selected item",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "L"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Minimizes the active window",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "M"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "M"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Opens a new Finder window",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "N"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Opens (or launches) the selected item",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "O"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "O"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shows the original for selected alias",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "R"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Adds the selected item to the Sidebar",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "T"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pastes items from the Clipboard",
+          "group": "All Shortcuts",
           "shortcuts": [
             {
               "info": null,
@@ -840,12 +330,12 @@
           ]
         },
         {
-          "name": "Duplicate",
-          "group": "Object",
+          "name": "Closes the active window",
+          "group": "All Shortcuts",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Command", "D"],
+              "distinct_keys": ["Command", "W"],
               "strokes": [
                 {
                   "mode": "now",
@@ -853,33 +343,19 @@
                 },
                 {
                   "mode": "now",
-                  "text": "D"
-                }
-              ]
-            },
-            {
-              "info": null,
-              "distinct_keys": ["Option", "DRAG"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "option"
-                },
-                {
-                  "mode": "now",
-                  "text": "drag"
+                  "text": "W"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Group Selection",
-          "group": "Object",
+          "name": "Cuts the selected items",
+          "group": "All Shortcuts",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Command", "G"],
+              "distinct_keys": ["Command", "X"],
               "strokes": [
                 {
                   "mode": "now",
@@ -887,15 +363,307 @@
                 },
                 {
                   "mode": "now",
-                  "text": "G"
+                  "text": "X"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Ungroup Selection",
-          "group": "Object",
+          "name": "Undoes the last action (if possible)",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Z"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Displays Finder Preferences",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", ","],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shows the active window in icon mode",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "1"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shows the active window in list mode",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "2"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shows the active window in column mode",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "3"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shows the active window in cover flow mode",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "4"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Moves back to the previous Finder location",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "["],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "["
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Moves forward to the next Finder location",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "]"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Moves selected items to the Trash",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Del"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "del"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show enclosing folder",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "up", "arrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                },
+                {
+                  "mode": "next",
+                  "text": "arrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cycles through windows",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "`"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "`"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Displays the Mac OS X Help Viewer",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "?"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Takes you to your Applications folder",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "A"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Takes you to the top-level Computer location",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "C"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Takes you to a folder that you specify",
+          "group": "All Shortcuts",
           "shortcuts": [
             {
               "info": null,
@@ -918,8 +686,8 @@
           ]
         },
         {
-          "name": "Toggle Visibility",
-          "group": "Object",
+          "name": "Takes you to your Home folder",
+          "group": "All Shortcuts",
           "shortcuts": [
             {
               "info": null,
@@ -942,12 +710,12 @@
           ]
         },
         {
-          "name": "Toggle Lock",
-          "group": "Object",
+          "name": "Connects you to your iDisk",
+          "group": "All Shortcuts",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Command", "Shift", "L"],
+              "distinct_keys": ["Command", "Shift", "I"],
               "strokes": [
                 {
                   "mode": "now",
@@ -959,39 +727,19 @@
                 },
                 {
                   "mode": "now",
-                  "text": "L"
+                  "text": "I"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Flatten Selection",
-          "group": "Object",
+          "name": "Logs you out",
+          "group": "All Shortcuts",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Command", "E"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "E"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Outline Stroke",
-          "group": "Object",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["Command", "Shift", "O"],
+              "distinct_keys": ["Command", "Shift", "Q"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1003,31 +751,355 @@
                 },
                 {
                   "mode": "now",
-                  "text": "O"
+                  "text": "Q"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Toggle Mask",
-          "group": "Object",
+          "name": "Creates a new untitled folder in the active window",
+          "group": "All Shortcuts",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Option", "Command", "M"],
+              "distinct_keys": ["Command", "Shift", "N"],
               "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Takes you to your Utilities folder",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "U"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "U"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Deletes the contents of the Trash",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Shift", "Del"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "del"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hides all windows except the Finder’s window(s)",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "H"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
                 {
                   "mode": "now",
                   "text": "option"
                 },
                 {
                   "mode": "now",
+                  "text": "H"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Creates a new Smart Folder",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "N"],
+              "strokes": [
+                {
+                  "mode": "now",
                   "text": "command"
                 },
                 {
                   "mode": "now",
-                  "text": "M"
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hides the Finder window toolbar",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "T"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Opens the Spotlight window",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Option", "Space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Opens the Spotlight menu",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Command", "Space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Choose another desktop using Spaces",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["F8"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Displays the Mission Control screen",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Control", "up", "arrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                },
+                {
+                  "mode": "next",
+                  "text": "arrow"
+                }
+              ]
+            },
+            {
+              "info": "depending on your keyboard model",
+              "distinct_keys": ["F3"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shows all open windows for the current application using Mission Control",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Control", "down", "arrow"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                },
+                {
+                  "mode": "next",
+                  "text": "arrow"
+                }
+              ]
+            },
+            {
+              "info": "depending on your keyboard model",
+              "distinct_keys": ["Control", "F3"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "f3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hides all windows to display the Desktop using Mission Control",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["F11"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f11"
+                }
+              ]
+            },
+            {
+              "info": "depending on your keyboard model",
+              "distinct_keys": ["Command", "F3"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "f3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Displays your Dashboard widgets",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["F12"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f12"
+                }
+              ]
+            },
+            {
+              "info": "depending on your keyboard model",
+              "distinct_keys": ["F4"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quick Look",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["Space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
                 }
               ]
             }
