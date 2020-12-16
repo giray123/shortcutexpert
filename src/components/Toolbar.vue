@@ -51,9 +51,6 @@
       <!-- provile button -->
       <v-toolbar-items>
         <template v-if="!$vuetify.breakpoint.mobile">
-          <v-btn dark text class="px-5" to="/contribute">
-            contribute
-          </v-btn>
           <v-btn dark text class="px-5" to="/about">
             about
           </v-btn>

@@ -52,6 +52,15 @@
                       <v-icon x-small color="blue darken-1">mdi-web</v-icon>
                       Official Shortcuts
                     </a>
+                    <a
+                      v-if="$page.app.url_google_sheets"
+                      :href="$page.app.url_google_sheets"
+                      target="_blank"
+                      class="text-decoration-none mr-2 mr-lg-5"
+                    >
+                      <v-icon x-small color="blue darken-1">mdi-web</v-icon>
+                      Google Sheet
+                    </a>
                   </div>
                 </div>
               </div>
@@ -230,6 +239,7 @@
       url_logo
       url_app
       url_shortcuts
+      url_google_sheets
       operating_systems{
         name
         list{

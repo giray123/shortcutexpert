@@ -1,10 +1,10 @@
 <template>
   <Layout toolbar>
     <v-container>
-      <v-row no-gutters class="text-center">
+      <v-row no-gutters>
         <v-col cols="12" md="6" class="offset-md-3">
           <div class="mt-10">
-            <h1 class="text-h4 mb-10">Contribute</h1>
+            <h1 class="text-h4 mb-10 text-center">Create Application</h1>
 
             <v-text-field
               label="Application Name"
