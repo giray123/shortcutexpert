@@ -37,7 +37,7 @@
         <v-btn
           text
           dark
-          class="px-5 d-md-none"
+          class="px-5 d-lg-none"
           @click="mobile_search_active = false"
         >
           <v-icon>mdi-close</v-icon>
@@ -66,7 +66,7 @@
       </v-toolbar-items>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" absolute bottom temporary>
+    <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>
         <v-list-item to="/contribute">
           <v-list-item-title>Contribute</v-list-item-title>

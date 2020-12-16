@@ -72,10 +72,13 @@ export default {
 <style scoped lang="scss">
 $key-width: 6.3%;
 $key-width-small: 5%;
+
 #keyboard {
-  width: 1200px;
-  height: 450px;
-  position: relative;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
   box-sizing: border-box;
   border-radius: 10px;
   background-color: #c1c1c1;
@@ -84,13 +87,13 @@ $key-width-small: 5%;
 }
 .keyboard_windows {
   grid-template-rows: 1fr, repeat(5, 2fr);
-  grid-gap: 2%;
+  grid-gap: 0.6vw;
   padding: 0.8%;
 }
 .keyboard_macos {
   grid-template-rows: repeat(5, 2fr) repeat(2, 1fr);
-  grid-gap: 1.5%;
-  padding: 0.7%;
+  grid-gap: 0.4vw;
+  padding: 0.8%;
 }
 .key-row {
   display: grid;
@@ -160,7 +163,7 @@ $key-width-small: 5%;
   color: #c1c1c1;
   text-align: center;
   border-radius: 6px;
-  padding: 5px;
+  padding: 0.1vw 0.3vw;
   flex-flow: column;
 }
 .key .div {
@@ -172,12 +175,12 @@ $key-width-small: 5%;
 .keyboard_windows .key-row .key {
   border: 1px solid #000000;
   background-color: rgb(49, 49, 49);
-  font-size: 1.1em;
+  font-size: 1vw;
 }
 .keyboard_macos .key-row .key {
   border: 1px solid #d2d2d2;
   background-color: white;
-  font-size: 1em;
+  font-size: 1vw;
 }
 .keyboard_windows .key-row .key:hover {
   background-color: black;
@@ -235,10 +238,10 @@ $key-width-small: 5%;
 }
 
 .key-text-sm {
-  font-size: 12px;
+  font-size: 0.7vw;
 }
 .key-text-xs {
-  font-size: 9px;
+  font-size: 0.5vw;
 }
 .key-text-top {
   align-items: flex-start !important;

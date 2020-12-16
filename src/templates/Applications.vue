@@ -186,12 +186,14 @@
             </div>
           </div>
           <!-- keyboard -->
-          <div class="flex-grow-1 d-flex align-center justify-center">
-            <keyboard
-              :pressed="pressed"
-              @clickKey="clickKeyboardKey"
-              :layout="operating_system.toLowerCase()"
-            />
+          <div class="flex-grow-1 d-flex justify-center align-center">
+            <div class="keyboard_wrapper">
+              <keyboard
+                :pressed="pressed"
+                @clickKey="clickKeyboardKey"
+                :layout="operating_system.toLowerCase()"
+              />
+            </div>
           </div>
         </v-col>
       </v-row>
@@ -637,3 +639,11 @@ export default {
   },
 };
 </script>
+
+<style>
+.keyboard_wrapper {
+  width: 100%;
+  padding-top: 37%;
+  position: relative;
+}
+</style>
