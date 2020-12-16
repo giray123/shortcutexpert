@@ -14,188 +14,180 @@
       @shortkey="globalKeyPress"
     >
       <v-row no-gutters style="flex-wrap: nowrap;" class="fill-height">
-        <!-- left column -->
-        <v-col
-          id="left_column"
-          cols="3"
-          class="blue-grey darken-3 flex-grow-0 flex-shrink-0 pa-3"
-          style="overflow-y:auto; padding-bottom: 600px !important;"
-        >
-          <h2 class="grey--text text-sm-overline">OPERATING SYSTEM</h2>
-          <v-select
-            v-model="operating_system"
-            :items="operating_systems"
-            label="Select Your Operating System"
-            dark
-            outlined
-            rounded
-            single-line
-            offset
-            hide-details
-            @change="changeOperatingSystem"
-          >
-            <template v-slot:item="{ item }">
-              <div class="d-flex justify-start align-center">
-                <v-avatar size="24" rounded tile>
-                  <img
-                    :src="require(`@/assets/img/${item}.svg`)"
-                    :alt="`${item} logo`"
-                  />
-                </v-avatar>
-                <span class="ml-3">{{ item }}</span>
+        <div class="box_main">
+          <div class="box_heading">
+            <!-- heading -->
+            <div class="d-flex align-strecth justify-start">
+              <div class="d-flex align-center justify-center">
+                <v-img
+                  alt="Excel Logo"
+                  contain
+                  :src="$page.app.url_logo"
+                  transition="scale-transition"
+                  width="80"
+                />
               </div>
-            </template>
-            <template v-slot:selection="{ item }">
-              <div class="d-flex justify-start align-center">
-                <v-avatar size="24" rounded tile>
-                  <img
-                    :src="require(`@/assets/img/${item}.svg`)"
-                    :alt="`${item} logo`"
-                  />
-                </v-avatar>
-                <span class="ml-3">{{ item }}</span>
-              </div>
-            </template>
-          </v-select>
-
-          <div class="d-flex justify-between items-center mt-5 mb-1">
-            <div class="flex-grow-1">
-              <h2 class="grey--text text-sm-overline">FILTER</h2>
-            </div>
-            <div>
-              <v-btn
-                small
-                text
-                color="red"
-                v-show="if_filtered"
-                @click="clearFilters"
-              >
-                clear filters
-              </v-btn>
-            </div>
-          </div>
-          <v-text-field
-            clearable
-            solo
-            label="Filter by Name"
-            prepend-inner-icon="mdi-pen"
-            append-icon="mdi-magnify"
-            v-model="filter_name"
-          />
-
-          <v-text-field
-            dark
-            clearable
-            label="Filter by Stroke"
-            prepend-icon="mdi-keyboard"
-            append-icon="mdi-magnify"
-            v-model="filter_stroke"
-          />
-
-          <v-select
-            prepend-icon="mdi-folder"
-            v-model="filter_group"
-            :items="shortcut_groups"
-            label="Select Shortcut Group"
-            dark
-            single-line
-          ></v-select>
-
-          <v-checkbox
-            dark
-            v-model="filter_favorites"
-            label="Filter favorites"
-          ></v-checkbox>
-
-          <div class="d-flex justify-between items-center mt-5">
-            <div class="flex-grow-1">
-              <h2 class="grey--text text-sm-overline">SHORTCUTS</h2>
-            </div>
-            <div>
-              <v-tooltip top>
-                <template v-slot:activator="{ on }">
-                  <v-btn icon>
-                    <v-icon
-                      v-on="on"
-                      color="grey darken-1"
-                      @click="toggleListSymbols"
-                      >{{
-                        symbol_display
-                          ? "mdi-format-size"
-                          : "mdi-apple-keyboard-command"
-                      }}</v-icon
+              <div class="pa-3 pa-lg-5">
+                <h1>{{ $page.app.name }} Shortcuts</h1>
+                <div class="d-flex align-center justify-start mt-1">
+                  <div class="text-sm-body-2">
+                    <a
+                      v-if="$page.app.url_app"
+                      :href="$page.app.url_app"
+                      target="_blank"
+                      class="text-decoration-none mr-5"
                     >
-                  </v-btn>
-                </template>
-                <span>{{
-                  symbol_display ? "symbols to text" : "text to symbols"
-                }}</span>
-              </v-tooltip>
-            </div>
-          </div>
-
-          <shortcut-list
-            :list="list"
-            :symbol_display="symbol_display"
-            @clickListItem="clickListItem"
-            @clickShortcut="clickShortcut"
-          />
-        </v-col>
-
-        <!-- right column -->
-        <v-col
-          cols="9"
-          style="min-width: 100px; max-width: 100%;"
-          class="flex-grow-1 flex-shrink-0 py-10 px-10 d-flex flex-column"
-        >
-          <!-- heading -->
-          <div class="d-flex align-strecth justify-start">
-            <div class="d-flex align-center justify-center">
-              <v-img
-                alt="Excel Logo"
-                contain
-                :src="$page.app.url_logo"
-                transition="scale-transition"
-                width="80"
-              />
-            </div>
-            <div class="pa-5">
-              <h1>{{ $page.app.name }} Shortcuts</h1>
-              <div class="d-flex align-center justify-start mt-1">
-                <div class="text-sm-body-2">
-                  <a
-                    v-if="$page.app.url_app"
-                    :href="$page.app.url_app"
-                    target="_blank"
-                    class="text-decoration-none mr-5"
-                  >
-                    <v-icon x-small color="blue darken-1">mdi-web</v-icon>
-                    Application
-                  </a>
-                  <a
-                    v-if="$page.app.url_shortcuts"
-                    :href="$page.app.url_shortcuts"
-                    target="_blank"
-                    class="text-decoration-none mr-5"
-                  >
-                    <v-icon x-small color="blue darken-1">mdi-web</v-icon>
-                    Official Shortcuts
-                  </a>
+                      <v-icon x-small color="blue darken-1">mdi-web</v-icon>
+                      Application
+                    </a>
+                    <a
+                      v-if="$page.app.url_shortcuts"
+                      :href="$page.app.url_shortcuts"
+                      target="_blank"
+                      class="text-decoration-none mr-5"
+                    >
+                      <v-icon x-small color="blue darken-1">mdi-web</v-icon>
+                      Official Shortcuts
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- keyboard -->
-          <div class="flex-grow-1 d-flex justify-center align-center">
-            <div class="keyboard_wrapper">
-              <keyboard
-                :pressed="pressed"
-                @clickKey="clickKeyboardKey"
-                :layout="operating_system.toLowerCase()"
-              />
+          <div class="blue-grey darken-3 box_list">
+            <h2 class="grey--text text-overline">OPERATING SYSTEM</h2>
+            <v-select
+              v-model="operating_system"
+              :items="operating_systems"
+              label="Select Your Operating System"
+              dark
+              outlined
+              rounded
+              single-line
+              offset
+              hide-details
+              @change="changeOperatingSystem"
+            >
+              <template v-slot:item="{ item }">
+                <div class="d-flex justify-start align-center">
+                  <v-avatar size="24" rounded tile>
+                    <img
+                      :src="require(`@/assets/img/${item}.svg`)"
+                      :alt="`${item} logo`"
+                    />
+                  </v-avatar>
+                  <span class="ml-3">{{ item }}</span>
+                </div>
+              </template>
+              <template v-slot:selection="{ item }">
+                <div class="d-flex justify-start align-center">
+                  <v-avatar size="24" rounded tile>
+                    <img
+                      :src="require(`@/assets/img/${item}.svg`)"
+                      :alt="`${item} logo`"
+                    />
+                  </v-avatar>
+                  <span class="ml-3">{{ item }}</span>
+                </div>
+              </template>
+            </v-select>
+
+            <div class="d-flex justify-between items-center mt-5 mb-1">
+              <div class="flex-grow-1">
+                <h2 class="grey--text text-overline">FILTER</h2>
+              </div>
+              <div>
+                <v-btn
+                  small
+                  text
+                  color="red"
+                  v-show="if_filtered"
+                  @click="clearFilters"
+                >
+                  clear filters
+                </v-btn>
+              </div>
+            </div>
+            <v-text-field
+              clearable
+              solo
+              label="Filter by Name"
+              prepend-inner-icon="mdi-pen"
+              append-icon="mdi-magnify"
+              v-model="filter_name"
+            />
+
+            <v-text-field
+              dark
+              clearable
+              label="Filter by Stroke"
+              prepend-icon="mdi-keyboard"
+              append-icon="mdi-magnify"
+              v-model="filter_stroke"
+            />
+
+            <v-select
+              prepend-icon="mdi-folder"
+              v-model="filter_group"
+              :items="shortcut_groups"
+              label="Select Shortcut Group"
+              dark
+              single-line
+            ></v-select>
+
+            <v-checkbox
+              dark
+              v-model="filter_favorites"
+              label="Filter favorites"
+            ></v-checkbox>
+
+            <div class="d-flex justify-between items-center mt-5">
+              <div class="flex-grow-1">
+                <h2 class="grey--text text-overline">SHORTCUTS</h2>
+              </div>
+              <div>
+                <v-tooltip top>
+                  <template v-slot:activator="{ on }">
+                    <v-btn icon>
+                      <v-icon
+                        v-on="on"
+                        color="grey darken-1"
+                        @click="toggleListSymbols"
+                        >{{
+                          symbol_display
+                            ? "mdi-format-size"
+                            : "mdi-apple-keyboard-command"
+                        }}</v-icon
+                      >
+                    </v-btn>
+                  </template>
+                  <span>{{
+                    symbol_display ? "symbols to text" : "text to symbols"
+                  }}</span>
+                </v-tooltip>
+              </div>
+            </div>
+
+            <shortcut-list
+              :list="list"
+              :symbol_display="symbol_display"
+              @clickListItem="clickListItem"
+              @clickShortcut="clickShortcut"
+            />
+          </div>
+          <div class="box_keyboard">
+            <!-- keyboard -->
+            <div class="flex-grow-1 d-flex justify-center align-center">
+              <div class="keyboard_wrapper">
+                <keyboard
+                  :pressed="pressed"
+                  @clickKey="clickKeyboardKey"
+                  :layout="operating_system.toLowerCase()"
+                />
+              </div>
             </div>
           </div>
-        </v-col>
+        </div>
       </v-row>
     </v-container>
   </Layout>
@@ -641,6 +633,48 @@ export default {
 </script>
 
 <style>
+.box_main {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 5fr 2fr;
+}
+.box_heading {
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.box_list {
+  overflow: auto;
+  padding: 10px 10px 400px 10px;
+}
+.box_keyboard {
+  overflow: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 1264px) {
+  .box_main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 5fr;
+  }
+  .box_heading {
+    padding: 10px 40px;
+    grid-area: 1 / 2 / span 1 / span 2;
+  }
+  .box_list {
+    grid-area: 1 / 1 / span 2 / span 1;
+  }
+  .box_keyboard {
+    grid-area: 2 / 2 / span 1 / span 2;
+  }
+}
 .keyboard_wrapper {
   width: 100%;
   padding-top: 37%;
