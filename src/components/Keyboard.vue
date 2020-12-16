@@ -263,4 +263,22 @@ $key-width-small: 5%;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
+
+@media only screen and (max-width: 1264px) {
+  #keyboard {
+    border-radius: 5px;
+  }
+  .key {
+    border-radius: 3px;
+  }
+  .key-row .key {
+    font-size: 1.6vw !important;
+  }
+  .key-text-sm {
+    font-size: 1.2vw !important;
+  }
+  .key-text-xs {
+    font-size: 0.8vw !important;
+  }
+}
 </style>

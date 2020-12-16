@@ -9,9 +9,11 @@
       class="shortcut_list_item"
       :class="{ 'blue-grey darken-2': item.selected }"
     >
-      <v-list-item-content style="overflow: visible;">
-        <v-list-item-title>{{ item.name }}</v-list-item-title>
-        <v-list-item-subtitle class="mt-1">{{
+      <v-list-item-content>
+        <v-list-item-title style="white-space: normal;">{{
+          item.name
+        }}</v-list-item-title>
+        <v-list-item-subtitle class="mt-1" style="white-space: normal;">{{
           item.description
         }}</v-list-item-subtitle>
         <v-list-item-subtitle style="overflow: visible;">
@@ -26,7 +28,7 @@
         </v-list-item-subtitle>
       </v-list-item-content>
 
-      <v-list-item-action>
+      <!-- <v-list-item-action>
         <v-btn icon>
           <v-icon
             :color="item.favorite ? 'amber accent-3' : 'grey darken-1'"
@@ -34,7 +36,7 @@
             >{{ item.favorite ? "mdi-star" : "mdi-star-outline" }}</v-icon
           >
         </v-btn>
-      </v-list-item-action>
+      </v-list-item-action> -->
     </v-list-item>
   </v-list>
 </template>

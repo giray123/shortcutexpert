@@ -2,10 +2,10 @@
   <v-tooltip top :disabled="!shortcut.info">
     <template v-slot:activator="{ on, attrs }">
       <div
-        class="shortcut"
-        :class="[(shortcut.active ? 'active':''), extraClasses]"
+        class="shortcut mx-1"
+        :class="[shortcut.active ? 'active' : '', extraClasses]"
         v-bind="attrs"
-        v-on="{...on, ...$listeners}"
+        v-on="{ ...on, ...$listeners }"
       >
         <div
           v-for="(stroke, i) in shortcut.strokes"
@@ -13,11 +13,30 @@
           class="time"
           :class="{ active: stroke.active }"
         >
-          <v-icon small color="light-blue lighten-1" v-if="i !== 0 && stroke.mode == 'now'" >mdi-plus</v-icon>
-          <v-icon small color="green" v-else-if="i !== 0 && stroke.mode == 'next'" class="mx-1">mdi-arrow-right</v-icon>
-          <v-icon small color="pink lighten-2" v-else-if="i !== 0 && stroke.mode == 'reset'" class="mx-2">mdi-arrow-expand-right</v-icon>
-          
-          <div class="key">{{ stroke.text | textToSymbol(symbol_display)}}</div>
+          <v-icon
+            small
+            color="light-blue lighten-1"
+            v-if="i !== 0 && stroke.mode == 'now'"
+            >mdi-plus</v-icon
+          >
+          <v-icon
+            small
+            color="green"
+            v-else-if="i !== 0 && stroke.mode == 'next'"
+            class="mx-1"
+            >mdi-arrow-right</v-icon
+          >
+          <v-icon
+            small
+            color="pink lighten-2"
+            v-else-if="i !== 0 && stroke.mode == 'reset'"
+            class="mx-2"
+            >mdi-arrow-expand-right</v-icon
+          >
+
+          <div class="key">
+            {{ stroke.text | textToSymbol(symbol_display) }}
+          </div>
         </div>
         <v-avatar
           v-if="shortcut.info"
@@ -26,10 +45,9 @@
           size="20"
           top
           right
-          >
-            <v-icon small color="white">mdi-information-variant</v-icon
-          ></v-avatar>
-        
+        >
+          <v-icon small color="white">mdi-information-variant</v-icon></v-avatar
+        >
       </div>
     </template>
     <span>{{ shortcut.info }}</span>
@@ -72,7 +90,7 @@ export default {
   cursor: pointer;
   background-color: rgb(219, 219, 219);
 }
-.time{
+.time {
   display: inline-block;
 }
 .key {

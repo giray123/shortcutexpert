@@ -178,7 +178,11 @@
               @clickShortcut="clickShortcut"
             />
           </div>
-          <div class="box_keyboard">
+          <div
+            class="box_keyboard"
+            v-show="!$vuetify.breakpoint.mobile || mobile_keyboard_active"
+            @click="mobile_keyboard_active = false"
+          >
             <!-- keyboard -->
             <div class="flex-grow-1 d-flex justify-center align-center">
               <div class="keyboard_wrapper">
@@ -189,7 +193,29 @@
                 />
               </div>
             </div>
+            <!-- mobile close -->
+            <v-btn
+              icon
+              color="orange"
+              style="position: absolute; top: -30px; right: 10px;"
+              v-show="$vuetify.breakpoint.mobile && mobile_keyboard_active"
+            >
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
           </div>
+
+          <v-btn
+            style="position: fixed; bottom: 15px; right: 15px;"
+            fab
+            dark
+            color="orange"
+            v-show="$vuetify.breakpoint.mobile && !mobile_keyboard_active"
+            @click="mobile_keyboard_active = true"
+          >
+            <v-icon dark large>
+              mdi-keyboard
+            </v-icon>
+          </v-btn>
         </div>
       </v-row>
     </v-container>
@@ -269,6 +295,7 @@ export default {
     this.setOperatingSystem();
   },
   data: () => ({
+    mobile_keyboard_active: true,
     operating_system: "macos",
     operating_systems: ["macos", "windows", "ios", "android"],
     list: [
@@ -638,10 +665,6 @@ export default {
 <style>
 .box_main {
   width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 5fr 3fr;
 }
 .box_heading {
   padding: 10px;
@@ -650,15 +673,18 @@ export default {
   align-items: center;
   overflow: auto;
   min-width: 0;
+  max-width: 100%;
 }
 .box_list {
   overflow: auto;
   min-width: 0;
-  padding: 10px;
+  padding: 10px 10px 400px 10px;
 }
 .box_keyboard {
-  overflow: auto;
-  min-width: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -666,7 +692,10 @@ export default {
 }
 @media only screen and (min-width: 1264px) {
   .box_main {
-    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr 3fr;
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 5fr;
@@ -679,6 +708,7 @@ export default {
     grid-area: 1 / 1 / span 2 / span 1;
   }
   .box_keyboard {
+    position: relative;
     grid-area: 2 / 2 / span 1 / span 2;
   }
 }
