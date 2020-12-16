@@ -54,6 +54,15 @@
           <v-btn dark text class="px-5" to="/about">
             about
           </v-btn>
+          <v-btn
+            dark
+            text
+            class="px-5"
+            href="https://github.com/giray123/shortcutexpert"
+            target="_blank"
+          >
+            <v-icon>mdi-github</v-icon>
+          </v-btn>
         </template>
         <template v-else-if="!mobile_search_active">
           <v-btn icon dark class="px-5" @click="mobile_search_active = true">
@@ -65,11 +74,11 @@
 
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>
-        <v-list-item to="/contribute">
-          <v-list-item-title>Contribute</v-list-item-title>
-        </v-list-item>
-        <v-list-item to="/about">
-          <v-list-item-title>About</v-list-item-title>
+        <v-list-item
+          target="_blank"
+          href="https://github.com/giray123/shortcutexpert"
+        >
+          <v-list-item-title>Github</v-list-item-title>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>

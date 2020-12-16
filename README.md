@@ -1,11 +1,20 @@
-# Shortcut Expert
+<p align="center"><img src="img/social_banner.jpg"></p>
+<h1 align="center">Shortcut Expert</h1>
+<p align="center">Shortcut Expert is a platform for all application shortcuts.</p>
+<p align="center">
+  <img src="https://img.shields.io/github/languages/code-size/giray123/shortcutexpert?style=for-the-badge" />
+  <img src="https://img.shields.io/github/languages/count/giray123/shortcutexpert?style=for-the-badge" />
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/giray123/shortcutexpert?style=for-the-badge">
+  <a href="https://github.com/giray123/shortcutexpert/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/giray123/shortcutexpert?style=for-the-badge"></a>
+<a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fgiray123%2Fshortcutexpert"><img alt="Twitter" src="https://img.shields.io/twitter/url?logo=twitter&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fgiray123%2Fshortcutexpert"></a>
+</p>
 
-Shortcut Expert is a platform for all application shortcuts. It's main aim is to
+## Purpose
 
-- Gather all application shortcuts into a single platform
-- Provide best user experience for shortcuts
-- Create a shortcut standarts for all applications
-- Make it super accessable worldwide
+- :package:&nbsp; Gather all application shortcuts into a single platform
+- :blush:&nbsp; Provide best user experience for shortcuts
+- :necktie:&nbsp; Create a shortcut standarts for all applications
+- :globe_with_meridians:&nbsp; Make it super accessable worldwide
 
 ## Technologies
 

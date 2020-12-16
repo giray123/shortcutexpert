@@ -147,11 +147,11 @@
               single-line
             ></v-select>
 
-            <v-checkbox
+            <!-- <v-checkbox
               dark
               v-model="filter_favorites"
               label="Filter favorites"
-            ></v-checkbox>
+            ></v-checkbox> -->
 
             <div class="d-flex justify-between items-center mt-5">
               <div class="flex-grow-1">

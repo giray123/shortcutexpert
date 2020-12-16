@@ -20,26 +20,11 @@ module.exports = function(api) {
   //   })
   // });
   // api.createPages(async ({ graphql, createPage }) => {
-  //   const { data } = await graphql(`
-  //     {
-  //       allApplications {
-  //         edges {
-  //           node {
-  //             appname
-  //           }
-  //         }
-  //       }
-  //     }
-  //   `);
   //   // for each content found create a page
-  //   data.allApplications.edges.forEach(({ node }) => {
-  //     createPage({
-  //       path: `/shortcuts/${node.appname}`,
-  //       component: "./src/templates/Application.vue",
-  //       context: {
-  //         appname: node.appname,
-  //       },
-  //     });
+  //   createPage({
+  //     path: `/about`,
+  //     component: "./README.md",
+  //     context: {},
   //   });
   // });
 };
