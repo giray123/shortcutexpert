@@ -38,7 +38,7 @@
           </div>
 
           <div class="mt-10 text-caption">
-            <p>
+            <p class="white d-inline-block px-2">
               An
               <a
                 target="_blank"
