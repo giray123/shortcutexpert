@@ -27,15 +27,18 @@
                   width="80"
                 />
               </div>
-              <div class="pa-3 pa-lg-5">
+              <div class="pa-2 pa-lg-5">
                 <h1>{{ $page.app.name }} Shortcuts</h1>
-                <div class="d-flex align-center justify-start mt-1">
+                <div
+                  class="d-flex align-center justify-start mt-1"
+                  style="white-space: nowrap;"
+                >
                   <div class="text-sm-body-2">
                     <a
                       v-if="$page.app.url_app"
                       :href="$page.app.url_app"
                       target="_blank"
-                      class="text-decoration-none mr-5"
+                      class="text-decoration-none mr-2 mr-lg-5"
                     >
                       <v-icon x-small color="blue darken-1">mdi-web</v-icon>
                       Application
@@ -44,7 +47,7 @@
                       v-if="$page.app.url_shortcuts"
                       :href="$page.app.url_shortcuts"
                       target="_blank"
-                      class="text-decoration-none mr-5"
+                      class="text-decoration-none mr-2 mr-lg-5"
                     >
                       <v-icon x-small color="blue darken-1">mdi-web</v-icon>
                       Official Shortcuts
@@ -638,20 +641,24 @@ export default {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 5fr 2fr;
+  grid-template-rows: 1fr 5fr 3fr;
 }
 .box_heading {
   padding: 10px;
   display: flex;
   justify-content: start;
   align-items: center;
+  overflow: auto;
+  min-width: 0;
 }
 .box_list {
   overflow: auto;
-  padding: 10px 10px 400px 10px;
+  min-width: 0;
+  padding: 10px;
 }
 .box_keyboard {
   overflow: auto;
+  min-width: 0;
   padding: 10px;
   display: flex;
   justify-content: center;
