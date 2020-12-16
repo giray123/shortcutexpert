@@ -2,10 +2,15 @@
   <div>
     <v-app-bar app flat color="blue darken-1">
       <template v-if="!mobile_search_active">
-        <v-app-bar-nav-icon
-          @click.stop="drawer = !drawer"
-          v-if="$vuetify.breakpoint.mobile"
-        ></v-app-bar-nav-icon>
+        <v-btn
+          icon
+          dark
+          class="px-5 hidden-lg-and-up"
+          target="_blank"
+          href="https://github.com/giray123/shortcutexpert"
+        >
+          <v-icon>mdi-github</v-icon>
+        </v-btn>
 
         <v-toolbar-title>
           <g-link to="/">
@@ -35,12 +40,14 @@
           :style="{ width: $vuetify.breakpoint.mobile ? '100%' : '500px' }"
         />
         <v-btn
-          text
+          icon
           dark
-          class="px-5 d-lg-none"
+          large
+          color="primary"
+          class="d-lg-none blue ml-2"
           @click="mobile_search_active = false"
         >
-          <v-icon>mdi-close</v-icon>
+          <v-icon dark>mdi-close</v-icon>
         </v-btn>
       </div>
 
@@ -51,9 +58,6 @@
       <!-- provile button -->
       <v-toolbar-items>
         <template v-if="!$vuetify.breakpoint.mobile">
-          <v-btn dark text class="px-5" to="/about">
-            about
-          </v-btn>
           <v-btn
             dark
             text
@@ -61,27 +65,16 @@
             href="https://github.com/giray123/shortcutexpert"
             target="_blank"
           >
-            <v-icon>mdi-github</v-icon>
+            <v-icon class="mr-2">mdi-github</v-icon> github
           </v-btn>
         </template>
         <template v-else-if="!mobile_search_active">
-          <v-btn icon dark class="px-5" @click="mobile_search_active = true">
+          <v-btn icon dark class="" @click="mobile_search_active = true">
             <v-icon>mdi-magnify</v-icon>
           </v-btn>
         </template>
       </v-toolbar-items>
     </v-app-bar>
-
-    <v-navigation-drawer v-model="drawer" absolute temporary>
-      <v-list nav dense>
-        <v-list-item
-          target="_blank"
-          href="https://github.com/giray123/shortcutexpert"
-        >
-          <v-list-item-title>Github</v-list-item-title>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
   </div>
 </template>
 
@@ -93,7 +86,6 @@ export default {
   components: { SearchBar },
   data() {
     return {
-      drawer: false,
       mobile_search_active: false,
     };
   },

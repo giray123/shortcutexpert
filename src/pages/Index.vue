@@ -36,6 +36,20 @@
               class="mx-auto"
             />
           </div>
+
+          <div class="mt-10 text-caption">
+            <p>
+              An
+              <a
+                target="_blank"
+                href="https://github.com/giray123/shortcutexpert"
+                >open source project</a
+              >, made with <v-icon color="red darken-2">mdi-heart</v-icon> by
+              <a href="https://www.linkedin.com/in/giraysongul/" target="_blank"
+                >Giray Songul</a
+              >
+            </p>
+          </div>
         </v-col>
       </v-row>
 
@@ -60,7 +74,7 @@
                 <div>
                   <h3 class="text-h5">Best User Experience</h3>
                   <p class="ma-0 mt-1">
-                    because they can find shortcuts very fast
+                    because they can find all shortcuts with the same experience
                   </p>
                 </div>
               </div>
@@ -74,7 +88,7 @@
                 <div>
                   <h3 class="text-h5">Easier to learn</h3>
                   <p class="ma-0 mt-1">
-                    because UI & standardization matters
+                    because UI & animations matters
                   </p>
                 </div>
               </div>
@@ -82,14 +96,13 @@
 
             <div class="d-flex justify-start align-center text-left">
               <div class="d-flex justify-center align-center pa-8">
-                <v-icon size="60">mdi-cloud-outline</v-icon>
+                <v-icon size="60">mdi-lightning-bolt-outline</v-icon>
               </div>
               <div class="d-flex justify-center align-center">
                 <div>
                   <h3 class="text-h5">Accessible</h3>
                   <p class="ma-0 mt-1">
-                    because they can favorite shortcuts and reach all app
-                    shortcuts from one place
+                    because it is blazing fast and SEO friendly
                   </p>
                 </div>
               </div>
@@ -169,9 +182,7 @@
 
             <div class="d-flex justify-start align-center text-left">
               <div class="d-flex justify-center align-center pa-8">
-                <v-icon size="60" color="blue darken-1"
-                  >mdi-chart-bell-curve</v-icon
-                >
+                <v-icon size="60" color="blue darken-1">mdi-magnify</v-icon>
               </div>
               <div class="d-flex justify-center align-center">
                 <div>

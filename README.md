@@ -13,12 +13,12 @@
 
 - :package:&nbsp; Gather all application shortcuts into a single platform
 - :blush:&nbsp; Provide best user experience for shortcuts
-- :necktie:&nbsp; Create a shortcut standarts for all applications
+- :necktie:&nbsp; Create universal shortcut standarts
 - :globe_with_meridians:&nbsp; Make it super accessable worldwide
 
 ## Technologies
 
-Shortcut Expert is build with VueJS, Gridsome and Vuetify.
+Shortcut Expert is build with [VueJS](https://vuejs.org/), [Gridsome](https://gridsome.org/) and [Vuetify](https://vuetifyjs.com/en/).
 
 It is served with Netlify and it is statically generated, which means that every page is distrivuted through CDN and SEO friendly. Additionally, this makes the application blazing fast.
 

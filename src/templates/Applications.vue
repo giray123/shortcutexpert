@@ -29,10 +29,7 @@
               </div>
               <div class="pa-2 pa-lg-5">
                 <h1>{{ $page.app.name }} Shortcuts</h1>
-                <div
-                  class="d-flex align-center justify-start mt-1"
-                  style="white-space: nowrap;"
-                >
+                <div class="d-flex align-center justify-start mt-1">
                   <div class="text-sm-body-2">
                     <a
                       v-if="$page.app.url_app"
@@ -41,7 +38,8 @@
                       class="text-decoration-none mr-2 mr-lg-5"
                     >
                       <v-icon x-small color="blue darken-1">mdi-web</v-icon>
-                      Application
+                      <span class="hidden-md-and-down">Application</span>
+                      <span class="hidden-lg-and-up">App</span>
                     </a>
                     <a
                       v-if="$page.app.url_shortcuts"
@@ -50,7 +48,9 @@
                       class="text-decoration-none mr-2 mr-lg-5"
                     >
                       <v-icon x-small color="blue darken-1">mdi-web</v-icon>
-                      Official Shortcuts
+
+                      <span class="hidden-md-and-down">Official Shortcuts</span>
+                      <span class="hidden-lg-and-up">Official</span>
                     </a>
                     <a
                       v-if="$page.app.url_google_sheets"
@@ -59,7 +59,9 @@
                       class="text-decoration-none mr-2 mr-lg-5"
                     >
                       <v-icon x-small color="blue darken-1">mdi-web</v-icon>
-                      Google Sheet
+
+                      <span class="hidden-md-and-down">Google Sheet</span>
+                      <span class="hidden-lg-and-up">Table</span>
                     </a>
                   </div>
                 </div>
@@ -124,6 +126,7 @@
               clearable
               solo
               label="Filter by Name"
+              class="sticked_search"
               prepend-inner-icon="mdi-pen"
               append-icon="mdi-magnify"
               v-model="filter_name"
@@ -190,7 +193,6 @@
           <div
             class="box_keyboard"
             v-show="!$vuetify.breakpoint.mobile || mobile_keyboard_active"
-            @click="mobile_keyboard_active = false"
           >
             <!-- keyboard -->
             <div class="flex-grow-1 d-flex justify-center align-center">
@@ -208,6 +210,7 @@
               color="orange"
               style="position: absolute; top: -30px; right: 10px;"
               v-show="$vuetify.breakpoint.mobile && mobile_keyboard_active"
+              @click="mobile_keyboard_active = false"
             >
               <v-icon>mdi-close</v-icon>
             </v-btn>
@@ -681,12 +684,10 @@ export default {
   display: flex;
   justify-content: start;
   align-items: center;
-  overflow: auto;
   min-width: 0;
   max-width: 100%;
 }
 .box_list {
-  overflow: auto;
   min-width: 0;
   padding: 10px 10px 400px 10px;
 }
@@ -699,6 +700,17 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.sticked_search {
+  z-index: 1;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 65px;
+}
+.keyboard_wrapper {
+  width: 100%;
+  padding-top: 37%;
+  position: relative;
 }
 @media only screen and (min-width: 1264px) {
   .box_main {
@@ -715,16 +727,15 @@ export default {
     grid-area: 1 / 2 / span 1 / span 2;
   }
   .box_list {
+    overflow: auto;
     grid-area: 1 / 1 / span 2 / span 1;
   }
   .box_keyboard {
     position: relative;
     grid-area: 2 / 2 / span 1 / span 2;
   }
-}
-.keyboard_wrapper {
-  width: 100%;
-  padding-top: 37%;
-  position: relative;
+  .sticked_search {
+    top: 0px;
+  }
 }
 </style>
