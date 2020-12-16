@@ -284,8 +284,37 @@ export default {
       title: `${this.$page.app.name} Shortcuts`,
       meta: [
         {
+          key: "title",
+          name: "title",
+          content: `${this.$page.app.name} Shortcuts`,
+        },
+        {
+          key: "og:title",
+          name: "og:title",
+          content: `${this.$page.app.name} Shortcuts`,
+        },
+        {
+          key: "twitter:title",
+          name: "twitter:title",
+          content: `${this.$page.app.name} Shortcuts`,
+        },
+        {
           key: "description",
           name: "description",
+          content: `Learn ${
+            this.$page.app.name
+          } shortcuts fast with keyboard visualization and superior user experience. Filter shortcuts based on name, stroke and group. See shortcuts for different operating systems and keyboard layouts.`,
+        },
+        {
+          key: "og:description",
+          name: "og:description",
+          content: `Learn ${
+            this.$page.app.name
+          } shortcuts fast with keyboard visualization and superior user experience. Filter shortcuts based on name, stroke and group. See shortcuts for different operating systems and keyboard layouts.`,
+        },
+        {
+          key: "twitter:description",
+          name: "twitter:description",
           content: `Learn ${
             this.$page.app.name
           } shortcuts fast with keyboard visualization and superior user experience. Filter shortcuts based on name, stroke and group. See shortcuts for different operating systems and keyboard layouts.`,
