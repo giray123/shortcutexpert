@@ -17,11 +17,5 @@ module.exports = {
         route: "/shortcuts/:slug",
       },
     },
-    {
-      use: "@gridsome/plugin-google-analytics",
-      options: {
-        id: "G-GS3SZNCFVB",
-      },
-    },
   ],
 };
