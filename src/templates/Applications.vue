@@ -69,6 +69,17 @@
             </div>
           </div>
           <div class="blue-grey darken-3 box_list">
+            <template v-if="$route.fullPath == '/shortcuts/test-application'">
+              <h2 class="grey--text text-overline mb-3">
+                FETCH FROM GOOGLE SHEETS
+              </h2>
+              <sheets-fetcher
+                dark
+                :url_google_sheets.sync="test_url_google_sheets"
+                @fetched="fetched"
+              ></sheets-fetcher>
+            </template>
+
             <h2 class="grey--text text-overline">OPERATING SYSTEM</h2>
             <v-select
               v-model="operating_system"
@@ -268,6 +279,7 @@ const se = require("../helpers/shortcut-expert");
 // import HelloWorld from './components/HelloWorld';
 import Keyboard from "../components/Keyboard";
 import ShortcutList from "../components/ShortcutList";
+import SheetsFetcher from "../components/SheetsFetcher";
 // var text_symbol = require('../data/text-symbol').text_symbol;
 // var excel_shortcuts = require('../../mockdata/excel');
 var all_shortcuts_display_text = "All Shortcuts";
@@ -325,9 +337,11 @@ export default {
   components: {
     Keyboard,
     ShortcutList,
+    SheetsFetcher,
   },
   created() {
-    console.log(this.$page.app);
+    // console.log(this.$page.app);
+    // console.log(this.$route, "this.$route");
     // prepare operating systems
     this.operating_systems = this.$page.app.operating_systems.map(
       (v) => v.name
@@ -337,6 +351,8 @@ export default {
     this.setOperatingSystem();
   },
   data: () => ({
+    test_url_google_sheets:
+      "https://docs.google.com/spreadsheets/d/1xGfSrETQto0kA-FGxeooDb08nuwHcO_THZ8H0DcyCQE/edit#gid=1240391001",
     mobile_keyboard_active: true,
     operating_system: "macos",
     operating_systems: ["macos", "windows", "ios", "android"],
@@ -666,6 +682,16 @@ export default {
           offset: 200,
         }
       );
+    },
+    fetched(value) {
+      console.log(value, "fetched");
+      this.$page.app.operating_systems = value;
+      this.operating_systems = this.$page.app.operating_systems.map(
+        (v) => v.name
+      );
+      this.operating_system = this.operating_systems[0];
+
+      this.setOperatingSystem();
     },
   },
   watch: {

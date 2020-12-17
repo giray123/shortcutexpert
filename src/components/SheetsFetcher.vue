@@ -2,6 +2,7 @@
   <div class="d-flex">
     <div class="flex-grow-1">
       <v-text-field
+        v-bind="$attrs"
         label="Google Sheets URL"
         outlined
         dense
@@ -22,6 +23,7 @@
 const se = require("../helpers/shortcut-expert");
 
 export default {
+  inheritAttrs: false,
   name: "SheetsFetcher",
   props: {
     url_google_sheets: { type: String, default: "macos" },
