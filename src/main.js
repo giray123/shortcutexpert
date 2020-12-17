@@ -41,25 +41,28 @@ export default function(Vue, { appOptions, head, router }) {
   head.meta.push({
     key: "og:image",
     name: "og:image",
+    property: "og:image",
     content: `https://shortcutexpert.com/img/share.png`,
   });
 
   head.meta.push({
     key: "og:title",
     name: "og:title",
+    property: "og:title",
     content: `Shortcut Expert | All Shortcuts in One Place`,
   });
 
   head.meta.push({
     key: "og:description",
     name: "og:description",
+    property: "og:description",
     content:
       "Best way to learn application shortcuts. You can create your own shortcuts and keyboard layouts for your application. Completely open source!",
   });
 
   head.meta.push({
     key: "twitter:card",
-    name: "twitter:card",
+    name: "twitter:card",,
     content: `summary_large_image`,
   });
   head.meta.push({
@@ -87,6 +90,7 @@ export default function(Vue, { appOptions, head, router }) {
   router.beforeEach((to, _from, next) => {
     head.meta.push({
       key: "og:url",
+      property: "og:url",
       name: "og:url",
       content: process.env.GRIDSOME_BASE_PATH + to.path,
     });
