@@ -59,6 +59,13 @@
               @fetched="fetched"
             ></sheets-fetcher>
 
+            <p class="text-body-2 mt-5">
+              You can test your Google Sheets file on
+              <g-link to="/shortcuts/test-application"
+                >Test Application Page
+              </g-link>
+            </p>
+
             <h2 class="mt-10 mb-5">JSON Output</h2>
             <div
               class="blue-grey darken-3 white--text rounded-lg"

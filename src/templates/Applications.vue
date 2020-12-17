@@ -80,6 +80,18 @@
                 @fetched="fetched"
                 class="mb-5"
               ></sheets-fetcher>
+              <p class="white--text text-body-2">
+                Here you can test your Google Sheets file before making a
+                contribution. All the details are on
+                <a
+                  target="_blank"
+                  href="https://github.com/giray123/shortcutexpert"
+                  >GitHub README file </a
+                >. Once it is ready, you can create a JSON file on
+                <g-link to="/create-application">
+                  Create Application Page </g-link
+                >.
+              </p>
             </template>
 
             <h2 class="grey--text text-overline">OPERATING SYSTEM</h2>
