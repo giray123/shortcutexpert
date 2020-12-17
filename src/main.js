@@ -62,7 +62,7 @@ export default function(Vue, { appOptions, head, router }) {
 
   head.meta.push({
     key: "twitter:card",
-    name: "twitter:card",,
+    name: "twitter:card",
     content: `summary_large_image`,
   });
   head.meta.push({
