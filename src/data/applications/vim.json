@@ -1,0 +1,1656 @@
+{
+  "name": "Vim",
+  "slug": "vim",
+  "url_logo": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg",
+  "url_app": "https://www.vim.org/",
+  "url_shortcuts": "http://www.keyxl.com/aaa8263/290/vim-keyboard-shortcuts.htm",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/10XlMCaRyS4BkPpUgnXEXjX96uSP9vWrJL-UJ-SMYqPQ/edit?usp=sharing",
+  "operating_systems": [
+    {
+      "name": "macos",
+      "list": [
+        {
+          "name": "move left",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "h"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "move down",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "j"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "j"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "move up",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "k"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "move right",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "l"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "l"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jump by start of words (punctuation considered words)",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "w"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jump by words (spaces separate words)",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "W"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jump to end of words (punctuation considered words)",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "e"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jump to end of words (no punctuation)",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "E"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "E"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jump backward by words (punctuation considered words)",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "jump backward by words (no punctuation)",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "B"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "start of line",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "0"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "first non-blank character of line",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "^"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "^"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "end of line",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "$"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go To command (prefix with number",
+          "group": "Cursor movement",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "G"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "G"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Note:",
+          "group": "Cursor movement",
+          "description": "Prefix a cursor movement command with a number to repeat it. For example, 4j moves down 4 lines.",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "4",
+                "j"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "4"
+                },
+                {
+                  "mode": "reset",
+                  "text": "j"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "start insert mode at cursor",
+          "group": "Inserting/Appending text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "i"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "insert at the beginning of the line",
+          "group": "Inserting/Appending text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "I"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "I"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "append after the cursor",
+          "group": "Inserting/Appending text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "a"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "append at the end of the line",
+          "group": "Inserting/Appending text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "A"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "open (append) blank line below current line (no need to press return)",
+          "group": "Inserting/Appending text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "o"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "open blank line above current line",
+          "group": "Inserting/Appending text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "O"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "O"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "append at end of word",
+          "group": "Inserting/Appending text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "e",
+                "a"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "e"
+                },
+                {
+                  "mode": "reset",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "exit insert mode",
+          "group": "Inserting/Appending text",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "replace a single character (does not use insert mode)",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "r"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "join line below to the current one",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "J"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "J"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "change (replace) an entire line",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "c",
+                "c"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "c"
+                },
+                {
+                  "mode": "reset",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "change (replace) to the end of word",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "c",
+                "w"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "c"
+                },
+                {
+                  "mode": "reset",
+                  "text": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "change (replace) to the end of line",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "c",
+                "$"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "c"
+                },
+                {
+                  "mode": "reset",
+                  "text": "$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "delete character at cursor and subsitute text",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "s"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "delete line at cursor and substitute text (same as cc)",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "S"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "transpose two letters (delete and paste, technically)",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "x",
+                "p"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "x"
+                },
+                {
+                  "mode": "reset",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "undo",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "u"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "repeat last command",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "."
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "start visual mode, mark lines, then do command (such as y-yank)",
+          "group": "Marking text (visual mode)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "v"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "v"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "start Linewise visual mode",
+          "group": "Marking text (visual mode)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "V"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "move to other end of marked area",
+          "group": "Marking text (visual mode)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "o"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "start visual block mode",
+          "group": "Marking text (visual mode)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "control",
+                "v"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "v"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "move to Other corner of block",
+          "group": "Marking text (visual mode)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "O"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "O"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "mark a word",
+          "group": "Marking text (visual mode)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "a",
+                "w"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "a"
+                },
+                {
+                  "mode": "reset",
+                  "text": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "a () block (with braces)",
+          "group": "Marking text (visual mode)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "a",
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "a"
+                },
+                {
+                  "mode": "reset",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "a {} block (with brackets)",
+          "group": "Marking text (visual mode)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "a",
+                "B"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "a"
+                },
+                {
+                  "mode": "reset",
+                  "text": "B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "inner () block",
+          "group": "Marking text (visual mode)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "i",
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "reset",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "inner {} block",
+          "group": "Marking text (visual mode)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "i",
+                "B"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "i"
+                },
+                {
+                  "mode": "reset",
+                  "text": "B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "exit visual mode",
+          "group": "Marking text (visual mode)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "shift right",
+          "group": "Visual commands",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ">"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ">"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "shift left",
+          "group": "Visual commands",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "<"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "<"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "yank (copy) marked text",
+          "group": "Visual commands",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "y"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "y"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "delete marked text",
+          "group": "Visual commands",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "d"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "switch case",
+          "group": "Visual commands",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "~"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "~"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "yank (copy) a line",
+          "group": "Cut and Paste",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "y",
+                "y"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "y"
+                },
+                {
+                  "mode": "reset",
+                  "text": "y"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "yank 2 lines",
+          "group": "Cut and Paste",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "2",
+                "y",
+                "y"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "2"
+                },
+                {
+                  "mode": "reset",
+                  "text": "y"
+                },
+                {
+                  "mode": "reset",
+                  "text": "y"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "yank word",
+          "group": "Cut and Paste",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "y",
+                "w"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "y"
+                },
+                {
+                  "mode": "reset",
+                  "text": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "yank to end of line",
+          "group": "Cut and Paste",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "y",
+                "$"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "y"
+                },
+                {
+                  "mode": "reset",
+                  "text": "$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "put (paste) the clipboard after cursor",
+          "group": "Cut and Paste",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "p"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "put (paste) before cursor",
+          "group": "Cut and Paste",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "P"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "delete (cut) a line",
+          "group": "Cut and Paste",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "d",
+                "d"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "d"
+                },
+                {
+                  "mode": "reset",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "delete (cut) the current word",
+          "group": "Cut and Paste",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "d",
+                "w"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "d"
+                },
+                {
+                  "mode": "reset",
+                  "text": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "delete (cut) current character",
+          "group": "Cut and Paste",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "x"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "write (save) the file, but don't exit",
+          "group": "Exiting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":",
+                "w"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                },
+                {
+                  "mode": "reset",
+                  "text": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "write (save) and quit",
+          "group": "Exiting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":",
+                "w",
+                "q"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                },
+                {
+                  "mode": "reset",
+                  "text": "w"
+                },
+                {
+                  "mode": "reset",
+                  "text": "q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "quit (fails if anything has changed)",
+          "group": "Exiting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":",
+                "q"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                },
+                {
+                  "mode": "reset",
+                  "text": "q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "quit and throw away changes",
+          "group": "Exiting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":",
+                "q",
+                "!"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                },
+                {
+                  "mode": "reset",
+                  "text": "q"
+                },
+                {
+                  "mode": "reset",
+                  "text": "!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "search for pattern",
+          "group": "Search/Replace",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "/",
+                "pattern"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "/"
+                },
+                {
+                  "mode": "reset",
+                  "text": "pattern"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "search backward for pattern",
+          "group": "Search/Replace",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "?",
+                "pattern"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "?"
+                },
+                {
+                  "mode": "reset",
+                  "text": "pattern"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "repeat search in same direction",
+          "group": "Search/Replace",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "repeat search in opposite direction",
+          "group": "Search/Replace",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "N"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "replace all old with new throughout file",
+          "group": "Search/Replace",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":%s/old/new/g"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":%s/old/new/g"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "replace all old with new throughout file with confirmations",
+          "group": "Search/Replace",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":%s/old/new/gc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":%s/old/new/gc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Edit a file in a new buffer",
+          "group": "Working with multiple files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":",
+                "e",
+                "filename"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                },
+                {
+                  "mode": "reset",
+                  "text": "e"
+                },
+                {
+                  "mode": "reset",
+                  "text": "filename"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "go to next buffer",
+          "group": "Working with multiple files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":bnext"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":bnext"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                ":",
+                "b",
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                },
+                {
+                  "mode": "reset",
+                  "text": "b"
+                },
+                {
+                  "mode": "reset",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "go to previous buffer",
+          "group": "Working with multiple files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":bprev"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":bprev"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                ":",
+                "b",
+                "p"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                },
+                {
+                  "mode": "reset",
+                  "text": "b"
+                },
+                {
+                  "mode": "reset",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "delete a buffer (close a file)",
+          "group": "Working with multiple files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":",
+                "b",
+                "d"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                },
+                {
+                  "mode": "reset",
+                  "text": "b"
+                },
+                {
+                  "mode": "reset",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a file in a new buffer and split window",
+          "group": "Working with multiple files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":",
+                "s",
+                "p",
+                "filename"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                },
+                {
+                  "mode": "reset",
+                  "text": "s"
+                },
+                {
+                  "mode": "reset",
+                  "text": "p"
+                },
+                {
+                  "mode": "reset",
+                  "text": "filename"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Split windows",
+          "group": "Working with multiple files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "control",
+                "w",
+                "s"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "w"
+                },
+                {
+                  "mode": "next",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "switch between windows",
+          "group": "Working with multiple files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "control",
+                "w",
+                "w"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "w"
+                },
+                {
+                  "mode": "next",
+                  "text": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quit a window",
+          "group": "Working with multiple files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "control",
+                "w",
+                "q"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "w"
+                },
+                {
+                  "mode": "next",
+                  "text": "q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Split windows vertically",
+          "group": "Working with multiple files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "control",
+                "w",
+                "v"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "w"
+                },
+                {
+                  "mode": "next",
+                  "text": "v"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
