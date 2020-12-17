@@ -65,6 +65,22 @@ Again, without preparing a Google Sheets file, you can manually edit the origina
 
 Coming soon...
 
+## :eyes:&nbsp; Running Locally
+
+Prepare the project
+
+`git clone https://github.com/giray123/shortcutexpert.git cd shortcutexpert npm i`
+
+Run development mode
+
+`npm run develop`
+
+Build the static site
+
+`npm run build`
+
+Build command prepares the static website into `dist` folder. You do not need to build it before any pull requests. We build the application on the cloud.
+
 ## :moneybag:&nbsp; Donate
 
 Coming soon...

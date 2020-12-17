@@ -69,7 +69,7 @@
             </div>
           </div>
           <div class="blue-grey darken-3 box_list">
-            <template v-if="$route.fullPath == '/shortcuts/test-application'">
+            <template v-if="$route.params.slug == 'test-application'">
               <h2 class="grey--text text-overline mb-2">
                 FETCH FROM GOOGLE SHEETS
               </h2>
