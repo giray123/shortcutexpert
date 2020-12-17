@@ -14,7 +14,7 @@
         @click:append="$emit('clickRestore')"
       ></v-text-field>
     </div>
-    <div class="pl-1">
+    <div class="pl-1" style="white-space: nowrap;">
       <v-btn
         class="ml-2"
         icon

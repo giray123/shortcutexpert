@@ -772,7 +772,7 @@ export default {
 }
 .box_keyboard {
   position: fixed;
-  bottom: 0;
+  bottom: 30px;
   left: 0;
   width: 100%;
   padding: 10px;

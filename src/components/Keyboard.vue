@@ -267,6 +267,7 @@ $key-width-small: 5%;
 @media only screen and (max-width: 1264px) {
   #keyboard {
     border-radius: 5px;
+    height: auto;
   }
   .key {
     border-radius: 3px;
