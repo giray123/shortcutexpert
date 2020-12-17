@@ -343,7 +343,7 @@ export default {
   },
   created() {
     // console.log(this.$page.app);
-    // console.log(this.$route, "this.$route");
+    console.log(this.$route, "this.$route");
     // prepare operating systems
     this.operating_systems = this.$page.app.operating_systems.map(
       (v) => v.name

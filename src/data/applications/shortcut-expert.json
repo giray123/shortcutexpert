@@ -141,6 +141,23 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Re-Animate",
+          "group": "All Shortcuts",
+          "desciption": "Restarts the animation of the shortcut",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
