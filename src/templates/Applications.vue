@@ -662,7 +662,7 @@ export default {
         {
           duration: 1000,
           easing: "easeInOutCubic",
-          container: document.getElementById("left_column"),
+          container: document.querySelector(".box_list"),
           offset: 200,
         }
       );

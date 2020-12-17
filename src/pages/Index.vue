@@ -14,7 +14,7 @@
           <div class="mt-10">
             <router-link to="/">
               <v-img
-                alt="Vuetify Name"
+                alt="Shortcut Expert Logo"
                 class="mx-auto"
                 contain
                 :src="require('@/assets/img/logo.svg')"
