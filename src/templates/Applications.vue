@@ -326,7 +326,7 @@ export default {
     Keyboard,
     ShortcutList,
   },
-  mounted() {
+  created() {
     console.log(this.$page.app);
     // prepare operating systems
     this.operating_systems = this.$page.app.operating_systems.map(
