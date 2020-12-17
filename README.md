@@ -45,9 +45,9 @@ First, create a Google Sheets file and prepare it as in <a href="https://docs.go
 
 #### 2. Test your application shortcuts
 
-After you prepare your Google Sheets file, you can use our <a href="https://shortcutexpert.com/shortcuts/test-application">Test Application Page</a> to test it out.
+After you prepare your Google Sheets file, you can use our <a href="https://shortcutexpert.com/shortcuts/shortcut-expert">Test Application Page</a> to test it out.
 
-Once it is ready, use <a href="https://shortcutexpert.com/create-application">Create Application Page</a> to prepare a json file. Details for each field is explained on the page.
+Once it is ready, use <a href="https://shortcutexpert.com/prepare-application">Prepare Application Page</a> to prepare a json file. Details for each field is explained on the page.
 
 #### 3. Create a JSON file and request a pull
 
@@ -57,7 +57,7 @@ Afterward, download your json file and create a pull request to add your applica
 
 Each application has a Google Sheet URL in its json file (additionally there is a link pointing to that file on each application page). Once you go to the URL, you can not edit that file since you do not have permissions. However, you can copy that Google Sheet to your own drive. After you copy, make the necessary updates and make sure that you publish your Google Sheet. Once you publish it, click the share button and make your file accessable for anyone on the web (so that Shortcut Expert can fetch data from your Google Sheet file).
 
-Again, you can use [Test Application Page](https://shortcutexpert.com/shortcuts/test-application) to test the sohrtcuts and [Create Application Page](https://shortcutexpert.com/create-application) to prepare a json file and create a pull request for your updates. Because you are editing an existing application, make sure the name of the `json` file is same with the original application file.
+Again, you can use [Test Application Page](https://shortcutexpert.com/shortcuts/shortcut-expert) to test the sohrtcuts and [Prepare Application Page](https://shortcutexpert.com/prepare-application) to prepare a json file and create a pull request for your updates. Because you are editing an existing application, make sure the name of the `json` file is same with the original application file.
 
 Again, without preparing a Google Sheets file, you can manually edit the original `json` file in `src/data/applications` and create a pull request after your edit.
 

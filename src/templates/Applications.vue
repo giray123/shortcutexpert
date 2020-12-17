@@ -31,6 +31,13 @@
                 <h1>{{ $page.app.name }} Shortcuts</h1>
                 <div class="d-flex align-center justify-start mt-1">
                   <div class="text-sm-body-2">
+                    <g-link
+                      :to="`/prepare-application#${$page.app.slug}`"
+                      class="text-decoration-none mr-2 mr-lg-5 orange--text text--darken-1"
+                    >
+                      <v-icon x-small color="orange darken-1">mdi-pen</v-icon>
+                      Edit
+                    </g-link>
                     <a
                       v-if="$page.app.url_app"
                       :href="$page.app.url_app"
@@ -69,7 +76,7 @@
             </div>
           </div>
           <div class="blue-grey darken-3 box_list">
-            <template v-if="$route.params.slug == 'test-application'">
+            <template v-if="$route.params.slug == 'shortcut-expert'">
               <h2 class="grey--text text-overline mb-2">
                 FETCH FROM GOOGLE SHEETS
               </h2>
@@ -78,6 +85,9 @@
                 dense
                 :url_google_sheets.sync="test_url_google_sheets"
                 @fetched="fetched"
+                @clickRestore="
+                  test_url_google_sheets = $page.app.url_google_sheets
+                "
                 class="mb-5"
               ></sheets-fetcher>
               <p class="white--text text-body-2">
@@ -88,8 +98,8 @@
                   href="https://github.com/giray123/shortcutexpert"
                   >GitHub README file </a
                 >. Once it is ready, you can create a JSON file on
-                <g-link to="/create-application">
-                  Create Application Page </g-link
+                <g-link to="/prepare-application">
+                  Prepare Application Page </g-link
                 >.
               </p>
             </template>
@@ -356,6 +366,7 @@ export default {
   created() {
     // console.log(this.$page.app);
     console.log(this.$route, "this.$route");
+    this.test_url_google_sheets = this.$page.app.url_google_sheets;
     // prepare operating systems
     this.operating_systems = this.$page.app.operating_systems.map(
       (v) => v.name
@@ -365,8 +376,7 @@ export default {
     this.setOperatingSystem();
   },
   data: () => ({
-    test_url_google_sheets:
-      "https://docs.google.com/spreadsheets/d/1xGfSrETQto0kA-FGxeooDb08nuwHcO_THZ8H0DcyCQE/edit#gid=1240391001",
+    test_url_google_sheets: "",
     mobile_keyboard_active: true,
     operating_system: "macos",
     operating_systems: ["macos", "windows", "ios", "android"],

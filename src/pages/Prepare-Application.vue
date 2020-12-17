@@ -4,7 +4,7 @@
       <v-row no-gutters style="padding-bottom: 400px;">
         <v-col cols="12" md="6" class="offset-md-3">
           <div class="mt-10">
-            <h1 class="text-h4 mb-5 text-center">Create Application</h1>
+            <h1 class="text-h4 mb-5 text-center">Prepare Application</h1>
             <p class="text-center mb-10">
               Here you can create a JSON file from your Google Sheets file.
               Details are on the
@@ -12,51 +12,79 @@
                 href="https://github.com/giray123/shortcutexpert"
                 target="_blank"
                 >Github README</a
-              >
+              >.
             </p>
 
             <h2 class="mt-10 mb-5">Input Data</h2>
             <v-text-field
               label="Application Name"
               outlined
+              dense
+              clearable
+              class="mb-3"
               v-model="name"
               @input="nameChange"
               hint="Original application name, case sensitive"
               persistent-hint
+              append-icon="mdi-restore"
+              @click:append="restoreField('name')"
             ></v-text-field>
             <v-text-field
               outlined
+              dense
+              clearable
+              class="mb-3"
               prefix="https://shortcutexpert.com/shortcuts/"
               v-model="slug"
               hint="This will be the url of the application, you can fix it if necessary"
               persistent-hint
+              append-icon="mdi-restore"
+              @click:append="restoreField('slug')"
             ></v-text-field>
             <v-text-field
               label="Logo URL"
               outlined
+              dense
+              clearable
+              class="mb-3"
               v-model="url_logo"
               hint="SVG is preffered, PNG and JPG is fine, no more than 20 KB please."
               persistent-hint
+              append-icon="mdi-restore"
+              @click:append="restoreField('url_logo')"
             ></v-text-field>
             <v-text-field
               v-model="url_app"
               label="Official Application URL (optional)"
               outlined
+              dense
+              clearable
+              class="mb-3"
               hint="Application home page"
               persistent-hint
+              append-icon="mdi-restore"
+              @click:append="restoreField('url_app')"
             ></v-text-field>
             <v-text-field
               v-model="url_shortcuts"
               label="Official Application Shortcuts URL (optional)"
               outlined
+              dense
+              clearable
+              class="mb-3"
               hint="Official shortcuts page of the application"
               persistent-hint
+              append-icon="mdi-restore"
+              @click:append="restoreField('url_shortcuts')"
             ></v-text-field>
 
             <sheets-fetcher
               class="mt-4"
+              dense
+              clearable
               :url_google_sheets.sync="url_google_sheets"
               @fetched="fetched"
+              @clickRestore="restoreField('url_google_sheets')"
             ></sheets-fetcher>
 
             <p class="text-body-2 mt-5">
@@ -106,6 +134,17 @@
 <script>
 import SheetsFetcher from "../components/SheetsFetcher";
 const se = require("../helpers/shortcut-expert");
+var backup = {
+  name: "",
+  slug: "",
+  url_logo: "",
+  url_app: "",
+  url_shortcuts: "",
+  url_google_sheets:
+    "https://docs.google.com/spreadsheets/d/1nAUtccgZI0IWuQCrGa5aIbspxoUEN8uTanRYJMI2PLE/edit?usp=sharing",
+  operating_systems: [],
+  copy_button_text: "",
+};
 
 export default {
   name: "Submit",
@@ -128,8 +167,30 @@ export default {
       copy_button_text: "",
     };
   },
+  async mounted() {
+    console.log(this.$route, "this.$route");
+    if (this.$route.hash != "") {
+      const slug = this.$route.hash.slice(1);
+      try {
+        const results = await this.$fetch(`/shortcuts/${slug}`);
+        console.log(results, "results");
+
+        backup = results.data.app;
+
+        this.name = backup.name;
+        this.slug = backup.slug;
+        this.url_logo = backup.url_logo;
+        this.url_app = backup.url_app;
+        this.url_shortcuts = backup.url_shortcuts;
+        this.url_google_sheets = backup.url_google_sheets;
+      } catch (error) {
+        console.log(error);
+      }
+    }
+  },
   methods: {
     nameChange() {
+      if (!this.name || this.name == "") return;
       this.slug = se.slugify(this.name);
     },
     fetched(operating_systems) {
@@ -159,6 +220,9 @@ export default {
       a.classList.add("d-none");
       document.body.appendChild(a);
       a.click();
+    },
+    restoreField(field) {
+      this[field] = backup[field];
     },
   },
   computed: {

@@ -10,16 +10,29 @@
         @keyup.enter="fetchGoogleSlides"
         hide-details
         single-line
+        append-icon="mdi-restore"
+        @click:append="$emit('clickRestore')"
       ></v-text-field>
     </div>
-    <div class="pl-4">
+    <div class="pl-1">
       <v-btn
+        class="ml-2"
+        icon
+        color="orange"
+        target="_blank"
+        :href="url_google_sheets"
+      >
+        <v-icon>mdi-link</v-icon>
+      </v-btn>
+      <v-btn
+        class="ml-2"
         color="primary"
         :loading="fetching"
         @click="fetchGoogleSlides"
         style="height: 100%;"
-        >fetch</v-btn
       >
+        fetch
+      </v-btn>
     </div>
   </div>
 </template>
