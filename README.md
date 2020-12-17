@@ -36,7 +36,7 @@ Preparing a `json` file for your application is pretty stratight forward. Althou
 
 #### 1. Prepare a Google Sheets File
 
-First, create a Google Sheets file and prepare it as in <a href="https://docs.google.com/spreadsheets/u/2/d/1xGfSrETQto0kA-FGxeooDb08nuwHcO_THZ8H0DcyCQE/edit#gid=1240391001">this example</a>. You need to create a different sheet (tab) for each operating system and each tab needs to have below columns.
+First, create a Google Sheets file and prepare it as in <a href="https://docs.google.com/spreadsheets/u/2/d/1xGfSrETQto0kA-FGxeooDb08nuwHcO_THZ8H0DcyCQE/edit#gid=1240391001">this example</a>. You need to create a different sheet (tab) for each operating system (`macos` and `windows` for now) and each tab needs to have below columns.
 
 | group   | name | shortcuts | desciption              |
 | ------- | ---- | --------- | ----------------------- |
