@@ -58,6 +58,9 @@
       <!-- provile button -->
       <v-toolbar-items>
         <template v-if="!$vuetify.breakpoint.mobile">
+          <v-btn dark text class="px-5" to="/prepare-application">
+            <v-icon class="mr-2">mdi-plus</v-icon> create
+          </v-btn>
           <v-btn
             dark
             text
@@ -69,7 +72,10 @@
           </v-btn>
         </template>
         <template v-else-if="!mobile_search_active">
-          <v-btn icon dark class="" @click="mobile_search_active = true">
+          <v-btn icon dark to="/prepare-application">
+            <v-icon>mdi-plus</v-icon>
+          </v-btn>
+          <v-btn icon dark @click="mobile_search_active = true">
             <v-icon>mdi-magnify</v-icon>
           </v-btn>
         </template>

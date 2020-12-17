@@ -13,9 +13,11 @@
         <v-list-item-title style="white-space: normal;">{{
           item.name
         }}</v-list-item-title>
-        <v-list-item-subtitle class="mt-1" style="white-space: normal;">{{
-          item.description
-        }}</v-list-item-subtitle>
+        <v-list-item-subtitle
+          class="mt-1"
+          style="white-space: normal;"
+          v-html="item.description"
+        ></v-list-item-subtitle>
         <v-list-item-subtitle style="overflow: visible;">
           <shortcut
             v-for="(shortcut, g) in item.shortcuts"

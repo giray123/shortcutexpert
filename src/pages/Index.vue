@@ -50,6 +50,9 @@
               >
             </p>
           </div>
+          <v-btn text color="primary" to="/prepare-application"
+            >create an application</v-btn
+          >
         </v-col>
       </v-row>
 

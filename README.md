@@ -20,9 +20,9 @@
 
 Shortcut Expert is build with <a href="https://vuejs.org/">VueJS</a>, <a href="https://gridsome.org/">Gridsome</a> and <a href="https://vuetifyjs.com/en/">Vuetify</a>.
 
-It is served with [Netlify](https://www.netlify.com/) and it is statically generated, which means that every page is SEO friendly and distributed through a CDN. This process makes the pages very fast to load and discovereable for users.
+It is served with [Netlify](https://www.netlify.com/), and it is statically generated, which means that every page is SEO friendly and distributed through a CDN. This process makes the pages very fast to load and discoverable for users.
 
-There is no database, once you fork it, you have all the data necessary to run it locally(including the application shortcuts).
+There is no database; once you fork it, you have all the data necessary to run it locally(including the application shortcuts).
 
 ## :gift:&nbsp; Contribution
 
@@ -30,15 +30,15 @@ You can fork the GitHub repo and create pull requests for anything. However, bel
 
 ### Add a new application
 
-All application data is in `src/data/applications`. Each `json` file represents an application. You need to prepare a `json` file for your application and create a pull request.
+All application data is in `src/data/applications`. Each `JSON` file represents an application. You need to prepare a `JSON` file for your application and create a pull request.
 
-Preparing a `json` file for your application is pretty stratight forward. Although, you can prepare your `json` file manually, here is to prepare it very easily:
+Preparing a `JSON` file for your application is pretty straight forward. Although you can prepare your `JSON` file manually, here is to prepare it very easily:
 
 #### 1. Prepare a Google Sheets File
 
-First, create a Google Sheets file and prepare it as in <a href="https://docs.google.com/spreadsheets/u/2/d/1xGfSrETQto0kA-FGxeooDb08nuwHcO_THZ8H0DcyCQE/edit#gid=1240391001">this example</a>. You need to create a different sheet (tab) for each operating system (`macos` and `windows` for now) and each tab needs to have below columns.
+First, create a Google Sheets file and prepare it as in <a href="https://docs.google.com/spreadsheets/u/2/d/1xGfSrETQto0kA-FGxeooDb08nuwHcO_THZ8H0DcyCQE/edit#gid=1240391001">this example</a>. You need to create a different sheet (tab) for each operating system (`macos` and `windows` for now), and each tab needs to have the below columns.
 
-| group   | name | shortcuts | desciption              |
+| group   | name | shortcuts | description             |
 | ------- | ---- | --------- | ----------------------- |
 | editing | copy | ctrl + c  | copy text for later use |
 | ...     | ...  | ...       | ...                     |
@@ -51,15 +51,17 @@ Once it is ready, use <a href="https://shortcutexpert.com/prepare-application">P
 
 #### 3. Create a JSON file and request a pull
 
-Afterward, download your json file and create a pull request to add your application to `src/data/applications`. Once the pull request is merged by repo admins, our server will generate a static page for the application and distribute it worldwide through Netlify CDN.
+Afterward, download your `JSON` file and create a pull request to add your application to `src/data/applications`. Once the pull request is merged by repo admins, our server will generate a static page for the application and distribute it worldwide through Netlify CDN.
 
 ### Update an existing application
 
-Each application has a Google Sheet URL in its json file (additionally there is a link pointing to that file on each application page). Once you go to the URL, you can not edit that file since you do not have permissions. However, you can copy that Google Sheet to your own drive. After you copy, make the necessary updates and make sure that you publish your Google Sheet. Once you publish it, click the share button and make your file accessable for anyone on the web (so that Shortcut Expert can fetch data from your Google Sheet file).
+First, open the application page you want to contribute to and click the EDIT button just below the title. You will be directed to the [Prepare Application Page](https://shortcutexpert.com/prepare-application) filled with the application data.
 
-Again, you can use [Test Application Page](https://shortcutexpert.com/shortcuts/shortcut-expert) to test the sohrtcuts and [Prepare Application Page](https://shortcutexpert.com/prepare-application) to prepare a json file and create a pull request for your updates. Because you are editing an existing application, make sure the name of the `json` file is same with the original application file.
+Each application has a Google Sheet URL in its `JSON` file. Once you go to the URL, you can not edit that file since you do not own it. However, you can copy that Google Sheet to your own drive. After you copy, make the necessary updates and make sure that you publish your Google Sheet. Once you publish it, click the share button and make your file accessible for anyone on the web (so that Shortcut Expert can fetch data from your Google Sheet file).
 
-Again, without preparing a Google Sheets file, you can manually edit the original `json` file in `src/data/applications` and create a pull request after your edit.
+Again, you can use [Test Application Page](https://shortcutexpert.com/shortcuts/shortcut-expert) to test the shortcuts and [Prepare Application Page](https://shortcutexpert.com/prepare-application) to prepare a `JSON` file and create a pull request for your updates. Because you are editing an existing application, make sure the name of the `JSON` file is the same as the original application file.
+
+Again, without preparing a Google Sheets file, you can manually edit the original `JSON` file in `src/data/applications` and create a pull request after your edit.
 
 ### Add a keyboard layout
 
@@ -87,4 +89,4 @@ Coming soon...
 
 ## :bookmark:&nbsp; License
 
-You can contribute to this repo, however you can not use any variant for commercial purposes.
+You can contribute to this repo, however, you can not use any variant for commercial purposes.

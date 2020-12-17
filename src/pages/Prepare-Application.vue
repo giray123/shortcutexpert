@@ -6,7 +6,7 @@
           <div class="mt-10">
             <h1 class="text-h4 mb-5 text-center">Prepare Application</h1>
             <p class="text-center mb-10">
-              Here you can create a JSON file from your Google Sheets file.
+              Here you can prepare a JSON file from your Google Sheets file.
               Details are on the
               <a
                 href="https://github.com/giray123/shortcutexpert"
@@ -95,6 +95,11 @@
             </p>
 
             <h2 class="mt-10 mb-5">JSON Output</h2>
+            <p>
+              Once your JSON file is ready, add it to
+              <code>src/data/applications</code> and create a pull request on
+              GitHub.
+            </p>
             <div
               class="blue-grey darken-3 white--text rounded-lg"
               style="position: relative;"
