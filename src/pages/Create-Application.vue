@@ -1,48 +1,65 @@
 <template>
   <Layout toolbar>
     <v-container>
-      <v-row no-gutters>
+      <v-row no-gutters style="padding-bottom: 400px;">
         <v-col cols="12" md="6" class="offset-md-3">
           <div class="mt-10">
-            <h1 class="text-h4 mb-10 text-center">Create Application</h1>
+            <h1 class="text-h4 mb-5 text-center">Create Application</h1>
+            <p class="text-center mb-10">
+              Here you can create a JSON file from your Google Sheets file.
+              Details are on the
+              <a
+                href="https://github.com/giray123/shortcutexpert"
+                target="_blank"
+                >Github README</a
+              >
+            </p>
 
+            <h2 class="mt-10 mb-5">Input Data</h2>
             <v-text-field
               label="Application Name"
               outlined
-              dense
               v-model="name"
               @input="nameChange"
+              hint="Original application name, case sensitive"
+              persistent-hint
             ></v-text-field>
             <v-text-field
               outlined
-              dense
               prefix="https://shortcutexpert.com/shortcuts/"
               v-model="slug"
+              hint="This will be the url of the application, you can fix it if necessary"
+              persistent-hint
             ></v-text-field>
             <v-text-field
               label="Logo URL"
               outlined
-              dense
               v-model="url_logo"
+              hint="SVG is preffered, PNG and JPG is fine, no more than 20 KB please."
+              persistent-hint
             ></v-text-field>
             <v-text-field
               v-model="url_app"
               label="Official Application URL (optional)"
               outlined
-              dense
+              hint="Application home page"
+              persistent-hint
             ></v-text-field>
             <v-text-field
               v-model="url_shortcuts"
               label="Official Application Shortcuts URL (optional)"
               outlined
-              dense
+              hint="Official shortcuts page of the application"
+              persistent-hint
             ></v-text-field>
 
             <sheets-fetcher
+              class="mt-4"
               :url_google_sheets.sync="url_google_sheets"
               @fetched="fetched"
             ></sheets-fetcher>
 
+            <h2 class="mt-10 mb-5">JSON Output</h2>
             <div
               class="blue-grey darken-3 white--text rounded-lg"
               style="position: relative;"

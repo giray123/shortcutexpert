@@ -1,18 +1,23 @@
 <template>
-  <div class="d-flex">
+  <div class="d-flex align-stretch">
     <div class="flex-grow-1">
       <v-text-field
         v-bind="$attrs"
         label="Google Sheets URL"
         outlined
-        dense
         :value="url_google_sheets"
         @input="$emit('update:url_google_sheets', $event)"
         @keyup.enter="fetchGoogleSlides"
+        hide-details
+        single-line
       ></v-text-field>
     </div>
     <div class="pl-4">
-      <v-btn color="primary" :loading="fetching" @click="fetchGoogleSlides"
+      <v-btn
+        color="primary"
+        :loading="fetching"
+        @click="fetchGoogleSlides"
+        style="height: 100%;"
         >fetch</v-btn
       >
     </div>
