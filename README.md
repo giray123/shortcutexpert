@@ -71,15 +71,23 @@ Coming soon...
 
 Prepare the project
 
-`git clone https://github.com/giray123/shortcutexpert.git cd shortcutexpert npm i`
+```shell
+git clone https://github.com/giray123/shortcutexpert.git
+cd shortcutexpert
+npm i
+```
 
 Run development mode
 
-`npm run develop`
+```shell
+npm run develop
+```
 
 Build the static site
 
-`npm run build`
+```shell
+npm run build
+```
 
 Build command prepares the static website into `dist` folder. You do not need to build it before any pull requests. We build the application on the cloud.
 
