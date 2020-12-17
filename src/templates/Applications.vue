@@ -70,13 +70,15 @@
           </div>
           <div class="blue-grey darken-3 box_list">
             <template v-if="$route.fullPath == '/shortcuts/test-application'">
-              <h2 class="grey--text text-overline mb-3">
+              <h2 class="grey--text text-overline mb-2">
                 FETCH FROM GOOGLE SHEETS
               </h2>
               <sheets-fetcher
                 dark
+                dense
                 :url_google_sheets.sync="test_url_google_sheets"
                 @fetched="fetched"
+                class="mb-5"
               ></sheets-fetcher>
             </template>
 
