@@ -1,0 +1,3052 @@
+{
+  "name": "Visual Studio Code",
+  "slug": "visual-studio-code",
+  "url_logo": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
+  "url_app": "https://code.visualstudio.com/",
+  "url_shortcuts": "https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_keyboard-reference-sheets",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1SyBvfmvrds7lP_IBcUngqwuEl4pjaUFS92SIf0QnoLc/edit?usp=sharing",
+  "operating_systems": [
+    {
+      "name": "macos",
+      "list": [
+        {
+          "name": "Open the command palette",
+          "group": "General",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "P"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open keyboard shortcuts",
+          "group": "General",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "K"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "S"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open user settings",
+          "group": "General",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                ","
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Undo",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Z"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Redo",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "Z"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove one word",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "option",
+                "delete"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cut line",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "X"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "X"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Copy line",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "C"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste line",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "V"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delete line",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "K"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move line up/down",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "option",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "option",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Copy line up/down",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "option",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "option",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle line commment",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "/"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the next/previous letter",
+          "group": "Selecting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the next/previous word",
+          "group": "Selecting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "option",
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "option",
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select current line",
+          "group": "Selecting",
+          "description": "you can press multiple times",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "L"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select line up/down",
+          "group": "Selecting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select to the beginning/end of file",
+          "group": "Selecting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Expand/Shrink selection",
+          "group": "Selecting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "control",
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "control",
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to the next/previous word",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "option",
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to beginning/end of line",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to beginning/end of file",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to line",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "control",
+                "G"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "G"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to file / Go to previous file",
+          "group": "Navigating",
+          "description": "you can press multiple times",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "P"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open next opened tab",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "control",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to symbol",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "O"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "O"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to symbol in the workspace",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "T"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Save file",
+          "group": "Files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "S"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close file",
+          "group": "Files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "W"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close all files",
+          "group": "Files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "K"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "W"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open previously closed",
+          "group": "Files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "T"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Find",
+          "group": "Search",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "F"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Replace",
+          "group": "Search",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "option",
+                "F"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Find next/previous",
+          "group": "Search",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "G"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "G"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "G"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "G"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert cursor",
+          "group": "Cursors",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "option",
+                "Click"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "click"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert cursor above",
+          "group": "Cursors",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "option",
+                "command",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "option",
+                "command",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select next match",
+          "group": "Cursors",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "D"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "De-select previous match",
+          "group": "Cursors",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "U"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "U"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select all occurrences of current word",
+          "group": "Cursors",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "L"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove cursors",
+          "group": "Cursors",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Explorer",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "E"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "E"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Search",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "F"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Source Control",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "control",
+                "G"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "G"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Debug",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "D"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Extensions",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "command",
+                "X"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "X"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle Sidebar",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "B"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Split editor",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "\\"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enter zen mode",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "K",
+                "Z"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                },
+                {
+                  "mode": "next",
+                  "text": "Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show (focus) integrated terminal",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "control",
+                "`"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "`"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus first/second/third editor window",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "1"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "2"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "3"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "windows",
+      "list": [
+        {
+          "name": "Open the command palette",
+          "group": "General",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "P"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open keyboard shortcuts",
+          "group": "General",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "K"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "S"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open user settings",
+          "group": "General",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                ","
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Undo",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Z"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Redo",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "Z"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove one word",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Backspace"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "backspace"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cut line",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "X"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "X"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Copy line",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "C"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste line",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "V"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delete line",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "K"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move line up/down",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Copy line up/down",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Alt",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Alt",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle line commment",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "/"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the next/previous letter",
+          "group": "Selecting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the next/previous word",
+          "group": "Selecting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select current line",
+          "group": "Selecting",
+          "description": "you can press multiple times",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "L"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select line up/down",
+          "group": "Selecting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select to the beginning/end of file",
+          "group": "Selecting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "Home"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "End"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Expand/Shrink selection",
+          "group": "Selecting",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Alt",
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Alt",
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to the next/previous word",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to beginning/end of line",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Home"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "End"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to beginning/end of file",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Home"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "End"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to line",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "G"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "G"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to file / Go to previous file",
+          "group": "Navigating",
+          "description": "you can press multiple times",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "P"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open next opened tab",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to symbol",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "O"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "O"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to symbol in the workspace",
+          "group": "Navigating",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "T"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Save file",
+          "group": "Files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "S"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close file",
+          "group": "Files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "W"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close all files",
+          "group": "Files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "K"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "W"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open previously closed",
+          "group": "Files",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "T"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Find",
+          "group": "Search",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "F"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Replace",
+          "group": "Search",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "H"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "H"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Find next/previous",
+          "group": "Search",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "F3"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f3"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Ctrl",
+                "F3"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert cursor",
+          "group": "Cursors",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Click"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "click"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert cursor above",
+          "group": "Cursors",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Alt",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select next match",
+          "group": "Cursors",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "D"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "De-select previous match",
+          "group": "Cursors",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "U"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "U"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select all occurrences of current word",
+          "group": "Cursors",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "L"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove cursors",
+          "group": "Cursors",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Explorer",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "E"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "E"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Search",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "F"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Source Control",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "G"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "G"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Debug",
+          "group": "Display",
+          "description": "Show Debug",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "D"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Extensions",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "X"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "X"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle Sidebar",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "B"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Split editor",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "\\"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enter zen mode",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "KZ"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "kz"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show (focus) integrated terminal",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "`"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "`"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus first/second/third editor window",
+          "group": "Display",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "1"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "2"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "3"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

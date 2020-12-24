@@ -1,0 +1,4134 @@
+{
+  "name": "Chrome",
+  "slug": "chrome",
+  "url_logo": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Google_Chrome_icon_%28September_2014%29.svg",
+  "url_app": "https://www.google.com/chrome/",
+  "url_shortcuts": "https://support.google.com/chrome/answer/157179?co=GENIE.Platform%3DDesktop&hl=en&oco=0",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1K-CUh0Hg7J2WamMzbMjCoX0tQvfdUzKjQdiqDTob7pE/edit?usp=sharing",
+  "operating_systems": [
+    {
+      "name": "macos",
+      "list": [
+        {
+          "name": "Open a new window",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a new window in Incognito mode",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a new tab, and jump to it",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "t"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reopen previously closed tabs in the order they were closed",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "t"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the next open tab",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Option",
+                "Rightarrow"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "rightarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the previous open tab",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Option",
+                "Leftarrow"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "leftarrow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to a specific tab",
+          "group": "Tab and window shortcuts",
+          "description": "numbers from 1 to 8",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "1"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "8"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the last tab",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the previous page in your browsing history for the current tab",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "["
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "["
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the next page in your browsing history for the current tab",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "]"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "]"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close the current tab or pop-up",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "w"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close the current window",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "w"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "w"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Minimize the window",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "m"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hide Google Chrome",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "h"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quit Google Chrome",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "q"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show or hide the Bookmarks Bar",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Bookmark Manager",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Option",
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Settings page in a new tab",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                ","
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the History page in a new tab",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "y"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "y"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Downloads page in a new tab",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "j"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "j"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Find Bar to search the current page",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "f"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the next match to your Find Bar search",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "g"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "g"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the previous match to your Find Bar search",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "g"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "g"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "When Find Bar is open, search for selected text",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "e"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open Developer Tools",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Option",
+                "i"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Clear Browsing Data options",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "Delete"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Log in as a different user, browse as a Guest, or access payment and password info",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "m"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the main menu bar",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Control",
+                "F2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cycle focus to unfocused dialog (if showing) and all toolbars",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Option",
+                "Up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Turn on caret browsing",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F7"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search with your default search engine",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Typeasearchterm",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "typeasearchterm"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search using a different search engine",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "TypeasearchenginenameandpressTab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "typeasearchenginenameandpresstab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add www. and .com to a site name, and open it in the current tab",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Typeasitename",
+                "Control",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "typeasitename"
+                },
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add www. and .com to a site name, and open it in a new tab",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Typeasitename",
+                "Control",
+                "Shift",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "typeasitename"
+                },
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the website in a new background tab",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Typeawebaddress",
+                "command",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "typeawebaddress"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the address bar",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "l"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "l"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove predictions from your address bar",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": "Down arrow to highlight",
+              "distinct_keys": [
+                "Down",
+                "Shift",
+                "fn",
+                "Delete"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "down"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "delete"
+                }
+              ]
+            },
+            {
+              "info": "on a laptop",
+              "distinct_keys": [
+                "ForwardDelete"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "forwarddelete"
+                }
+              ]
+            },
+            {
+              "info": "on a laptop",
+              "distinct_keys": [
+                "fn",
+                "Delete"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "next",
+                  "text": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move cursor to the address bar",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Control",
+                "F5"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "f5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open options to print the current page",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "p"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open options to save the current page",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "s"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Page Setup dialog",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Option",
+                "p"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reload your current page, ignoring cached content",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "r"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Stop the page loading",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Browse clickable items moving forward",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Browse clickable items moving backward",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a file from your computer in Google Chrome",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "o",
+                "Selectafile"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "o"
+                },
+                {
+                  "mode": "now",
+                  "text": "selectafile"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Display non-editable HTML source code for the current page",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Option",
+                "u"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the JavaScript Console",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Option",
+                "j"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "j"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Save your current webpage as a bookmark",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "d"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Save all open tabs as bookmarks in a new folder",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "d"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Turn full-screen mode on or off",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Ctrl",
+                "f"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Make everything on the page bigger",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "'",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Make everything on the page smaller",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Return everything on the page to the default size",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "0"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll down a webpage, a screen at a time",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll up a webpage, a screen at a time",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search the web",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Option",
+                "f"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move your cursor to the beginning of the previous word in a text field",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Option",
+                "Left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move your cursor to the back of the next word in a text field",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Option",
+                "Right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delete the previous word in a text field",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Option",
+                "Delete"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open your home page in the current tab",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "h"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reset page zoom level",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Command",
+                "0"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a link in a current tab (mouse only)",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Dragalinktoatab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "dragalinktoatab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a link in new background tab",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Clickalink"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "clickalink"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a link, and jump to it",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "Shift",
+                "Clickalink"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "clickalink"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a link, and jump to it (mouse only)",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Dragalinktoablankareaofthetabstrip"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "dragalinktoablankareaofthetabstrip"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a link in a new window",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Clickalink"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "clickalink"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a tab in a new window (mouse only)",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Dragthetaboutofthetabstrip"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "dragthetaboutofthetabstrip"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move a tab to a current window (mouse only)",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Dragthetabintoanexistingwindow"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "dragthetabintoanexistingwindow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Return a tab to its original position",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "PressEscwhiledragging"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "pressescwhiledragging"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Save the current webpage as a bookmark",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "DragthewebaddresstotheBookmarksBar"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "dragthewebaddresstothebookmarksbar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Download the target of a link",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Option",
+                "Clickalink"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "option"
+                },
+                {
+                  "mode": "now",
+                  "text": "clickalink"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Display your browsing history",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Right",
+                "clickonBack"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                },
+                {
+                  "mode": "next",
+                  "text": "clickonback"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "click&holdonBack"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "click&holdonback"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Right",
+                "clickonNext"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                },
+                {
+                  "mode": "next",
+                  "text": "clickonnext"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "click&holdonNext"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "click&holdonnext"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Increase the window to full height",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Double",
+                "clickablankareaofthetabstrip"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "double"
+                },
+                {
+                  "mode": "next",
+                  "text": "clickablankareaofthetabstrip"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "windows",
+      "list": [
+        {
+          "name": "Open a new window",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a new window in Incognito mode",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a new tab, and jump to it",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "t"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reopen previously closed tabs in the order they were closed",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "t"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the next open tab",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "PgDn"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "pgdn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the previous open tab",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "PgUp"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "pgup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to a specific tab",
+          "group": "Tab and window shortcuts",
+          "description": "numbers from 1 to 8",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "1"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "8"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the rightmost tab",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open your home page in the current tab",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Home"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the previous page from your browsing history in the current tab",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the next page from your browsing history in the current tab",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close the current tab",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "w"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "w"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "F4"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close the current window",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "w"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "w"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "F4"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Minimize the current window",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Space",
+                "n"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                },
+                {
+                  "mode": "next",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maximize the current window",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Space",
+                "x"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                },
+                {
+                  "mode": "next",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quit Google Chrome",
+          "group": "Tab and window shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "f",
+                "x"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                },
+                {
+                  "mode": "next",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Chrome menu",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "f"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "e"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show or hide the Bookmarks bar",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "b"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Bookmarks Manager",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "o"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the History page in a new tab",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "h"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Downloads page in a new tab",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "j"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "j"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Chrome Task Manager",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Set focus on the first item in the Chrome toolbar",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Alt",
+                "t"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Set focus on the rightmost item in the Chrome toolbar",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F10"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch focus to unfocused dialog (if showing) and all toolbars",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F6"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Find Bar to search the current page",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "f"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "F3"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the next match to your Find Bar search",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "g"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "g"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the previous match to your Find Bar search",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "g"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "g"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open Developer Tools",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "j"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "j"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "F12"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f12"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Clear Browsing Data options",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "Delete"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Chrome Help Center in a new tab",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F1"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Log in a different user or browse as a Guest",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "m"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a feedback form",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Shift",
+                "i"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Turn on caret browsing",
+          "group": "Google Chrome feature shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F7"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search with your default search engine",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Typeasearchterm",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "typeasearchterm"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search using a different search engine",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Typeasearchenginename",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "typeasearchenginename"
+                },
+                {
+                  "mode": "next",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add www. and .com to a site name, and open it in the current tab",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Typeasitename",
+                "Ctrl",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "typeasitename"
+                },
+                {
+                  "mode": "next",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a new tab and perform a Google search",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Typeasearchterm",
+                "Alt",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "typeasearchterm"
+                },
+                {
+                  "mode": "next",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the address bar",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "l"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "l"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "d"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "F6"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search from anywhere on the page",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "k"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "e"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove predictions from your address bar",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": "Down arrow to highlight",
+              "distinct_keys": [
+                "down",
+                "Shift",
+                "Delete"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "down"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move cursor to the address bar",
+          "group": "Address bar shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Control",
+                "F5"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "f5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open options to print the current page",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "p"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open options to save the current page",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "s"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reload the current page",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F5"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f5"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "r"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reload the current page, ignoring cached content",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "F5"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f5"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "r"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Stop the page loading",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Browse clickable items moving forward",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Browse clickable items moving backward",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a file from your computer in Chrome",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "o",
+                "Selectafile"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "o"
+                },
+                {
+                  "mode": "now",
+                  "text": "selectafile"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Display non-editable HTML source code for the current page",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "u"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Save your current webpage as a bookmark",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "d"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Save all open tabs as bookmarks in a new folder",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "d"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Turn full-screen mode on or off",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F11"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Make everything on the page bigger",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "'",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Make everything on the page smaller",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Return everything on the page to default size",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "0"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll down a webpage, a screen at a time",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "PgDn"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "pgdn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll up a webpage, a screen at a time",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "PgUp"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "pgup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to the top of the page",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Home"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to the bottom of the page",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "End"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll horizontally on the page",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Scroll"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "scroll"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move your cursor to the beginning of the previous word in a text field",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move your cursor to the next word",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delete the previous word in a text field",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Backspace"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "backspace"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Home page in the current tab",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Home"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reset page zoom level",
+          "group": "Webpage shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "0"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a link in a current tab (mouse only)",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Dragalinktoatab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "dragalinktoatab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a link in new background tab",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Clickalink"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "clickalink"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a link, and jump to it",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "Clickalink"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "clickalink"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a link, and jump to it (mouse only)",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Dragalinktoablankareaofthetabstrip"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "dragalinktoablankareaofthetabstrip"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a link in a new window",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Clickalink"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "clickalink"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a tab in a new window (mouse only)",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Dragthetaboutofthetabstrip"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "dragthetaboutofthetabstrip"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move a tab to a current window (mouse only)",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Dragthetabintoanexistingwindow"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "dragthetabintoanexistingwindow"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Return a tab to its original position",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "PressEscwhiledragging"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "pressescwhiledragging"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Save the current webpage as a bookmark",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "DragthewebaddresstotheBookmarksBar"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "dragthewebaddresstothebookmarksbar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll horizontally on the page",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Scroll"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "scroll"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Download the target of a link",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Clickalink"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "clickalink"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Display your browsing history",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Right",
+                "clickonBack"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                },
+                {
+                  "mode": "next",
+                  "text": "clickonback"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "click&holdonBack"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "click&holdonback"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Right",
+                "clickonNext"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                },
+                {
+                  "mode": "next",
+                  "text": "clickonnext"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "click&holdonNext"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "click&holdonnext"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch between maximized and windowed modes",
+          "group": "Mouse shortcuts",
+          "description": "a blank area of the tab strip",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Double",
+                "click"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "double"
+                },
+                {
+                  "mode": "next",
+                  "text": "click"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Make everything on the page bigger",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Scrollyourmousewheelup"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "scrollyourmousewheelup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Make everything on the page smaller",
+          "group": "Mouse shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Scrollyourmousewheeldown"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "scrollyourmousewheeldown"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

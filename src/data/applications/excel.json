@@ -1,0 +1,5164 @@
+{
+  "name": "Excel",
+  "slug": "excel",
+  "url_logo": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Microsoft_Office_Excel_%282018%E2%80%93present%29.svg",
+  "url_app": "https://www.microsoft.com/en-us/microsoft-365/excel",
+  "url_shortcuts": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1SG-xsih1Gh9LoBBwNgQGp3dsvBb10SCZ0W8yv733CFw/edit#gid=0",
+  "operating_systems": [
+    {
+      "name": "windows",
+      "list": [
+        {
+          "name": "Close a workbook",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "W"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a workbook",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "O"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "O"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to the Home tab",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "H"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "H"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Save a workbook",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "S"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Copy",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "C"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "V"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Undo",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Z"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove cell contents",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Delete"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Choose a fill color",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "H",
+                "H"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "H"
+                },
+                {
+                  "mode": "next",
+                  "text": "H"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cut",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "X"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "X"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Insert tab",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "N"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bold",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "B"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Center align cell contents",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "H",
+                "A",
+                "C"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "H"
+                },
+                {
+                  "mode": "next",
+                  "text": "A"
+                },
+                {
+                  "mode": "next",
+                  "text": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Page Layout tab",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "P"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Data tab",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "A"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to View tab",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "W"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open context menu",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "F10"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f10"
+                }
+              ]
+            },
+            {
+              "info": "between the right Alt and right Ctrl keys",
+              "distinct_keys": [
+                "Contextkey"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "contextkey"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add borders",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "H",
+                "B"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "H"
+                },
+                {
+                  "mode": "next",
+                  "text": "B"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delete column",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "H",
+                "D",
+                "C"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "H"
+                },
+                {
+                  "mode": "next",
+                  "text": "D"
+                },
+                {
+                  "mode": "next",
+                  "text": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to Formula tab",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "M"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "M"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hide the selected rows",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hide the selected columns",
+          "group": "Frequently used shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "0"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the Tell me or Search field on the Ribbon and type a search term for assistance or Help content.",
+          "group": "Use the Access keys for ribbon tabs",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Q",
+                "thenenterthesearchterm."
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "Q"
+                },
+                {
+                  "mode": "next",
+                  "text": "thenenterthesearchterm."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the File page and use Backstage view.",
+          "group": "Use the Access keys for ribbon tabs",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "F"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Home tab and format text and numbers and use the Find tool.",
+          "group": "Use the Access keys for ribbon tabs",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "H"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "H"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Insert tab and insert PivotTables, charts, add-ins, Sparklines, pictures, shapes, headers, or text boxes.",
+          "group": "Use the Access keys for ribbon tabs",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "N"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Page Layout tab and work with themes, page setup, scale, and alignment.",
+          "group": "Use the Access keys for ribbon tabs",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "P"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Formulas tab and insert, trace, and customize functions and calculations.",
+          "group": "Use the Access keys for ribbon tabs",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "M"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "M"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Data tab and connect to, sort, filter, analyze, and work with data.",
+          "group": "Use the Access keys for ribbon tabs",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "A"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Review tab and check spelling, add notes and threaded comments, and protect sheets and workbooks.",
+          "group": "Use the Access keys for ribbon tabs",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "R"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the View tab and preview page breaks and layouts, show and hide gridlines and headings, set zoom magnification, manage windows and panes, and view macros.",
+          "group": "Use the Access keys for ribbon tabs",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "W"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the active tab on the ribbon, and activate the access keys.",
+          "group": "Work in the ribbon with the keyboard",
+          "description": "To move to a different tab, use access keys or the arrow keys.",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "F10"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move the focus to commands on the ribbon.",
+          "group": "Work in the ribbon with the keyboard",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move down, up, left, or right, respectively, among the items on the Ribbon.",
+          "group": "Work in the ribbon with the keyboard",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Arrowkeys"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "arrowkeys"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Activate a selected button.",
+          "group": "Work in the ribbon with the keyboard",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the list for a selected command.",
+          "group": "Work in the ribbon with the keyboard",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the menu for a selected button.",
+          "group": "Work in the ribbon with the keyboard",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "When a menu or submenu is open, move to the next command.",
+          "group": "Work in the ribbon with the keyboard",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Expand or collapse the ribbon.",
+          "group": "Work in the ribbon with the keyboard",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "F1"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open a context menu.",
+          "group": "Work in the ribbon with the keyboard",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "F10"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f10"
+                }
+              ]
+            },
+            {
+              "info": "between the right Alt and right Ctrl keys",
+              "distinct_keys": [
+                "Contextkey"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "contextkey"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the submenu when a main menu is open or selected.",
+          "group": "Work in the ribbon with the keyboard",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Leftkey"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "leftkey"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the previous cell in a worksheet or the previous option in a dialog.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move one cell up in a worksheet.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Upkeyup"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "upkeyup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move one cell down in a worksheet.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move one cell left in a worksheet.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move one cell right in a worksheet.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the edge of the current data region in a worksheet.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Arrowkeys"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "arrowkeys"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enter the End mode, move to the next nonblank cell in the same column or row as the active cell, and turn off End mode. If the cells are blank, move to the last cell in the row or column.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "End",
+                "Arrowkeys"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "end"
+                },
+                {
+                  "mode": "next",
+                  "text": "arrowkeys"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the last cell on a worksheet, to the lowest used row of the rightmost used column.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "End"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Extend the selection of cells to the last used cell on the worksheet (lower-right corner).",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "End"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the cell in the upper-left corner of the window when Scroll Lock is turned on.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Home",
+                "ScrollLock"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "home"
+                },
+                {
+                  "mode": "now",
+                  "text": "scrolllock"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the beginning of a worksheet.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Home"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move one screen down in a worksheet.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "PageDown"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "pagedown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the next sheet in a workbook.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "PageDown"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "pagedown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move one screen to the right in a worksheet.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "PageDown"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "pagedown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move one screen up in a worksheet.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "PageUp"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "pageup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move one screen to the left in a worksheet.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "PageUp"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "pageup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the previous sheet in a workbook.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "PageUp"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "pageup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move one cell to the right in a worksheet. or, in a protected worksheet, move between unlocked cells.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the list of validation choices on a cell that has data validation option applied to it.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cycle through floating shapes, such as text boxes or images.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Alt",
+                "5",
+                "tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "5"
+                },
+                {
+                  "mode": "next",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Exit the floating shape navigation and return to the normal navigation.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll horizontally.",
+          "group": "Keyboard shortcuts for navigating in cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "scroll"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "next",
+                  "text": "scroll"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Format Cells dialog.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "1"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Format fonts in the Format Cells dialog.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "F"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "P"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Edit the active cell and put the insertion point at the end of its contents. or, if editing is turned off for the cell, move the insertion point into the formula bar. If editing a formula, toggle Point mode off or on so you can use arrow keys to create a reference.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert a note or\nOpen and edit a cell note",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "F2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "F2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert a threaded comment or\nOpen and reply to a threaded comment",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "F2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "F2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Insert dialog to insert blank cells.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "'",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Delete dialog to delete selected cells.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enter the current time.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                ":"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": ":"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enter the current date.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                ";"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": ";"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch between displaying cell values or formulas in the worksheet.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "`"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "`"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Copy a formula from the cell above the active cell into the cell or the Formula Bar.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "'"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "'"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move the selected cells.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "X"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "X"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Copy the selected cells.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "C"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste content at the insertion point, replacing any selection.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "V"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Paste Special dialog.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Alt",
+                "V"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Italicize text or remove italic formatting.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "I"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "I"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "3"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bold text or remove bold formatting.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "B"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "B"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Underline text or remove underline.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "U"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "U"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "4"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply or remove strikethrough formatting.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "5"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch between hiding objects, displaying objects, and displaying placeholders for objects.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "6"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply an outline border to the selected cells.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "&"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "&"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove the outline border from the selected cells.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "_"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "_"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Display or hide the outline symbols.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "8"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Use the Fill Down command to copy the contents and format of the topmost cell of a selected range into the cells below.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "D"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply the General number format.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "~"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "~"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply the Currency format with two decimal places (negative numbers in parentheses).",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "$"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply the Percentage format with no decimal places.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "%"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply the Scientific number format with two decimal places.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "^"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "^"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply the Date format with the day, month, and year.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "#"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "#"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply the Time format with the hour and minute, and AM or PM.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "@"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "@"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Apply the Number format with two decimal places, thousands separator, and minus sign (-) for negative values.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "!"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Insert hyperlink dialog.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "K"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Check spelling in the active worksheet or selected range.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F7"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Display the Quick Analysis options for selected cells that contain data.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Q"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Display the Create Table dialog.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "L"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "L"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "T"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Workbook Statistics dialog.",
+          "group": "Keyboard shortcuts for formatting cells",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "G"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "G"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste all cell contents and formatting.",
+          "group": "Keyboard shortcuts in the Paste Special dialog in Excel 2013",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "A"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste only the formulas as entered in the formula bar.",
+          "group": "Keyboard shortcuts in the Paste Special dialog in Excel 2014",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste only the values (not the formulas).",
+          "group": "Keyboard shortcuts in the Paste Special dialog in Excel 2015",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "V"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste only the copied formatting.",
+          "group": "Keyboard shortcuts in the Paste Special dialog in Excel 2016",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "T"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste only comments and notes attached to the cell.",
+          "group": "Keyboard shortcuts in the Paste Special dialog in Excel 2017",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "C"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste only the data validation settings from copied cells.",
+          "group": "Keyboard shortcuts in the Paste Special dialog in Excel 2018",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "N"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste all cell contents and formatting from copied cells.",
+          "group": "Keyboard shortcuts in the Paste Special dialog in Excel 2019",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "H"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "H"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste all cell contents without borders.",
+          "group": "Keyboard shortcuts in the Paste Special dialog in Excel 2020",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "X"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "X"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste only column widths from copied cells.",
+          "group": "Keyboard shortcuts in the Paste Special dialog in Excel 2021",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "W"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste only formulas and number formats from copied cells.",
+          "group": "Keyboard shortcuts in the Paste Special dialog in Excel 2022",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "R"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste only the values (not formulas) and number formats from copied cells.",
+          "group": "Keyboard shortcuts in the Paste Special dialog in Excel 2023",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "U"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "U"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the entire worksheet.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "A"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the current and next sheet in a workbook.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "PageDown"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "pagedown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the current and previous sheet in a workbook.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "PageUp"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "pageup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Extend the selection of cells by one cell.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "ArrowKeys"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "arrowkeys"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Extend the selection of cells to the last nonblank cell in the same column or row as the active cell, or if the next cell is blank, to the next nonblank cell.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "ArrowKeys"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "arrowkeys"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Turn extend mode on and use the arrow keys to extend a selection. Press again to turn off.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F8"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add a non-adjacent cell or range to a selection of cells by using the arrow keys.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "F8"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Start a new line in the same cell.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fill the selected cell range with the current entry.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Complete a cell entry and select the cell above.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select an entire column in a worksheet.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select an entire row in a worksheet.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select all objects on a worksheet when an object is selected.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Extend the selection of cells to the beginning of the worksheet.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "Home"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the current region if the worksheet contains data. Press a second time to select the current region and its summary rows. Press a third time to select the entire worksheet.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "AorCtrl",
+                "Shift",
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "aorctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the current region around the active cell.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "*"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "*"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the first command on the menu when a menu or submenu is visible.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Home"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Repeat the last command or action, if possible.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Y"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "Y"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Undo the last action.",
+          "group": "Keyboard shortcuts for making selections and performing actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Z"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Edit the active cell and put the insertion point at the end of its contents. or, if editing is turned off for the cell, move the insertion point into the formula bar. If editing a formula, toggle Point mode off or on so you can use arrow keys to create a reference.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Expand or collapse the formula bar.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "U"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "U"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cancel an entry in the cell or Formula Bar.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Complete an entry in the formula bar and select the cell below.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move the cursor to the end of the text when in the formula bar.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "End"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select all text in the formula bar from the cursor position to the end.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "End"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calculate all worksheets in all open workbooks.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calculate the active worksheet.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "F9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calculate all worksheets in all open workbooks, regardless of whether they have changed since the last calculation.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Alt",
+                "F9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Check dependent formulas, and then calculate all cells in all open workbooks, including cells not marked as needing to be calculated.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Alt",
+                "Shift",
+                "F9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Display the menu or message for an Error Checking button.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Shift",
+                "F10"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Display the Function Arguments dialog when the insertion point is to the right of a function name in a formula.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "A"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert argument names and parentheses when the insertion point is to the right of a function name in a formula.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "A"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Invoke Flash Fill to automatically recognize patterns in adjacent columns and fill the current column",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "E"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "E"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cycle through all combinations of absolute and relative references in a formula if a cell reference or range is selected.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F4"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insert a function.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "F3"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Copy the value from the cell above the active cell into the cell or the formula bar.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "\""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "\""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Create an embedded chart of the data in the current range.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "F1"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Create a chart of the data in the current range in a separate Chart sheet.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F11"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Define a name to use in references.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "M",
+                "M",
+                "D"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "M"
+                },
+                {
+                  "mode": "next",
+                  "text": "M"
+                },
+                {
+                  "mode": "next",
+                  "text": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste a name from the Paste Name dialog (if names have been defined in the workbook.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F3"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the first field in the next record of a data form.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Create, run, edit, or delete a macro.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "F8"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Microsoft Visual Basic For Applications Editor.",
+          "group": "Keyboard shortcuts for working with data, functions, and the formula bar",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "F11"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the context menu for the selected cell, column, or row.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "RightClick"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "rightclick"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the entire table.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "A"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Copy selected data.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "C"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delete the table.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "D"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move the table.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "M"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "M"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rename the table.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "R"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Save the file.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "S"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Redo the last action.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Y"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "Y"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Undo the last action.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Z"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the current column.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select the current row.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select all cells from the current location to the last cell of the column.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "PageUp"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "pageup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select all cells from the current location to the first cell of the column.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "PageDown"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "pagedown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select all cells from the current location to the last cell of the row.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "End"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select all cells from the current location to the first cell of the row.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Home"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the previous table.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "PageUp"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "pageup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the next table.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "PageDown"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "pagedown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the first cell in the upper left corner of selected table.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Home"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the last cell in the lower right corner of selected table (the last row of the Add Column).",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "End"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the first cell of selected row.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the last cell of selected row.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the first cell of selected column.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the last cell of selected column.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close a dialog or cancel a process, such as a paste operation.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the AutoFilter Menu dialog.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Go To dialog.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F5"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Recalculate all formulas in the Power Pivot window. For more information, see Recalculate Formulas in Power Pivot.",
+          "group": "Power Pivot keyboard shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "F9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "To do this",
+          "group": "Keyboard shortcuts in Office Add-ins",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Press"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "press"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the context menu.",
+          "group": "Keyboard shortcuts in Office Add-ins",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "F10"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the task pane options menu.",
+          "group": "Keyboard shortcuts in Office Add-ins",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close the task pane.",
+          "group": "Keyboard shortcuts in Office Add-ins",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Space",
+                "selectClose"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "space"
+                },
+                {
+                  "mode": "next",
+                  "text": "selectclose"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F1",
+          "group": "Function keys",
+          "description": "function keys",
+          "shortcuts": [
+            {
+              "info": "displays the Excel Help task pane",
+              "distinct_keys": [
+                "F1"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f1"
+                }
+              ]
+            },
+            {
+              "info": "displays or hides the ribbon",
+              "distinct_keys": [
+                "Ctrl",
+                "F1"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f1"
+                }
+              ]
+            },
+            {
+              "info": "creates an embedded chart of the data in the current range",
+              "distinct_keys": [
+                "Alt",
+                "F1"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f1"
+                }
+              ]
+            },
+            {
+              "info": "inserts a new worksheet",
+              "distinct_keys": [
+                "Alt",
+                "Shift",
+                "F1"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F2",
+          "group": "Function keys",
+          "description": "function keys",
+          "shortcuts": [
+            {
+              "info": "edit the active cell and put the insertion point at the end of its contents. or, if editing is turned off for the cell, move the insertion point into the formula bar. If editing a formula, toggle Point mode off or on so you can use arrow keys to create a reference",
+              "distinct_keys": [
+                "F2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            },
+            {
+              "info": "adds or edits a cell note",
+              "distinct_keys": [
+                "Shift",
+                "F2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            },
+            {
+              "info": "displays the print preview area on the Print tab in the Backstage view",
+              "distinct_keys": [
+                "Ctrl",
+                "F2"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F3",
+          "group": "Function keys",
+          "description": "function keys",
+          "shortcuts": [
+            {
+              "info": "displays the Paste Name dialog. Available only if names have been defined in the workbook",
+              "distinct_keys": [
+                "F3"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f3"
+                }
+              ]
+            },
+            {
+              "info": "displays the Insert Function dialog",
+              "distinct_keys": [
+                "Shift",
+                "F3"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F4",
+          "group": "Function keys",
+          "description": "function keys",
+          "shortcuts": [
+            {
+              "info": "repeats the last command or action, if possible. When a cell reference or range is selected in a formula, F4 cycles through all the various combinations of absolute and relative references",
+              "distinct_keys": [
+                "F4"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f4"
+                }
+              ]
+            },
+            {
+              "info": "closes the selected workbook window",
+              "distinct_keys": [
+                "Ctrl",
+                "F4"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f4"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "F4(closesExcel"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f4(closesexcel"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F5",
+          "group": "Function keys",
+          "description": "function keys",
+          "shortcuts": [
+            {
+              "info": "displays the Go To dialog",
+              "distinct_keys": [
+                "F5"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f5"
+                }
+              ]
+            },
+            {
+              "info": "restores the window size of the selected workbook window",
+              "distinct_keys": [
+                "Ctrl",
+                "F5"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F6",
+          "group": "Function keys",
+          "description": "function keys",
+          "shortcuts": [
+            {
+              "info": "switches between the worksheet, ribbon, task pane, and Zoom controls) In a worksheet that has been split , F6 includes the split panes when switching between panes and the ribbon area",
+              "distinct_keys": [
+                "F6"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f6"
+                }
+              ]
+            },
+            {
+              "info": "switches between the worksheet, Zoom controls, task pane, and ribbon",
+              "distinct_keys": [
+                "Shift",
+                "F6"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f6"
+                }
+              ]
+            },
+            {
+              "info": "switches between 2 Excel windows",
+              "distinct_keys": [
+                "Ctrl",
+                "F6"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f6"
+                }
+              ]
+            },
+            {
+              "info": "switches between all Excel windows",
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "F6"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F7",
+          "group": "Function keys",
+          "description": "function keys",
+          "shortcuts": [
+            {
+              "info": "Opens the Spelling dialog to check spelling in the active worksheet or selected range",
+              "distinct_keys": [
+                "F7"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f7"
+                }
+              ]
+            },
+            {
+              "info": "performs the Move command on the workbook window when it is not maximized) Use the arrow keys to move the window, and when finished press Enter, or Esc to cancel",
+              "distinct_keys": [
+                "Ctrl",
+                "F7"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F8",
+          "group": "Function keys",
+          "description": "function keys",
+          "shortcuts": [
+            {
+              "info": "turns extend mode on or off) In extend mode, Extended Selection appears in the status line, and the arrow keys extend the selection",
+              "distinct_keys": [
+                "F8"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f8"
+                }
+              ]
+            },
+            {
+              "info": "enables you to add a non-adjacent cell or range to a selection of cells by using the arrow keys",
+              "distinct_keys": [
+                "Shift",
+                "F8"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f8"
+                }
+              ]
+            },
+            {
+              "info": "performs the Size command when a workbook is not maximized",
+              "distinct_keys": [
+                "Ctrl",
+                "F8"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f8"
+                }
+              ]
+            },
+            {
+              "info": "displays the Macro dialog to create, run, edit, or delete a macro",
+              "distinct_keys": [
+                "Alt",
+                "F8"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F9",
+          "group": "Function keys",
+          "description": "function keys",
+          "shortcuts": [
+            {
+              "info": "calculates all worksheets in all open workbooks",
+              "distinct_keys": [
+                "F9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f9"
+                }
+              ]
+            },
+            {
+              "info": "calculates the active worksheet",
+              "distinct_keys": [
+                "Shift",
+                "F9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f9"
+                }
+              ]
+            },
+            {
+              "info": "calculates all worksheets in all open workbooks, regardless of whether they have changed since the last calculation",
+              "distinct_keys": [
+                "Ctrl",
+                "Alt",
+                "F9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f9"
+                }
+              ]
+            },
+            {
+              "info": "rechecks dependent formulas, and then calculates all cells in all open workbooks, including cells not marked as needing to be calculated",
+              "distinct_keys": [
+                "Ctrl",
+                "Alt",
+                "Shift",
+                "F9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f9"
+                }
+              ]
+            },
+            {
+              "info": "minimizes a workbook window to an icon",
+              "distinct_keys": [
+                "Ctrl",
+                "F9"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F10",
+          "group": "Function keys",
+          "description": "function keys",
+          "shortcuts": [
+            {
+              "info": "Turns key tips on or off) (Pressing Alt does the same thing)",
+              "distinct_keys": [
+                "F10"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f10"
+                }
+              ]
+            },
+            {
+              "info": "displays the shortcut menu for a selected item",
+              "distinct_keys": [
+                "Shift",
+                "F10"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f10"
+                }
+              ]
+            },
+            {
+              "info": "displays the menu or message for an Error Checking button",
+              "distinct_keys": [
+                "Alt",
+                "Shift",
+                "F10"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f10"
+                }
+              ]
+            },
+            {
+              "info": "maximizes or restores the selected workbook window",
+              "distinct_keys": [
+                "Ctrl",
+                "F10"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "f10"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F11",
+          "group": "Function keys",
+          "description": "function keys",
+          "shortcuts": [
+            {
+              "info": "Creates a chart of the data in the current range in a separate Chart sheet",
+              "distinct_keys": [
+                "F11"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f11"
+                }
+              ]
+            },
+            {
+              "info": "inserts a new worksheet",
+              "distinct_keys": [
+                "Shift",
+                "F11"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "f11"
+                }
+              ]
+            },
+            {
+              "info": "opens the Microsoft Visual Basic For Applications Editor, in which you can create a macro by using Visual Basic for Applications (VBA)",
+              "distinct_keys": [
+                "Alt",
+                "F11"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f11"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "F12",
+          "group": "Function keys",
+          "description": "function keys",
+          "shortcuts": [
+            {
+              "info": "displays the Save As dialog",
+              "distinct_keys": [
+                "F12"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f12"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

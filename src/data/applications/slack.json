@@ -1,0 +1,2671 @@
+{
+  "name": "Slack",
+  "slug": "slack",
+  "url_logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg",
+  "url_app": "https://slack.com/",
+  "url_shortcuts": "https://slack.com/help/articles/201374536-Slack-keyboard-shortcuts",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1NwwlRXoNMdAZ0XfH9Xvpz788Tedk1yGWT246g0u2LJk/edit?usp=sharing",
+  "operating_systems": [
+    {
+      "name": "macos",
+      "list": [
+        {
+          "name": "Move focus to the next element",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus to the previous element",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus through messages in a channel or DM",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus to the next section*",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "control",
+                "`"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "`"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus to the previous section*",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "control",
+                "`"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "`"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Take action or \"click\" on buttons",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Spacebar"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "spacebar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Take action or \"click\" on links",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close windows, menus, or the message input box",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zoom in or out",
+          "group": "Navigation",
+          "description": "(increase or decrease text size)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "'",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll up",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Fn",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": "This can be toggled in your Preferences.",
+              "distinct_keys": [
+                "PageUp"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "pageup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll down",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Fn",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "fn"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            },
+            {
+              "info": "This can be toggled in your Preferences.",
+              "distinct_keys": [
+                "PageDown"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "pagedown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quick Switcher",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "K"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                }
+              ]
+            },
+            {
+              "info": "T is desktop app only.",
+              "distinct_keys": [
+                "command",
+                "T"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open direct messages menu",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "shift",
+                "K"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open All Threads view",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "shift",
+                "T"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous channel or DM",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next channel or DM",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous unread channel or DM",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "shift",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next unread channel or DM",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "shift",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous channel or DM visited",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "["
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "["
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next channel or DM visited",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "]"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Preferences",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                ","
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open or close right pane",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "."
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Channel info pane",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "shift",
+                "I"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "I"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Activity",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "shift",
+                "M"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "M"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Directory",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "shift",
+                "E"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "E"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Starred Items",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "shift",
+                "S"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search the current channel or conversation",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "F"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle full screen view",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "control",
+                "command",
+                "F"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "control"
+                },
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open All Unreads view",
+          "group": "All Unreads navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "shift",
+                "A"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark messages as unread",
+          "group": "All Unreads navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "clickamessage"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "clickamessage"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move between channels",
+          "group": "All Unreads navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle current channel read or unread",
+          "group": "All Unreads navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "R"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch to previous team",
+          "group": "Switch teams",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "shift",
+                "["
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "["
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch to next team",
+          "group": "Switch teams",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "shift",
+                "]"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch to a specific team (see assigned number under the team icon in your Slack app)",
+          "group": "Switch teams",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "number"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "number"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark all messages in current channel or DM as read",
+          "group": "Mark messages read or unread",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark all messages as read",
+          "group": "Mark messages read or unread",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Set a message as your oldest unread message",
+          "group": "Mark messages read or unread",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "clickamessage"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "clickamessage"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Edit your last message",
+          "group": "Message shortcuts",
+          "description": "in empty message box",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select text to beginning of current line",
+          "group": "Message shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select text to end of current line",
+          "group": "Message shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Create a new line in your message",
+          "group": "Message shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "shift",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add emoji reactions to a message*",
+          "group": "Message shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "shift",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "\\"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Autocomplete @display name beginning with [character]",
+          "group": "Message autocomplete",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "@",
+                "[character]",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "@"
+                },
+                {
+                  "mode": "now",
+                  "text": "[character]"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Autocomplete channel beginning with [character]",
+          "group": "Message autocomplete",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "#",
+                "[character]",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "#"
+                },
+                {
+                  "mode": "now",
+                  "text": "[character]"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Autocomplete emoji beginning with [character]",
+          "group": "Message autocomplete",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":",
+                "[character]",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                },
+                {
+                  "mode": "now",
+                  "text": "[character]"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Upload a file",
+          "group": "Files and snippets",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "U"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "U"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Create a new Snippet",
+          "group": "Files and snippets",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "command",
+                "shift",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle mute on and off",
+          "group": "Call actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "M"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "M"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle video on and off",
+          "group": "Call actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "V"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show the invite list",
+          "group": "Call actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "A"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "'",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "View and select and emoji reactions",
+          "group": "Call actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ","
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "windows",
+      "list": [
+        {
+          "name": "Move focus to the next element",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus to the previous element",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus through messages in a channel or DM",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus to the next section*",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "`"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "`"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move focus to the previous section*",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Ctrl",
+                "`"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "`"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Take action or \"click\" on buttons",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Space"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Take action or \"click\" on links",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close windows, menus, or the message input box",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zoom in or out",
+          "group": "Navigation",
+          "description": "(increase or decrease text size)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "'",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll up",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Home"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "(This can be toggled in your Preferences.)",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "PageUp"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "pageup"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Scroll down",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "End"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "(This can be toggled in your Preferences.)",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "PageDown"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "pagedown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quick Switcher",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "K"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "(T is desktop app only.)",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "T"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open direct messages menu",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "K"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "K"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open All Threads view",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "T"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous channel or DM",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next channel or DM",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous unread channel or DM",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Shift",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next unread channel or DM",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "Shift",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous channel or DM visited",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next channel or DM visited",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Preferences",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                ","
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open or close right pane",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "."
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Channel info pane",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "I"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "I"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Activity",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "M"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "M"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Directory",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "E"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "E"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Starred Items",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "S"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "S"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Search the current channel or conversation",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "F"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle full screen view",
+          "group": "Navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "F"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open All Unreads view",
+          "group": "All Unreads navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "A"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark messages as unread",
+          "group": "All Unreads navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "clickamessage"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "clickamessage"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move between channels",
+          "group": "All Unreads navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "right"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "left"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle current channel read or unread",
+          "group": "All Unreads navigation",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "R"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch to previous team",
+          "group": "Switch teams",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch to next team",
+          "group": "Switch teams",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch to a specific team (see assigned number under the team icon in your Slack app)",
+          "group": "Switch teams",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "number"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "number"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark all messages in current channel or DM as read",
+          "group": "Mark messages read or unread",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mark all messages as read",
+          "group": "Mark messages read or unread",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Esc"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Set a message as your oldest unread message",
+          "group": "Mark messages read or unread",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Alt",
+                "clickamessage"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "clickamessage"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Edit your last message",
+          "group": "Message shortcuts",
+          "description": "in empty message box",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select text to beginning of current line",
+          "group": "Message shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "up"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select text to end of current line",
+          "group": "Message shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "down"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Create a new line in your message",
+          "group": "Message shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Shift",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add emoji reactions to a message*",
+          "group": "Message shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "\\"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Autocomplete @display name beginning with [character]",
+          "group": "Message autocomplete",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "@",
+                "[character]",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "@"
+                },
+                {
+                  "mode": "now",
+                  "text": "[character]"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Autocomplete channel beginning with [character]",
+          "group": "Message autocomplete",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "#",
+                "[character]",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "#"
+                },
+                {
+                  "mode": "now",
+                  "text": "[character]"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Autocomplete emoji beginning with [character]",
+          "group": "Message autocomplete",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                ":",
+                "[character]",
+                "Tab"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ":"
+                },
+                {
+                  "mode": "now",
+                  "text": "[character]"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Upload a file",
+          "group": "Files and snippets",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "U"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "U"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Create a new Snippet",
+          "group": "Files and snippets",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "Ctrl",
+                "Shift",
+                "Enter"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "enter"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle mute on and off",
+          "group": "Call actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "M"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "M"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle video on and off",
+          "group": "Call actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "V"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show the invite list",
+          "group": "Call actions",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "A"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": [
+                "'",
+                ""
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "View and select and emoji reactions",
+          "group": "Call actions",
+          "description": "except 0",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": [
+                "E",
+                "number"
+              ],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "E"
+                },
+                {
+                  "mode": "next",
+                  "text": "number"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
