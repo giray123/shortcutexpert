@@ -45,7 +45,7 @@ First, create a Google Sheets file and prepare it as in <a href="https://docs.go
 
 #### 2. Test your application shortcuts
 
-After you prepare your Google Sheets file, you can use our <a href="https://shortcutexpert.com/shortcuts/shortcut-expert">Test Application Page</a> to test it out.
+After you prepare your Google Sheets file, you can use our <a href="https://shortcutexpert.com/shortcuts/test-application">Test Application Page</a> to test it out.
 
 Once it is ready, use <a href="https://shortcutexpert.com/prepare-application">Prepare Application Page</a> to prepare a json file. Details for each field is explained on the page.
 
@@ -59,7 +59,7 @@ First, open the application page you want to contribute to and click the EDIT bu
 
 Each application has a Google Sheet URL in its `JSON` file. Once you go to the URL, you can not edit that file since you do not own it. However, you can copy that Google Sheet to your own drive. After you copy, make the necessary updates and make sure that you publish your Google Sheet. Once you publish it, click the share button and make your file accessible for anyone on the web (so that Shortcut Expert can fetch data from your Google Sheet file).
 
-Again, you can use [Test Application Page](https://shortcutexpert.com/shortcuts/shortcut-expert) to test the shortcuts and [Prepare Application Page](https://shortcutexpert.com/prepare-application) to prepare a `JSON` file and create a pull request for your updates. Because you are editing an existing application, make sure the name of the `JSON` file is the same as the original application file.
+Again, you can use [Test Application Page](https://shortcutexpert.com/shortcuts/test-application) to test the shortcuts and [Prepare Application Page](https://shortcutexpert.com/prepare-application) to prepare a `JSON` file and create a pull request for your updates. Because you are editing an existing application, make sure the name of the `JSON` file is the same as the original application file.
 
 Again, without preparing a Google Sheets file, you can manually edit the original `JSON` file in `src/data/applications` and create a pull request after your edit.
 

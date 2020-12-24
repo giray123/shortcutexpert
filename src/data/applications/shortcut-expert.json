@@ -11,7 +11,7 @@
       "list": [
         {
           "name": "Next List Item",
-          "group": "All Shortcuts",
+          "group": "Shortcut List",
           "shortcuts": [
             {
               "info": null,
@@ -27,7 +27,7 @@
         },
         {
           "name": "Previous List Item",
-          "group": "All Shortcuts",
+          "group": "Shortcut List",
           "shortcuts": [
             {
               "info": null,
@@ -43,7 +43,7 @@
         },
         {
           "name": "Next Shortcut",
-          "group": "All Shortcuts",
+          "group": "Shortcut List",
           "shortcuts": [
             {
               "info": null,
@@ -69,7 +69,7 @@
         },
         {
           "name": "Re-Animate",
-          "group": "All Shortcuts",
+          "group": "Shortcut List",
           "description": "Click space to re-animate the chosen shortcut",
           "shortcuts": [
             {
@@ -85,286 +85,65 @@
           ]
         },
         {
-          "name": "Single Key Stroke",
-          "group": "All Shortcuts",
-          "description": "x",
+          "name": "Focus on Search Application",
+          "group": "Quick Access",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["x"],
+              "distinct_keys": ["f"],
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "x"
+                  "text": "f"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Command Keys",
-          "group": "All Shortcuts",
-          "description": "Use text instead of symbols",
+          "name": "Focus on Filter By Name",
+          "group": "Quick Access",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["command"],
+              "distinct_keys": ["n"],
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "command"
-                }
-              ]
-            },
-            {
-              "info": null,
-              "distinct_keys": ["alt"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "alt"
-                }
-              ]
-            },
-            {
-              "info": null,
-              "distinct_keys": ["space"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "space"
+                  "text": "n"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Press Together",
-          "group": "All Shortcuts",
-          "description": "command + y",
+          "name": "Open Shortcuts Group Menu",
+          "group": "Quick Access",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["command", "y"],
+              "distinct_keys": ["g"],
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "y"
+                  "text": "g"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Press after a delay",
-          "group": "All Shortcuts",
-          "description": "shift - z",
+          "name": "Remove focus",
+          "group": "Quick Access",
+          "description": "If already focused, you need to remove focus from the current element to focus on another element",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["shift", "z"],
+              "distinct_keys": ["esc"],
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "shift"
-                },
-                {
-                  "mode": "next",
-                  "text": "z"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Release and then press",
-          "group": "All Shortcuts",
-          "description": "w | e",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["w", "e"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "w"
-                },
-                {
-                  "mode": "reset",
-                  "text": "e"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Combine Any Operators",
-          "group": "All Shortcuts",
-          "description": "alt + b - z | shift + x",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["alt", "b", "z", "shift", "x"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "alt"
-                },
-                {
-                  "mode": "now",
-                  "text": "b"
-                },
-                {
-                  "mode": "next",
-                  "text": "z"
-                },
-                {
-                  "mode": "reset",
-                  "text": "shift"
-                },
-                {
-                  "mode": "now",
-                  "text": "x"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Multiple Shortcuts",
-          "group": "All Shortcuts",
-          "description": "a | b | c<br>\na - b - c",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["a", "b", "c"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "a"
-                },
-                {
-                  "mode": "reset",
-                  "text": "b"
-                },
-                {
-                  "mode": "reset",
-                  "text": "c"
-                }
-              ]
-            },
-            {
-              "info": null,
-              "distinct_keys": ["a", "b", "c"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "a"
-                },
-                {
-                  "mode": "next",
-                  "text": "b"
-                },
-                {
-                  "mode": "next",
-                  "text": "c"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Capitalization Matters",
-          "group": "All Shortcuts",
-          "description": "a<br>\nA",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["a"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "a"
-                }
-              ]
-            },
-            {
-              "info": null,
-              "distinct_keys": ["A"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "A"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Info for specific shortcuts",
-          "group": "All Shortcuts",
-          "description": "command + a (chrome only)<br>\nshift + a (other browsers)",
-          "shortcuts": [
-            {
-              "info": "chrome only",
-              "distinct_keys": ["command", "a"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "a"
-                }
-              ]
-            },
-            {
-              "info": "other browsers",
-              "distinct_keys": ["shift", "a"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "shift"
-                },
-                {
-                  "mode": "now",
-                  "text": "a"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Escape operators",
-          "group": "All Shortcuts",
-          "description": "shift + '+<br>\n'|",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["shift", "'", ""],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "shift"
-                },
-                {
-                  "mode": "now",
-                  "text": "+"
-                }
-              ]
-            },
-            {
-              "info": null,
-              "distinct_keys": ["'", ""],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "|"
+                  "text": "esc"
                 }
               ]
             }

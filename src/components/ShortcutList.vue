@@ -1,7 +1,6 @@
 <template>
   <v-list dark class="transparent pa-0">
     <v-list-item
-      three-line
       v-for="(item, j) in list"
       :key="item.id"
       v-show="!item.hidden"
@@ -15,8 +14,8 @@
         }}</v-list-item-title>
         <v-list-item-subtitle
           class="mt-1"
-          style="white-space: normal;"
-          v-html="item.description"
+          style="white-space: pre;"
+          v-text="item.description"
         ></v-list-item-subtitle>
         <v-list-item-subtitle style="overflow: visible;">
           <shortcut

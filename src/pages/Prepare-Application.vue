@@ -89,7 +89,7 @@
 
             <p class="text-body-2 mt-5">
               You can test your Google Sheets file on
-              <g-link to="/shortcuts/shortcut-expert"
+              <g-link to="/shortcuts/test-application"
                 >Test Application Page
               </g-link>
             </p>

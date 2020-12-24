@@ -1,0 +1,301 @@
+{
+  "name": "Test Application",
+  "slug": "test-application",
+  "url_logo": "https://shortcutexpert.com/img/icon.png",
+  "url_app": "https://shortcutexpert.com",
+  "url_shortcuts": "https://shortcutexpert.com/shortcuts/shortcut-expert",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1aIjRoE7iUfjdKpxbSaTv_Qkx-mBEQnUVksalzU5SrwQ/edit?usp=sharing",
+  "operating_systems": [
+    {
+      "name": "macos",
+      "list": [
+        {
+          "name": "Single Key Stroke",
+          "group": "All Shortcuts",
+          "description": "\"x\"",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["x"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Command Keys",
+          "group": "All Shortcuts",
+          "description": "Use text instead of symbols for command keys",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["command"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["alt"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Press Together",
+          "group": "All Shortcuts",
+          "description": "\"command + y\"",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["command", "y"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "y"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Press after a delay",
+          "group": "All Shortcuts",
+          "description": "\"shift - z\"",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["shift", "z"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "next",
+                  "text": "z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Release and then press",
+          "group": "All Shortcuts",
+          "description": "\"w | e\"",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["w", "e"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "w"
+                },
+                {
+                  "mode": "reset",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Combine Any Operators",
+          "group": "All Shortcuts",
+          "description": "\"alt + b - z | shift + x\"",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["alt", "b", "z", "shift", "x"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "b"
+                },
+                {
+                  "mode": "next",
+                  "text": "z"
+                },
+                {
+                  "mode": "reset",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Multiple Shortcuts",
+          "group": "All Shortcuts",
+          "description": "\"a | b | c\n a - b - c\"\n Create a new line for each shortcut or just put \"\\n\" between them",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["a", "b", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "a"
+                },
+                {
+                  "mode": "reset",
+                  "text": "b"
+                },
+                {
+                  "mode": "reset",
+                  "text": "c"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["a", "b", "c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "a"
+                },
+                {
+                  "mode": "next",
+                  "text": "b"
+                },
+                {
+                  "mode": "next",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Capitalization Matters",
+          "group": "All Shortcuts",
+          "description": "\"a\n A\"\nShift keys are displayed in orange instead of blue",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["a"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["A"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Info for specific shortcuts",
+          "group": "All Shortcuts",
+          "description": "\"command + a (chrome only)\n shift + a (other browsers)\"\nUse paranthesis at the end of the lines for shortcut specific tooltips",
+          "shortcuts": [
+            {
+              "info": "chrome only",
+              "distinct_keys": ["command", "a"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            },
+            {
+              "info": "other browsers",
+              "distinct_keys": ["shift", "a"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Escape operators",
+          "group": "All Shortcuts",
+          "description": "\"shift + '+\n '| \"\nShortcut Expert special operators are:\nplus (+)\ndash (-)\nvertical line (|)\nsingle quote (')",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["shift", "'", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["'", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "|"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
