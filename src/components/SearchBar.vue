@@ -1,5 +1,11 @@
 <template>
-  <div class="d-flex align-center">
+  <div
+    class="d-flex align-center"
+    v-shortkey="{
+      focus: ['f'],
+    }"
+    @shortkey="searchBarKeyPress"
+  >
     <v-autocomplete
       :items="applications"
       v-model="search"
@@ -14,6 +20,8 @@
       item-text="name"
       item-value="name"
       @change="change"
+      ref="searchbar"
+      @keyup.esc="$refs.searchbar.blur()"
     >
       <template v-slot:item="data">
         <v-list-item-avatar tile size="35">
@@ -72,6 +80,14 @@ export default {
       const app = this.applications.find((v) => v.name == value);
       if (!app) return;
       this.$router.push({ path: `/shortcuts/${app.slug}` });
+    },
+    searchBarKeyPress(event) {
+      console.log("searchBarKeyPress");
+      switch (event.srcKey) {
+        case "focus":
+          this.$refs.searchbar.focus();
+          break;
+      }
     },
   },
 };

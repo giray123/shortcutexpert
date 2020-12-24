@@ -10,6 +10,8 @@
         left: ['arrowleft'],
         right: ['arrowright'],
         space: ['space'],
+        focus_by_name: ['n'],
+        open_groups: ['g'],
       }"
       @shortkey="globalKeyPress"
     >
@@ -158,6 +160,7 @@
               </div>
             </div>
             <v-text-field
+              ref="filter_by_name"
               clearable
               solo
               label="Filter by Name"
@@ -165,6 +168,7 @@
               prepend-inner-icon="mdi-pen"
               append-icon="mdi-magnify"
               v-model="filter_name"
+              @keyup.esc="$refs.filter_by_name.blur()"
             />
 
             <v-text-field
@@ -183,6 +187,8 @@
               label="Select Shortcut Group"
               dark
               single-line
+              ref="filter_group"
+              @keyup.esc="$refs.filter_group.blur()"
             ></v-select>
 
             <!-- <v-checkbox
@@ -598,6 +604,7 @@ export default {
       this.pressed = [stroke.toLowerCase()];
     },
     globalKeyPress(event) {
+      console.log("globalKeyPress");
       var shown_items,
         shown_selected_index,
         shortcut_selected_index,
@@ -693,6 +700,15 @@ export default {
             shown_items[shown_selected_index],
             shortcut_selected_index
           );
+          break;
+        case "focus_by_name":
+          console.log("focus_by_name");
+          this.$refs.filter_by_name.focus();
+          break;
+        case "open_groups":
+          console.log("open_groups");
+          this.$refs.filter_group.focus();
+          this.$refs.filter_group.activateMenu();
           break;
       }
     },
