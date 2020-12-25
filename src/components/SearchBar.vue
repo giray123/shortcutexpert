@@ -89,6 +89,12 @@ export default {
           break;
       }
     },
+    focus() {
+      console.log("focus");
+      // console.log(this.$refs.searchbar);
+      // TODO: does not work
+      this.$refs.searchbar.focus();
+    },
   },
 };
 </script>

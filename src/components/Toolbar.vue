@@ -1,17 +1,12 @@
 <template>
   <div>
     <v-app-bar app flat color="blue darken-1">
+      <v-app-bar-nav-icon
+        dark
+        v-if="$vuetify.breakpoint.mobile && !mobile_search_active"
+        @click.stop="drawer = !drawer"
+      ></v-app-bar-nav-icon>
       <template v-if="!mobile_search_active">
-        <v-btn
-          icon
-          dark
-          class="px-5 hidden-lg-and-up"
-          target="_blank"
-          href="https://github.com/giray123/shortcutexpert"
-        >
-          <v-icon>mdi-github</v-icon>
-        </v-btn>
-
         <v-toolbar-title>
           <g-link to="/">
             <v-img
@@ -34,6 +29,7 @@
         "
       >
         <search-bar
+          ref="searchbar"
           solo
           flat
           dense
@@ -64,6 +60,9 @@
           <v-btn dark text class="px-5" to="/shortcuts/shortcut-expert">
             <v-icon>mdi-keyboard</v-icon>
           </v-btn>
+          <v-btn dark text class="px-5" to="/favorites">
+            <v-icon>mdi-star</v-icon>
+          </v-btn>
           <v-btn
             dark
             text
@@ -75,15 +74,69 @@
           </v-btn>
         </template>
         <template v-else-if="!mobile_search_active">
-          <v-btn icon dark to="/prepare-application">
-            <v-icon>mdi-plus</v-icon>
-          </v-btn>
-          <v-btn icon dark @click="mobile_search_active = true">
+          <v-btn icon dark @click="mobileSearchClick">
             <v-icon>mdi-magnify</v-icon>
+          </v-btn>
+          <v-btn
+            icon
+            dark
+            target="_blank"
+            href="https://github.com/giray123/shortcutexpert"
+          >
+            <v-icon>mdi-github</v-icon>
           </v-btn>
         </template>
       </v-toolbar-items>
     </v-app-bar>
+
+    <v-navigation-drawer
+      v-if="$vuetify.breakpoint.mobile"
+      v-model="drawer"
+      absolute
+      temporary
+    >
+      <v-list nav>
+        <v-list-item link to="/prepare-application">
+          <v-list-item-icon>
+            <v-icon>mdi-plus</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title>Create</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item link to="/shortcuts/shortcut-expert">
+          <v-list-item-icon>
+            <v-icon>mdi-keyboard</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title>Keyboard Shortcuts</v-list-item-title>
+            <v-list-item-subtitle>for Shortcut Expert</v-list-item-subtitle>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item link to="/favorites">
+          <v-list-item-icon>
+            <v-icon>mdi-star</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title>Favorites</v-list-item-title>
+            <v-list-item-subtitle>backup and restore</v-list-item-subtitle>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          link
+          target="_blank"
+          href="https://github.com/giray123/shortcutexpert"
+        >
+          <v-list-item-icon>
+            <v-icon>mdi-github</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title>Github</v-list-item-title>
+            <v-list-item-subtitle>learn & contribute</v-list-item-subtitle>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
   </div>
 </template>
 
@@ -95,6 +148,7 @@ export default {
   components: { SearchBar },
   data() {
     return {
+      drawer: false,
       mobile_search_active: false,
     };
   },
@@ -116,6 +170,12 @@ export default {
       this.$auth.logout({
         returnTo: window.location.origin,
       });
+    },
+    mobileSearchClick() {
+      console.log("mobileSearchClick");
+      this.mobile_search_active = true;
+      this.$refs.searchbar.focus();
+      // this.$refs.asdasd.$refs.searchbar.focus();
     },
   },
 };
