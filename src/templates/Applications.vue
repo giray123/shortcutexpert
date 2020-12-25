@@ -12,6 +12,8 @@
         space: ['space'],
         focus_by_name: ['n'],
         open_groups: ['g'],
+        toggle_favorite: ['s'],
+        filter_favorites: ['f'],
       }"
       @shortkey="globalKeyPress"
     >
@@ -191,11 +193,11 @@
               @keyup.esc="$refs.filter_group.blur()"
             ></v-select>
 
-            <!-- <v-checkbox
+            <v-checkbox
               dark
               v-model="filter_favorites"
               label="Filter favorites"
-            ></v-checkbox> -->
+            ></v-checkbox>
 
             <div class="d-flex justify-between items-center mt-5">
               <div class="flex-grow-1">
@@ -229,6 +231,7 @@
               :symbol_display="symbol_display"
               @clickListItem="clickListItem"
               @clickShortcut="clickShortcut"
+              @clickFavorite="clickFavorite"
             />
           </div>
           <div
@@ -381,14 +384,33 @@ export default {
 
     this.setOperatingSystem();
   },
+  mounted() {
+    // mark favorites
+    var local_favorites = localStorage.getItem("favorites");
+    if (local_favorites) {
+      local_favorites = JSON.parse(local_favorites);
+      if (
+        local_favorites[this.$page.app.slug] &&
+        local_favorites[this.$page.app.slug] != []
+      ) {
+        this.list.forEach((item) => {
+          if (
+            local_favorites[this.$page.app.slug].includes(se.slugify(item.name))
+          ) {
+            item.favorite = true;
+          }
+        });
+      }
+    }
+  },
   data: () => ({
     test_url_google_sheets: "",
     mobile_keyboard_active: true,
     operating_system: "macos",
     operating_systems: ["macos", "windows", "ios", "android"],
+    favorites: [],
     list: [
       {
-        id: "",
         group: "",
         name: "Example Shortcut",
         description: "",
@@ -456,7 +478,7 @@ export default {
           }),
           hidden: false,
           selected: false,
-          favorite: Math.random() >= 0.5, // adds random favorite,
+          favorite: false,
           pressed: [],
         };
       });
@@ -710,6 +732,16 @@ export default {
           this.$refs.filter_group.focus();
           this.$refs.filter_group.activateMenu();
           break;
+        case "toggle_favorite":
+          console.log("toggle_favorite");
+          const selected_item = this.list.find((v) => v.selected);
+          if (!selected_item) return console.error("No shortcut is selected");
+          this.clickFavorite(selected_item.name, !selected_item.favorite);
+          break;
+        case "filter_favorites":
+          console.log("filter_favorites");
+          this.filter_favorites = !this.filter_favorites;
+          break;
       }
     },
     scrollToShortcutListItem(index) {
@@ -732,6 +764,37 @@ export default {
       this.operating_system = this.operating_systems[0];
 
       this.setOperatingSystem();
+    },
+    clickFavorite(name, value) {
+      // console.log(name, value);
+      // console.log(value);
+      var name_slug = se.slugify(name);
+      var item = this.list.find((v) => v.name == name);
+      // console.log(item);
+      if (item) {
+        item.favorite = value;
+
+        // save to localStorage
+        var local_favorites = localStorage.getItem("favorites");
+        if (local_favorites) {
+          local_favorites = JSON.parse(local_favorites);
+          if (local_favorites[this.$page.app.slug]) {
+            var index = local_favorites[this.$page.app.slug].indexOf(name_slug);
+            if (value && index == -1) {
+              local_favorites[this.$page.app.slug].push(name_slug);
+            } else if (index != -1) {
+              local_favorites[this.$page.app.slug].splice(index, 1);
+            }
+          } else {
+            local_favorites[this.$page.app.slug] = [name_slug];
+          }
+        } else {
+          local_favorites = {
+            [this.$page.app.slug]: [name_slug],
+          };
+        }
+        localStorage.setItem("favorites", JSON.stringify(local_favorites));
+      }
     },
   },
   watch: {

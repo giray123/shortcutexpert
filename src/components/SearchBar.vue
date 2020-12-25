@@ -2,7 +2,7 @@
   <div
     class="d-flex align-center"
     v-shortkey="{
-      focus: ['f'],
+      focus: ['a'],
     }"
     @shortkey="searchBarKeyPress"
   >

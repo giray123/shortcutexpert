@@ -14,10 +14,10 @@
         }}</v-list-item-title>
         <v-list-item-subtitle
           class="mt-1"
-          style="white-space: pre;"
+          style="white-space: pre-line;"
           v-text="item.description"
         ></v-list-item-subtitle>
-        <v-list-item-subtitle style="overflow: visible;">
+        <v-list-item-subtitle style="white-space: initial;">
           <shortcut
             v-for="(shortcut, g) in item.shortcuts"
             :key="'shortcut' + g"
@@ -29,15 +29,15 @@
         </v-list-item-subtitle>
       </v-list-item-content>
 
-      <!-- <v-list-item-action>
+      <v-list-item-action>
         <v-btn icon>
           <v-icon
             :color="item.favorite ? 'amber accent-3' : 'grey darken-1'"
-            @click.stop="item.favorite = !item.favorite"
+            @click.stop="$emit('clickFavorite', item.name, !item.favorite)"
             >{{ item.favorite ? "mdi-star" : "mdi-star-outline" }}</v-icon
           >
         </v-btn>
-      </v-list-item-action> -->
+      </v-list-item-action>
     </v-list-item>
   </v-list>
 </template>

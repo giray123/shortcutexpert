@@ -85,16 +85,32 @@
           ]
         },
         {
+          "name": "Toggle Favorite / Star",
+          "group": "Shortcut List",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["s"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Focus on Search Application",
           "group": "Quick Access",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["f"],
+              "distinct_keys": ["a"],
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "f"
+                  "text": "a"
                 }
               ]
             }
@@ -144,6 +160,22 @@
                 {
                   "mode": "now",
                   "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Filter Favorites / Stars",
+          "group": "Quick Access",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["f"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f"
                 }
               ]
             }

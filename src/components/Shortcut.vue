@@ -82,6 +82,7 @@ export default {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  white-space: nowrap;
 }
 .shortcut.active {
   box-shadow: 0px 0px 0px 4px rgb(66, 199, 66);

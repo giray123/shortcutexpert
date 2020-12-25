@@ -61,6 +61,9 @@
           <v-btn dark text class="px-5" to="/prepare-application">
             <v-icon class="mr-2">mdi-plus</v-icon> create
           </v-btn>
+          <v-btn dark text class="px-5" to="/shortcuts/shortcut-expert">
+            <v-icon>mdi-keyboard</v-icon>
+          </v-btn>
           <v-btn
             dark
             text

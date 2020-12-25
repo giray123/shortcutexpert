@@ -200,6 +200,52 @@
           </div>
         </v-col>
       </v-row>
+
+      <v-row no-gutters class="blue-grey darken-3" style="min-height:100vh;">
+        <v-col
+          cols="12"
+          md="6"
+          order="2"
+          order-md="1"
+          class="white--text d-flex justify-end align-center pa-10"
+        >
+          <div>
+            <h2 class="text-xs-h4 text-sm-h3 text-md-h2 mb-10">
+              Browse Fast!
+            </h2>
+
+            <div>
+              <p class="ma-0 mt-1">
+                Shortcut Expert has its own shortcuts. Use only your keyboard to
+                browse the website very fast.
+              </p>
+
+              <v-btn
+                x-large
+                class="mt-10"
+                color="primary"
+                to="/shortcuts/shortcut-expert"
+                >SHORTCUTS</v-btn
+              >
+            </div>
+          </div>
+        </v-col>
+        <v-col
+          cols="12"
+          md="6"
+          order="1"
+          order-md="2"
+          class="d-flex justify-start align-center pa-10"
+        >
+          <v-img
+            :position="$vuetify.breakpoint.mobile ? 'center' : 'left'"
+            alt="Vuetify Name"
+            contain
+            max-height="500px"
+            :src="require('@/assets/img/keyboard1.svg')"
+          />
+        </v-col>
+      </v-row>
     </v-container>
   </Layout>
 </template>

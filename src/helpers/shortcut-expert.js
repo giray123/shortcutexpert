@@ -117,19 +117,41 @@ function parseShortcutLine(str) {
   return response;
 }
 
+function trimShortcutText(str) {
+  /**
+   * trim start and end spaces
+   * trim white spaces around the operators (do not replace all spaces since for example "ctrl + click menu")
+   */
+  return str.trim().replace(/\s*([\'?\+\-\|])\s*/g, "$1");
+}
+
 function parseShortcut(str) {
   // console.log(str, "input")
-  // trim white spaces
-  str = str.replace(/\s/g, "");
+
+  /**
+   * SPECIAL OPERATORS ARE:
+   * plus(+)
+   * dash(-)
+   * vertical line (|)
+   * single quote (') : escape operator
+   */
+
+  // trim string
+  str = trimShortcutText(str);
+
   // convert escaped special chars
-  str = str.replace(/'\+/g, "'plus");
-  str = str.replace(/'-/g, "'dash");
-  str = str.replace(/'\|/g, "'vertical");
+  str = str.replace(/'\+/g, "'plus"); // '+   ---->  'plus
+  str = str.replace(/'-/g, "'dash"); // '-   ---->  'dash
+  str = str.replace(/'\|/g, "'vertical"); // '|   ---->  'vertical
+
   // console.log(str, "str");
   var response = [];
   var operator = "now"; // value of the first stroke
   var buffer = "";
+
+  // loop each char in the string
   for (var i = 0; i < str.length; i++) {
+    // if last char, add to buffer and push to array
     if (i === str.length - 1) {
       buffer += str[i];
       response.push({
@@ -137,6 +159,7 @@ function parseShortcut(str) {
         text: buffer.length == 1 ? buffer : buffer.toLowerCase(),
       });
     } else {
+      // if you encounter special operator, push buffer to array and change the operator for the next buffer push
       if (["+", "-", "|"].includes(str[i])) {
         response.push({
           mode: operator,
