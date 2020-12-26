@@ -17,7 +17,11 @@
       }"
       @shortkey="globalKeyPress"
     >
-      <v-row no-gutters style="flex-wrap: nowrap;" class="fill-height">
+      <v-row
+        no-gutters
+        style="flex-wrap: nowrap; width: 100%;"
+        class="fill-height"
+      >
         <div class="box_main">
           <div class="box_heading">
             <!-- heading -->
