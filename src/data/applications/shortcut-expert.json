@@ -188,7 +188,7 @@
       "list": [
         {
           "name": "Next List Item",
-          "group": "All Shortcuts",
+          "group": "Shortcut List",
           "shortcuts": [
             {
               "info": null,
@@ -204,7 +204,7 @@
         },
         {
           "name": "Previous List Item",
-          "group": "All Shortcuts",
+          "group": "Shortcut List",
           "shortcuts": [
             {
               "info": null,
@@ -220,7 +220,7 @@
         },
         {
           "name": "Next Shortcut",
-          "group": "All Shortcuts",
+          "group": "Shortcut List",
           "shortcuts": [
             {
               "info": null,
@@ -231,13 +231,7 @@
                   "text": "right"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Previous Shortcut",
-          "group": "All Shortcuts",
-          "shortcuts": [
+            },
             {
               "info": null,
               "distinct_keys": ["left"],
@@ -245,6 +239,120 @@
                 {
                   "mode": "now",
                   "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Re-Animate",
+          "group": "Shortcut List",
+          "description": "Click space to re-animate the chosen shortcut",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle Favorite / Star",
+          "group": "Shortcut List",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["s"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "s"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus on Search Application",
+          "group": "Quick Access",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["a"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus on Filter By Name",
+          "group": "Quick Access",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["n"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "n"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open Shortcuts Group Menu",
+          "group": "Quick Access",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["g"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "g"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Remove focus",
+          "group": "Quick Access",
+          "description": "If already focused, you need to remove focus from the current element to focus on another element",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["esc"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Filter Favorites / Stars",
+          "group": "Quick Access",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["f"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f"
                 }
               ]
             }

@@ -74,9 +74,6 @@
           </v-btn>
         </template>
         <template v-else-if="!mobile_search_active">
-          <v-btn icon dark @click="mobileSearchClick">
-            <v-icon>mdi-magnify</v-icon>
-          </v-btn>
           <v-btn
             icon
             dark
@@ -84,6 +81,9 @@
             href="https://github.com/giray123/shortcutexpert"
           >
             <v-icon>mdi-github</v-icon>
+          </v-btn>
+          <v-btn icon dark @click="mobileSearchClick">
+            <v-icon>mdi-magnify</v-icon>
           </v-btn>
         </template>
       </v-toolbar-items>

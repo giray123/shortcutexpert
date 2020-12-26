@@ -138,16 +138,29 @@ export default {
       let file = this.$refs.file_upload.files[0];
       console.log(file.type, "file.type");
       if (!file || file.type !== "application/json") {
-        console.error("No file found");
-        return;
+        return this.error("Not a JSON file!");
       }
-
       let reader = new FileReader();
       reader.readAsText(file, "UTF-8");
+
+      reader.onerror = (e) => {
+        console.error(e);
+        return this.error(e.message);
+      };
 
       reader.onload = (evt) => {
         let json = JSON.parse(evt.target.result);
         console.log(json, "file contents");
+
+        if (Array.isArray(json)) {
+          return this.error("File is corrupted: not an object!");
+        }
+
+        for (const key in json) {
+          if (!Array.isArray(json[key])) {
+            return this.error("File is corrupted: fields need to be arrays");
+          }
+        }
 
         // merge with local memory
         var local_favorites = localStorage.getItem("favorites");
@@ -170,14 +183,17 @@ export default {
           icon: "success",
           html: "Saved!",
         });
-
         // if we dont do this it will not trigger if same file is selected twice
         this.$refs.file_upload.value = "";
       };
-
-      reader.onerror = (evt) => {
-        console.error(evt);
-      };
+    },
+    error(message) {
+      this.$refs.file_upload.value = "";
+      return this.$refs.snackbar.show({
+        icon: "error",
+        html: message,
+        timeout: 5000,
+      });
     },
     clear() {
       localStorage.removeItem("favorites");
