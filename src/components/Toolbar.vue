@@ -52,6 +52,7 @@
       <!-- keyboard layout selector -->
 
       <!-- provile button -->
+
       <v-toolbar-items>
         <template v-if="!$vuetify.breakpoint.mobile">
           <v-btn dark text class="px-5" to="/prepare-application">
@@ -94,14 +95,24 @@
       v-model="drawer"
       absolute
       temporary
+      dark
     >
-      <v-list nav>
+      <v-list nav dark>
+        <v-list-item link to="/">
+          <v-list-item-icon>
+            <v-icon>mdi-home</v-icon>
+          </v-list-item-icon>
+          <v-list-item-content>
+            <v-list-item-title>Home</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         <v-list-item link to="/prepare-application">
           <v-list-item-icon>
             <v-icon>mdi-plus</v-icon>
           </v-list-item-icon>
           <v-list-item-content>
-            <v-list-item-title>Create</v-list-item-title>
+            <v-list-item-title>Create / Update</v-list-item-title>
+            <v-list-item-subtitle>applications</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
         <v-list-item link to="/shortcuts/shortcut-expert">

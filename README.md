@@ -24,44 +24,100 @@ It is served with [Netlify](https://www.netlify.com/), and it is statically gene
 
 There is no database; once you fork it, you have all the data necessary to run it locally(including the application shortcuts).
 
-## :gift:&nbsp; Contribution
+## :gift:&nbsp; How It Works ?
 
-You can fork the GitHub repo and create pull requests for anything. However, below are some common contributions:
+All application data is in `src/data/applications`. Each file has everything necessary for a specific application. Although JSON files can be manually created / edited, there is an easier way, which is preferred and more error-free. You can prepare JSON files using Google Sheets! Shortcut Expert can fetch data from your Google Sheets file to prepare the application data.
 
-### Add a new application
+## Google Sheet Files
 
-All application data is in `src/data/applications`. Each `JSON` file represents an application. You need to prepare a `JSON` file for your application and create a pull request.
+You need to follow some standarts as you prepare your Google Sheets file.
 
-Preparing a `JSON` file for your application is pretty straight forward. Although you can prepare your `JSON` file manually, here is to prepare it very easily:
+### Sheets (Tabs)
 
-#### 1. Prepare a Google Sheets File
+You need to create a different sheet (tab) for each operating system. Available options are: `macos` and `windows` for now. More will come in the future.
 
-First, create a Google Sheets file and prepare it as in <a href="https://docs.google.com/spreadsheets/u/2/d/1xGfSrETQto0kA-FGxeooDb08nuwHcO_THZ8H0DcyCQE/edit#gid=1240391001">this example</a>. You need to create a different sheet (tab) for each operating system (`macos` and `windows` for now), and each tab needs to have the below columns.
+### Tables
+
+Each sheet (tab) needs to have 4 columns as the below example. You can also check this [example Google Sheets file](https://docs.google.com/spreadsheets/d/1xGfSrETQto0kA-FGxeooDb08nuwHcO_THZ8H0DcyCQE/edit#gid=1240391001).
 
 | group   | name | shortcuts | description             |
 | ------- | ---- | --------- | ----------------------- |
 | editing | copy | ctrl + c  | copy text for later use |
 | ...     | ...  | ...       | ...                     |
 
-#### 2. Test your application shortcuts
+Note that column names are case insensitive
+
+Column Descriptinos:
+
+- group: we use to group the shortcuts
+- name: short name for the shortcut
+- shortcuts: Special text to represent timely shortcuts. More info below
+- description: details / descriptions for the shortcut
+
+Shortcuts has a special syntax. Below is a complex example:
+
+<p align="center"><img src="static/img/tutorial/shortcuts.png"></p>
+
+Special Operators (you need to type the symbol not the text):
+
+| Operator | Description                     |
+| -------- | ------------------------------- |
+| Plus (+) | Press Together                  |
+| Dash (-) | Press after a delay             |
+| Plus (+) | Release and press after a delay |
+
+Other things to consider for Shortcuts cells:
+
+- Capitalization matters: `a` and `A` will be displayed differently on Shortcut Expert. Test them out.
+- Spaces are not important
+- You can add multiple shortcuts for a line, just use a new line for each. You can add a new line to any cell by `option + enter` in Google Sheets
+- You can add a tooltip to any shortcut by adding a text between paranthesis at the end of each line.
+
+### Access
+
+In order for Shortcut Expert to fetch data from your Google Sheets file you need to make your file **published to the web** and **public**. Other users will be able to see your table and copy it if they want to make an edit. Here are the steps to make a file **published** and **public**:
+
+Click on `File > Publish to the web`
+
+<p align="center"><img src="static/img/tutorial/publish1.png"></p>
+
+Click on `Publish` (options are not important)
+
+<p align="center"><img src="static/img/tutorial/publish2.png"></p>
+
+Beware that once published the link on the same window is not the one we will use to fetch the data. So, you can close that window.
+
+<p align="center"><img src="static/img/tutorial/publish3.png"></p>
+
+Click on `Share` button.
+
+<p align="center"><img src="static/img/tutorial/share1.png"></p>
+
+Make your file `Anyone on the internet with this link can view`. And click on `Copy link`. We will use this link to fetch data into Shortcut Expert.
+
+<p align="center"><img src="static/img/tutorial/share2.png"></p>
+
+### Test Your Google Sheet File
 
 After you prepare your Google Sheets file, you can use our <a href="https://shortcutexpert.com/shortcuts/test-application">Test Application Page</a> to test it out.
 
-Once it is ready, use <a href="https://shortcutexpert.com/prepare-application">Prepare Application Page</a> to prepare a json file. Details for each field is explained on the page.
+Once it is ready, use <a href="https://shortcutexpert.com/prepare-application">Prepare Application Page</a> to prepare a json file for your application. You need to add several other meta data such as name, logo etc. all of which is explained on that page.
 
-#### 3. Create a JSON file and request a pull
+### Create a Pull Request
 
-Afterward, download your `JSON` file and create a pull request to add your application to `src/data/applications`. Once the pull request is merged by repo admins, our server will generate a static page for the application and distribute it worldwide through Netlify CDN.
+If you are adding a new application download your JSON file from <a href="https://shortcutexpert.com/prepare-application">Prepare Application Page</a> into `src/data/applications` and create a pull request.
 
-### Update an existing application
+If you are editing an existing application copy-paste the JSON content into the existing application file in `src/data/applications` and create a pull request.
 
-First, open the application page you want to contribute to and click the EDIT button just below the title. You will be directed to the [Prepare Application Page](https://shortcutexpert.com/prepare-application) filled with the application data.
+### Note on Updating Existing Applications
 
-Each application has a Google Sheet URL in its `JSON` file. Once you go to the URL, you can not edit that file since you do not own it. However, you can copy that Google Sheet to your own drive. After you copy, make the necessary updates and make sure that you publish your Google Sheet. Once you publish it, click the share button and make your file accessible for anyone on the web (so that Shortcut Expert can fetch data from your Google Sheet file).
+When you open an application page on Shortcut Expert, you will see an EDIT button just below the title. Once clicked, you will be directed to the [Prepare Application Page](https://shortcutexpert.com/prepare-application) filled with the existing application data.
 
-Again, you can use [Test Application Page](https://shortcutexpert.com/shortcuts/test-application) to test the shortcuts and [Prepare Application Page](https://shortcutexpert.com/prepare-application) to prepare a `JSON` file and create a pull request for your updates. Because you are editing an existing application, make sure the name of the `JSON` file is the same as the original application file.
+There you can find the Google Sheets file URL which was used to create that application. Once you go to that Google Sheets file, you can not edit that file since you do not own it. However, you can copy that Google Sheet to your own drive by `File > Make a copy`.
 
-Again, without preparing a Google Sheets file, you can manually edit the original `JSON` file in `src/data/applications` and create a pull request after your edit.
+<p align="center"><img src="static/img/tutorial/make-a-copy.png"></p>
+
+Again, you can use [Test Application Page](https://shortcutexpert.com/shortcuts/test-application) to test the shortcuts after your edits and [Prepare Application Page](https://shortcutexpert.com/prepare-application) to prepare a JSON file and create a pull request for your updates.
 
 ### Add a keyboard layout
 

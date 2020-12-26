@@ -15,15 +15,22 @@
       ></v-text-field>
     </div>
     <div class="pl-1" style="white-space: nowrap;">
-      <v-btn
-        class="ml-2"
-        icon
-        color="orange"
-        target="_blank"
-        :href="url_google_sheets"
-      >
-        <v-icon>mdi-link</v-icon>
-      </v-btn>
+      <v-tooltip top>
+        <template v-slot:activator="{ on }">
+          <v-btn
+            class="ml-2"
+            v-on="on"
+            icon
+            color="orange"
+            target="_blank"
+            :href="url_google_sheets"
+          >
+            <v-icon>mdi-open-in-new</v-icon>
+          </v-btn>
+        </template>
+        <span>go to</span>
+      </v-tooltip>
+
       <v-btn
         class="ml-2"
         color="primary"
@@ -34,15 +41,19 @@
         fetch
       </v-btn>
     </div>
+
+    <snackbar ref="snackbar" />
   </div>
 </template>
 
 <script>
+import Snackbar from "../components/Snackbar";
 const se = require("../helpers/shortcut-expert");
 
 export default {
   inheritAttrs: false,
   name: "SheetsFetcher",
+  components: { Snackbar },
   props: {
     url_google_sheets: { type: String, default: "macos" },
   },
@@ -58,8 +69,6 @@ export default {
         let raw_file = await se.fetchGoogleSlide(this.url_google_sheets);
         this.fetching = false;
         console.log("raw_file", raw_file);
-
-        // do your validation here
 
         var operating_systems = [];
 
@@ -78,9 +87,19 @@ export default {
         });
         console.log("operating_systems", operating_systems);
         this.$emit("fetched", operating_systems);
+        this.$refs.snackbar.show({
+          icon: "success",
+          html: "Fetched!",
+          timeout: 3000,
+        });
       } catch (e) {
+        console.error(e);
+        this.$refs.snackbar.show({
+          icon: "error",
+          html: message,
+          timeout: 10000,
+        });
         this.fetching = false;
-        console.log(e, "error");
       }
     },
   },

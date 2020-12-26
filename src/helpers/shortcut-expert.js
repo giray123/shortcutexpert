@@ -27,14 +27,17 @@ async function fetchGoogleSlide(url) {
         url: `https://spreadsheets.google.com/feeds/cells/${google_sheet_id}/${id}/public/values?alt=json`,
       };
     });
+    // console.log("sheets", sheets);
 
     /**
      * GET DATA
      */
     // get all sheets
     const data_responses = await Promise.all(sheets.map((v) => fetch(v.url)));
+    // console.log("data_responses", data_responses);
     // convert all sheet into json
     const data_json = await Promise.all(data_responses.map((v) => v.json()));
+    // console.log("data_json", data_json);
     // prepare all sheets
     const data_tables = data_json.map((json) => {
       return json.feed.entry.map((v) => {
@@ -58,14 +61,8 @@ async function fetchGoogleSlide(url) {
       ops: sheets,
     };
   } catch (e) {
-    console.log(e, "error");
-    return {
-      statusCode: 400, // bad request
-      body: {
-        status: "error",
-        message: e.message,
-      },
-    };
+    console.error(e);
+    throw new Error();
   }
 }
 

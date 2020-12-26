@@ -847,7 +847,7 @@ export default {
 }
 .box_list {
   min-width: 0;
-  padding: 10px 10px 400px 10px;
+  padding: 10px 10px 800px 10px;
 }
 .box_keyboard {
   position: fixed;
