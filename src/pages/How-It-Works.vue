@@ -219,7 +219,8 @@
                 latest Google Sheets file URL that was used to create that
                 application. Once you go to that Google Sheets file, you can not
                 edit that file since you do not own it. However, you can copy
-                that Google Sheet to your own drive by `File > Make a copy`.
+                that Google Sheet to your own drive by
+                <em>File > Make a copy</em>.
               </p>
               <g-image
                 class="elevation-3 m-auto"
@@ -263,5 +264,6 @@ p {
 img {
   display: block;
   margin: 40px auto;
+  max-width: 100%;
 }
 </style>
