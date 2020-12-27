@@ -34,7 +34,7 @@ export default {
     };
   },
   methods: {
-    show({ icon, html, timeout = 2000 }) {
+    show({ icon, html, timeout = 5000 }) {
       console.log("activate");
       this.timeout = timeout;
       this.icon = icon;
@@ -43,7 +43,7 @@ export default {
     },
     hide() {
       this.open = false;
-      this.timeout = 2000;
+      this.timeout = 5000;
       this.icon = "";
       this.html = "false";
     },

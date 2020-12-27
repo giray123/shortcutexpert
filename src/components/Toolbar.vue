@@ -56,7 +56,7 @@
       <v-toolbar-items>
         <template v-if="!$vuetify.breakpoint.mobile">
           <v-btn dark text class="px-5" to="/prepare-application">
-            <v-icon class="mr-2">mdi-plus</v-icon> create
+            <v-icon>mdi-plus</v-icon>
           </v-btn>
           <v-btn dark text class="px-5" to="/shortcuts/shortcut-expert">
             <v-icon>mdi-keyboard</v-icon>
@@ -71,7 +71,7 @@
             href="https://github.com/giray123/shortcutexpert"
             target="_blank"
           >
-            <v-icon class="mr-2">mdi-github</v-icon> github
+            <v-icon>mdi-github</v-icon>
           </v-btn>
         </template>
         <template v-else-if="!mobile_search_active">
@@ -93,9 +93,10 @@
     <v-navigation-drawer
       v-if="$vuetify.breakpoint.mobile"
       v-model="drawer"
-      absolute
-      temporary
+      color="blue darken-1"
       dark
+      bottom
+      fixed
     >
       <v-list nav dark>
         <v-list-item link to="/">

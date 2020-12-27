@@ -1,0 +1,408 @@
+{
+  "name": "Mychordbook",
+  "slug": "mychordbook",
+  "url_logo": "https://www.mychordbook.com/public/img/logo/icon.svg",
+  "url_app": "https://www.mychordbook.com",
+  "url_shortcuts": "",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1s6kUGgxOeURjnSbP-mm0F8ExLXRcj3VZsqjjpLGxlmw/edit?usp=sharing",
+  "operating_systems": [
+    {
+      "name": "windows",
+      "list": [
+        {
+          "name": "Video Play / Pause",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump 5 seconds forward",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["left"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump 5 seconds backward",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["right"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle Mute Instrument",
+          "group": "Instrument",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["m"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Play the Instrument",
+          "group": "Instrument",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["p"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle Play Chord Once",
+          "group": "Instrument",
+          "description": "Plays the chord everytime it changes",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["o"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Decrease Instrument Volume",
+          "group": "Instrument",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Increase Instrument Volume",
+          "group": "Instrument",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["'", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Change the speed of the video",
+          "group": "Video",
+          "description": "From slowest (left) to fastest (right)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["[12345678]"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "[12345678]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the start of the video",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["9"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the end of the video",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["0"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle Metronome",
+          "group": "Other",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["x"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "macos",
+      "list": [
+        {
+          "name": "Video Play / Pause",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump 5 seconds forward",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["left"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump 5 seconds backward",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["right"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle Mute Instrument",
+          "group": "Instrument",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["m"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Play the Instrument",
+          "group": "Instrument",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["p"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle Play Chord Once",
+          "group": "Instrument",
+          "description": "Plays the chord everytime it changes",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["o"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Decrease Instrument Volume",
+          "group": "Instrument",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Increase Instrument Volume",
+          "group": "Instrument",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["'", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Change the speed of the video",
+          "group": "Video",
+          "description": "From slowest (left) to fastest (right)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["[12345678]"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "[12345678]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the start of the video",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["9"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump to the end of the video",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["0"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle Metronome",
+          "group": "Other",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["x"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

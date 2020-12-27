@@ -1,0 +1,494 @@
+{
+  "name": "Mychordbook Editor",
+  "slug": "mychordbook-editor",
+  "url_logo": "https://www.mychordbook.com/public/img/logo/icon-gray-colorful.svg",
+  "url_app": "https://www.mychordbook.com",
+  "url_shortcuts": "",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/12h2WuJ6TKiPxoiTqN_RkXxqXeprEkPefmA45oXw7rYo/edit?usp=sharing",
+  "operating_systems": [
+    {
+      "name": "windows",
+      "list": [
+        {
+          "name": "Video play/pause",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["space"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Video 5sn ileri",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["left"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Video 5sn geri",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["right"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Video nun hızını değiştir",
+          "group": "Video",
+          "description": "From slowest (left) to fastest (right)",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["[12345678]"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "[12345678]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Video nun başına atla",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["9"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "9"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Video nun sonuna atla",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["0"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Videoyu tıklanan söz veya akorun zamanına getir",
+          "group": "Video",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["shift", "mouseleftclick"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "mouse left click"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zaman Çizelgesi Göster/gizle",
+          "group": "Genel",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["t"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zaman Çizelgesi Imleci takip et AÇ/KAPA",
+          "group": "Genel",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["f"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enstrumanı sessize al AÇ/KAPA",
+          "group": "Enstrüman",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["m"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enstruman Volume Azalt",
+          "group": "Enstrüman",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enstruman Volume Yükselt",
+          "group": "Enstrüman",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["'", ""],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "+"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Akor değişince enstrümanı çal AÇ/KAPA",
+          "group": "Enstrüman",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["o"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "o"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sarı sözü yukarı kaydır",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["q"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sarı söze seç",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["a"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "a"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sarı sözü ileri kaydır",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["z"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sarı akoru yukarı kaydır",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["e"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "e"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sarı akoru seç",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["d"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "d"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sarı akoru ileri kaydır",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["c"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seçilen akordan bir önceki akoru seç",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["y"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "y"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "En son akoru seç",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["u"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "u"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seçilen akordan bir sonraki akoru seç",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["ı"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ı"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "enstrümanı çal",
+          "group": "Enstrüman",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["p"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "p"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zaman Çizelgesi Seçili ögeleri sil",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["delete"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "delete"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "distinct_keys": ["backspace"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "backspace"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seçilen akoru bir önceki beat e kaydır",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["h"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "h"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seçilen akoru bir sonraki beat e kaydır",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["k"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Zaman Çizelgesi Ritim Ekle",
+          "group": "Genel",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["r"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "r"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Beat yerleştir",
+          "group": "Senkronize",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["b"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "b"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Metronom AÇ/KAPA",
+          "group": "Genel",
+          "shortcuts": [
+            {
+              "info": null,
+              "distinct_keys": ["x"],
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "x"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

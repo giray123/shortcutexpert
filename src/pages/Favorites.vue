@@ -115,7 +115,7 @@ export default {
     download() {
       var local_favorites = localStorage.getItem("favorites");
       if (!local_favorites) {
-        console.error("No local favorites found!");
+        return this.error("No local favorites found!");
         return;
       }
       var local_favorites = JSON.parse(local_favorites);
@@ -124,12 +124,31 @@ export default {
       var blob = new Blob([file_text], { type: "application/json" });
       var url = URL.createObjectURL(blob);
       var a = document.createElement("a");
-      a.download = `deneme.json`;
+      a.download = `Shortcut_Expert_Favorites_${this.formatDate(new Date())}.json`; // prettier-ignore
       a.href = url;
       a.textContent = "Download backup file";
-      a.classList.add("d-none");
+      a.style.display = "none";
       document.body.appendChild(a);
       a.click();
+    },
+    formatDate(date) {
+      return (
+        this.addZero(date.getFullYear()) +
+        "_" +
+        this.addZero(date.getMonth() + 1) +
+        "_" +
+        this.addZero(date.getDate()) +
+        "_" +
+        this.addZero(date.getHours()) +
+        "_" +
+        this.addZero(date.getMinutes()) +
+        "_" +
+        this.addZero(date.getSeconds())
+      );
+    },
+    addZero(number) {
+      if (number < 10) number = "0" + number.toString();
+      return number.toString();
     },
     upload() {
       this.$refs.file_upload.click();
@@ -192,7 +211,6 @@ export default {
       return this.$refs.snackbar.show({
         icon: "error",
         html: message,
-        timeout: 5000,
       });
     },
     clear() {
