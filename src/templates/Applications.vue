@@ -14,6 +14,7 @@
         open_groups: ['g'],
         toggle_favorite: ['s'],
         filter_favorites: ['f'],
+        clear_filter: ['c'],
       }"
       @shortkey="globalKeyPress"
     >
@@ -249,6 +250,7 @@
                   :pressed="pressed"
                   @clickKey="clickKeyboardKey"
                   :layout="operating_system.toLowerCase()"
+                  :highlight="filtered_distinct_keys"
                 />
               </div>
             </div>
@@ -327,7 +329,7 @@ var filter_name_pid = null;
 var filter_stroke_pid = null;
 
 export default {
-  name: "Shortcuts",
+  name: "Applications",
   metaInfo() {
     return {
       title: `${this.$page.app.name} Shortcuts`,
@@ -470,7 +472,7 @@ export default {
             return {
               active: false,
               info: v.info,
-              distinct_keys: v.distinct_keys,
+              distinct_keys: v.strokes.map((g) => se.parseKey(g.text)).flat(),
               strokes: v.strokes.map((k) => {
                 return {
                   active: false,
@@ -588,7 +590,9 @@ export default {
         if (mode == "now") {
           pids.push(
             setTimeout(() => {
-              this.pressed.push(...strokes.map((v) => v.text));
+              this.pressed.push(
+                ...strokes.map((v) => se.parseKey(v.text)).flat()
+              );
               strokes.forEach((v) => (v.active = true));
             }, t)
           );
@@ -596,7 +600,9 @@ export default {
           t += 2 * interval;
           pids.push(
             setTimeout(() => {
-              this.pressed.push(...strokes.map((v) => v.text));
+              this.pressed.push(
+                ...strokes.map((v) => se.parseKey(v.text)).flat()
+              );
               strokes.forEach((v) => (v.active = true));
             }, t)
           );
@@ -609,7 +615,9 @@ export default {
                 key.active = false;
               });
               this.pressed = [];
-              this.pressed.push(...strokes.map((v) => v.text));
+              this.pressed.push(
+                ...strokes.map((v) => se.parseKey(v.text)).flat()
+              );
               strokes.forEach((v) => (v.active = true));
             }, t)
           );
@@ -746,6 +754,10 @@ export default {
           console.log("filter_favorites");
           this.filter_favorites = !this.filter_favorites;
           break;
+        case "clear_filter":
+          console.log("clear_filter");
+          this.clearFilters();
+          break;
       }
     },
     scrollToShortcutListItem(index) {
@@ -832,6 +844,19 @@ export default {
         (this.filter_name && this.filter_name != "") ||
         (this.filter_stroke && this.filter_stroke != "")
       );
+    },
+    filtered_distinct_keys() {
+      const arr = [
+        ...new Set(
+          this.list
+            .filter((v) => !v.hidden)
+            .map((v) => v.shortcuts.map((k) => k.distinct_keys))
+            .flat()
+            .flat()
+        ),
+      ];
+      console.log(arr, "arr");
+      return arr;
     },
   },
 };

@@ -5,13 +5,16 @@
       :key="'rows' + i"
       :class="'key-row row' + (parseInt(i) + 1)"
     >
+      <!-- prettier-ignore-attribute -->
       <div
         v-for="(key, j) in rows.keys"
         :key="'key' + j"
         :class="
-          `key ${key.class || ''} ${
-            pressed.includes(key.stroke) ? 'pressed' : ''
-          } ${pressed.includes(key.stroke_shift) ? 'shift-pressed' : ''}`
+          `key ${key.class || ''} 
+          ${highlight.includes(key.stroke) ? 'highlight' : ''}
+          ${pressed.includes(key.stroke) ? 'pressed' : ''} 
+          ${pressed.includes(key.stroke_shift) ? 'shift-pressed' : ''} 
+          `
         "
         :style="`${key.style || ''}`"
         @click="clickKey(key.stroke || null)"
@@ -38,6 +41,7 @@ export default {
   props: {
     pressed: { type: Array, default: () => [] },
     layout: { type: String, default: "macos" },
+    highlight: { type: Array, default: () => [] },
   },
   watch: {
     layout: {
@@ -196,6 +200,14 @@ $key-width-small: 5%;
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+.keyboard_macos .key-row .key.highlight {
+  background-color: #dddddd;
+  border-color: #b9b9b9;
+}
+.keyboard_windows .key-row .key.highlight {
+  background-color: rgb(110, 110, 110);
+  border-color: rgb(65, 65, 65);
 }
 .keyboard_windows .key-row .key.pressed {
   font-weight: bold;
