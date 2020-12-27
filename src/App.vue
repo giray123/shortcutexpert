@@ -32,4 +32,7 @@ export default {
 .full-width {
   width: 100%;
 }
+#nprogress .bar {
+  background: rgb(238, 47, 47) !important;
+}
 </style>

@@ -8,6 +8,8 @@ import DefaultLayout from "~/layouts/Default.vue";
 import VueClipboard from "vue-clipboard2";
 import { textToSymbol } from "./filters/textToSymbol";
 import VueDisqus from "vue-disqus";
+import NProgress from "nprogress";
+import "nprogress/nprogress.css";
 
 export default function(Vue, { appOptions, head, router }) {
   head.link.push({
@@ -94,6 +96,9 @@ export default function(Vue, { appOptions, head, router }) {
   });
 
   router.beforeEach((to, _from, next) => {
+    if (!to.hash && typeof document !== "undefined") {
+      NProgress.start();
+    }
     head.meta.push({
       key: "og:url",
       property: "og:url",
@@ -101,5 +106,11 @@ export default function(Vue, { appOptions, head, router }) {
       content: process.env.GRIDSOME_BASE_PATH + to.path,
     });
     next();
+  });
+
+  router.afterEach((to, from) => {
+    if (!to.hash && typeof document !== "undefined") {
+      NProgress.done();
+    }
   });
 }

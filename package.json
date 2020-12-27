@@ -12,6 +12,7 @@
     "@gridsome/transformer-json": "^0.2.1",
     "gridsome": "^0.7.0",
     "nanoid": "^3.1.20",
+    "nprogress": "^0.2.0",
     "vue-clipboard2": "^0.3.1",
     "vue-disqus": "^4.0.1",
     "vue-shortkey": "^3.1.7",
