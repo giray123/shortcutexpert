@@ -96,7 +96,7 @@ export default {
         console.error(e);
         this.$refs.snackbar.show({
           icon: "error",
-          html: `Error: Please make sure to follow <a href="https://github.com/giray123/shortcutexpert#google-sheet-files" target="_blank">instructions</a> for you Google Sheets file`,
+          html: `Error: Please make sure to follow <a href="/how-it-works" target="_blank">instructions</a> for you Google Sheets file`,
           timeout: 10000,
         });
         this.fetching = false;

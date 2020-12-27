@@ -10,12 +10,11 @@
       "name": "macos",
       "list": [
         {
-          "name": "Next List Item",
+          "name": "Next List Item asd",
           "group": "Shortcut List",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["down"],
               "strokes": [
                 {
                   "mode": "now",
@@ -31,7 +30,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["up"],
               "strokes": [
                 {
                   "mode": "now",
@@ -47,7 +45,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["right"],
               "strokes": [
                 {
                   "mode": "now",
@@ -57,7 +54,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["left"],
               "strokes": [
                 {
                   "mode": "now",
@@ -74,7 +70,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -90,7 +85,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["s"],
               "strokes": [
                 {
                   "mode": "now",
@@ -106,7 +100,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["a"],
               "strokes": [
                 {
                   "mode": "now",
@@ -122,7 +115,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["n"],
               "strokes": [
                 {
                   "mode": "now",
@@ -138,7 +130,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["g"],
               "strokes": [
                 {
                   "mode": "now",
@@ -155,7 +146,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["esc"],
               "strokes": [
                 {
                   "mode": "now",
@@ -171,11 +161,25 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["f"],
               "strokes": [
                 {
                   "mode": "now",
                   "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Clear filters",
+          "group": "Quick Access",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "c"
                 }
               ]
             }
@@ -192,7 +196,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["down"],
               "strokes": [
                 {
                   "mode": "now",
@@ -208,7 +211,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["up"],
               "strokes": [
                 {
                   "mode": "now",
@@ -224,7 +226,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["right"],
               "strokes": [
                 {
                   "mode": "now",
@@ -234,7 +235,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["left"],
               "strokes": [
                 {
                   "mode": "now",
@@ -251,7 +251,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -267,7 +266,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["s"],
               "strokes": [
                 {
                   "mode": "now",
@@ -283,7 +281,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["a"],
               "strokes": [
                 {
                   "mode": "now",
@@ -299,7 +296,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["n"],
               "strokes": [
                 {
                   "mode": "now",
@@ -315,7 +311,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["g"],
               "strokes": [
                 {
                   "mode": "now",
@@ -332,7 +327,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["esc"],
               "strokes": [
                 {
                   "mode": "now",
@@ -348,7 +342,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["f"],
               "strokes": [
                 {
                   "mode": "now",

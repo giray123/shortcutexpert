@@ -55,8 +55,8 @@
 
       <v-toolbar-items>
         <template v-if="!$vuetify.breakpoint.mobile">
-          <v-btn dark text class="px-5" to="/prepare-application">
-            <v-icon>mdi-plus</v-icon>
+          <v-btn dark text class="px-5" to="/how-it-works">
+            <v-icon>mdi-help</v-icon>
           </v-btn>
           <v-btn dark text class="px-5" to="/shortcuts/shortcut-expert">
             <v-icon>mdi-keyboard</v-icon>
@@ -107,13 +107,13 @@
             <v-list-item-title>Home</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item link to="/prepare-application">
+        <v-list-item link to="/how-it-works">
           <v-list-item-icon>
-            <v-icon>mdi-plus</v-icon>
+            <v-icon>mdi-help</v-icon>
           </v-list-item-icon>
           <v-list-item-content>
-            <v-list-item-title>Create / Update</v-list-item-title>
-            <v-list-item-subtitle>applications</v-list-item-subtitle>
+            <v-list-item-title>How It Works?</v-list-item-title>
+            <v-list-item-subtitle>ultimate guideline</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
         <v-list-item link to="/shortcuts/shortcut-expert">

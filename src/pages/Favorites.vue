@@ -103,7 +103,7 @@ export default {
   metaInfo: {
     title: "Shortcut Expert | Favorites",
     description:
-      "Learn how shortcut favorites work in Shortcit Expert. You can download your shortcuts to upload & merge into another browser / device. Additionally, you can clear the memory of all favorites.",
+      "Learn how shortcut favorites work in Shortcut Expert. You can download your shortcuts to upload & merge into another browser / device. Additionally, you can clear the memory of all favorites.",
   },
   components: { Snackbar },
   data() {

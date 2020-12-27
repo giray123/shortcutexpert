@@ -204,6 +204,7 @@ $key-width-small: 5%;
 .keyboard_macos .key-row .key.highlight {
   background-color: #dddddd;
   border-color: #b9b9b9;
+  color: #ffffff;
 }
 .keyboard_windows .key-row .key.highlight {
   background-color: rgb(110, 110, 110);

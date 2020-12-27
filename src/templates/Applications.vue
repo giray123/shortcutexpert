@@ -31,25 +31,25 @@
                 <v-img
                   alt="Excel Logo"
                   contain
-                  :src="$page.app.url_logo"
+                  :src="url_logo"
                   transition="scale-transition"
                   width="80"
                 />
               </div>
               <div class="pa-2 pa-lg-5">
-                <h1>{{ $page.app.name }} Shortcuts</h1>
+                <h1>{{ name }} Shortcuts</h1>
                 <div class="d-flex align-center justify-start mt-1">
                   <div class="text-sm-body-2">
-                    <g-link
-                      :to="`/prepare-application#${$page.app.slug}`"
+                    <a
+                      @click.prevent="dialog_update = true"
                       class="text-decoration-none mr-2 mr-lg-5 orange--text text--darken-1"
                     >
                       <v-icon x-small color="orange darken-1">mdi-pen</v-icon>
-                      Edit
-                    </g-link>
+                      Update
+                    </a>
                     <a
-                      v-if="$page.app.url_app"
-                      :href="$page.app.url_app"
+                      v-if="url_app"
+                      :href="url_app"
                       target="_blank"
                       class="text-decoration-none mr-2 mr-lg-5"
                     >
@@ -58,8 +58,8 @@
                       <span class="hidden-lg-and-up">App</span>
                     </a>
                     <a
-                      v-if="$page.app.url_shortcuts"
-                      :href="$page.app.url_shortcuts"
+                      v-if="url_shortcuts"
+                      :href="url_shortcuts"
                       target="_blank"
                       class="text-decoration-none mr-2 mr-lg-5"
                     >
@@ -68,51 +68,12 @@
                       <span class="hidden-md-and-down">Official Shortcuts</span>
                       <span class="hidden-lg-and-up">Official</span>
                     </a>
-                    <a
-                      v-if="$page.app.url_google_sheets"
-                      :href="$page.app.url_google_sheets"
-                      target="_blank"
-                      class="text-decoration-none mr-2 mr-lg-5"
-                    >
-                      <v-icon x-small color="blue darken-1">mdi-web</v-icon>
-
-                      <span class="hidden-md-and-down">Google Sheet</span>
-                      <span class="hidden-lg-and-up">Table</span>
-                    </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="blue-grey darken-3 box_list">
-            <template v-if="$route.params.slug == 'test-application'">
-              <h2 class="grey--text text-overline mb-2">
-                FETCH FROM GOOGLE SHEETS
-              </h2>
-              <sheets-fetcher
-                dark
-                dense
-                :url_google_sheets.sync="test_url_google_sheets"
-                @fetched="fetched"
-                @clickRestore="
-                  test_url_google_sheets = $page.app.url_google_sheets
-                "
-                class="mb-5"
-              ></sheets-fetcher>
-              <p class="white--text text-body-2">
-                Here you can test your Google Sheets file before making a
-                contribution. All the details are on
-                <a
-                  target="_blank"
-                  href="https://github.com/giray123/shortcutexpert"
-                  >GitHub README file </a
-                >. Once it is ready, you can create a JSON file on
-                <g-link to="/prepare-application">
-                  Prepare Application Page </g-link
-                >.
-              </p>
-            </template>
-
             <h2 class="grey--text text-overline">OPERATING SYSTEM</h2>
             <v-select
               v-model="operating_system"
@@ -285,6 +246,153 @@
           </v-btn>
         </div>
       </v-row>
+
+      <!-- update modal -->
+      <v-dialog v-model="dialog_update" width="500">
+        <v-card>
+          <v-card-title
+            class="headline blue darken-1 white--text justify-space-between"
+          >
+            Update Application
+            <v-btn icon dark @click="dialog_update = false">
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
+          </v-card-title>
+
+          <v-card-text>
+            <div class="text-overline mt-5 mb-3">Meta Data</div>
+            <p class="mb-0 font-weight-bold text-heading-1">
+              Application Name
+            </p>
+            <p class="mb-2">
+              case sensitive
+            </p>
+            <v-text-field
+              placeholder="Application Name"
+              outlined
+              dense
+              clearable
+              hide-details
+              v-model="form_update.name"
+              @input="updateNameChange"
+              append-icon="mdi-restore"
+              @click:append="restoreField('name')"
+            ></v-text-field>
+
+            <p class="mb-0 mt-5 font-weight-bold text-heading-1">
+              Shortcut Expert URL
+            </p>
+            <p class="mb-2">
+              optional
+            </p>
+            <v-text-field
+              outlined
+              dense
+              clearable
+              hide-details
+              class="mb-3"
+              prefix="/shortcuts/"
+              v-model="form_update.slug"
+              append-icon="mdi-restore"
+              @click:append="restoreField('slug')"
+            ></v-text-field>
+
+            <p class="mb-0 mt-5 font-weight-bold text-heading-1">
+              Application Logo URL
+            </p>
+            <p class="mb-2">
+              Must be square. SVG is preffered, PNG and JPG is fine, no more
+              than 20 KB please.
+            </p>
+            <v-text-field
+              placeholder="Logo URL"
+              outlined
+              dense
+              clearable
+              hide-details
+              class="mb-3"
+              v-model="form_update.url_logo"
+              append-icon="mdi-restore"
+              @click:append="restoreField('url_logo')"
+              @change="updateLogoChange"
+            ></v-text-field>
+
+            <p class="mb-0 mt-5 font-weight-bold text-heading-1">
+              Application Home URL
+            </p>
+            <p class="mb-2">
+              optional
+            </p>
+            <v-text-field
+              v-model="form_update.url_app"
+              placeholder="Ex: https://shortcutexpert.com"
+              outlined
+              dense
+              clearable
+              hide-details
+              class="mb-3"
+              append-icon="mdi-restore"
+              @click:append="restoreField('url_app')"
+              @input="updateAppURLChange"
+            ></v-text-field>
+
+            <p class="mb-0 mt-5 font-weight-bold text-heading-1">
+              Official Application Shortcuts URL
+            </p>
+            <p class="mb-2">
+              optional
+            </p>
+            <v-text-field
+              v-model="form_update.url_shortcuts"
+              placeholder="Ex: https://shortcutexpert.com/shortcuts/shortcut-expert"
+              outlined
+              dense
+              clearable
+              append-icon="mdi-restore"
+              @click:append="restoreField('url_shortcuts')"
+              @input="updateAppShortcutsURLChange"
+            ></v-text-field>
+            <v-divider></v-divider>
+
+            <div class="text-overline mt-5 mb-3">Shortcuts</div>
+            <p class="mb-2">
+              Please make sure to prepare your Google Sheets file according to
+              the
+              <a target="_blank" href="/how-it-works">instructions</a>. When you
+              click FETCH, Shortcut Expert will grab the data from your Google
+              Sheets file and process it for the display.
+            </p>
+            <sheets-fetcher
+              class="mt-4"
+              dense
+              clearable
+              :url_google_sheets.sync="form_update.url_google_sheets"
+              @fetched="fetched"
+              @clickRestore="restoreField('url_google_sheets')"
+            ></sheets-fetcher>
+            <v-divider class="mt-8"></v-divider>
+
+            <div class="text-overline mt-5 mb-3">Submit</div>
+            <p>
+              When it is ready, you need to download the JSON file below and add
+              it to
+              <a
+                target="_blank"
+                href="https://github.com/giray123/shortcutexpert/tree/main/src/data/applications"
+                class="text-decoration-none"
+                ><code>src/data/applications</code></a
+              >
+              in the GitHub repo. Create a pull request afterwards. Note that,
+              if you are updating an existing application, make sure that the
+              name of the JSON file does not change.
+            </p>
+
+            <v-btn color="primary" block large class="my-6" @click="download">
+              <v-icon class="mr-3">mdi-download</v-icon> Download JSON
+            </v-btn>
+          </v-card-text>
+        </v-card>
+      </v-dialog>
     </v-container>
   </Layout>
 </template>
@@ -326,6 +434,7 @@ import ShortcutList from "../components/ShortcutList";
 import SheetsFetcher from "../components/SheetsFetcher";
 // var text_symbol = require('../data/text-symbol').text_symbol;
 // var excel_shortcuts = require('../../mockdata/excel');
+import updateForm from "../mixins/updateForm";
 var all_shortcuts_display_text = "All Shortcuts";
 
 var list_cached = null;
@@ -383,10 +492,17 @@ export default {
     ShortcutList,
     SheetsFetcher,
   },
+  mixins: [updateForm],
   created() {
+    // heading & meta data
+    // fill update form
+    this.name = this.$page.app.name;
+    this.url_logo = this.$page.app.url_logo;
+    this.url_app = this.$page.app.url_app;
+    this.url_shortcuts = this.$page.app.url_shortcuts;
+
     // console.log(this.$page.app);
     console.log(this.$route, "this.$route");
-    this.test_url_google_sheets = this.$page.app.url_google_sheets;
     // prepare operating systems
     this.operating_systems = this.$page.app.operating_systems.map(
       (v) => v.name
@@ -413,9 +529,20 @@ export default {
         });
       }
     }
+
+    // fill update form
+    this.form_update.name = this.$page.app.name;
+    this.form_update.slug = this.$page.app.slug;
+    this.form_update.url_logo = this.$page.app.url_logo;
+    this.form_update.url_app = this.$page.app.url_app;
+    this.form_update.url_shortcuts = this.$page.app.url_shortcuts;
+    this.form_update.url_google_sheets = this.$page.app.url_google_sheets;
   },
   data: () => ({
-    test_url_google_sheets: "",
+    name: "",
+    url_logo: "",
+    url_app: "",
+    url_shortcuts: "",
     mobile_keyboard_active: true,
     operating_system: "macos",
     operating_systems: ["macos", "windows", "ios", "android"],
@@ -456,6 +583,15 @@ export default {
     pressed: ["s", "E"],
     symbol_display: true,
     activeKeyboard: "KeyboardWindows",
+    dialog_update: false,
+    form_update: {
+      name: "",
+      slug: "",
+      url_logo: "",
+      url_app: "",
+      url_shortcuts: "",
+      url_google_sheets: "",
+    },
   }),
   methods: {
     setOperatingSystem() {
@@ -860,7 +996,7 @@ export default {
             .flat()
         ),
       ];
-      console.log(arr, "arr");
+      // console.log(arr, "arr");
       return arr;
     },
   },
