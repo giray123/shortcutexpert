@@ -7,6 +7,7 @@ import "vuetify/dist/vuetify.min.css";
 import DefaultLayout from "~/layouts/Default.vue";
 import VueClipboard from "vue-clipboard2";
 import { textToSymbol } from "./filters/textToSymbol";
+import VueDisqus from "vue-disqus";
 
 export default function(Vue, { appOptions, head, router }) {
   head.link.push({
@@ -36,7 +37,12 @@ export default function(Vue, { appOptions, head, router }) {
   if (process.isClient) {
     const VueShortkey = require("vue-shortkey");
     Vue.use(VueShortkey, { prevent: ["input", "textarea"] });
+
+    // const VueDisqus = require("vue-disqus");
   }
+  Vue.use(VueDisqus, {
+    shortname: "shortcutexpert",
+  });
 
   head.meta.push({
     key: "og:image",

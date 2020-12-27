@@ -239,31 +239,36 @@
               @clickFavorite="clickFavorite"
             />
           </div>
-          <div
-            class="box_keyboard"
-            v-show="!$vuetify.breakpoint.mobile || mobile_keyboard_active"
-          >
-            <!-- keyboard -->
-            <div class="flex-grow-1 d-flex justify-center align-center">
-              <div class="keyboard_wrapper">
-                <keyboard
-                  :pressed="pressed"
-                  @clickKey="clickKeyboardKey"
-                  :layout="operating_system.toLowerCase()"
-                  :highlight="filtered_distinct_keys"
-                />
-              </div>
-            </div>
-            <!-- mobile close -->
-            <v-btn
-              icon
-              color="orange"
-              style="position: absolute; top: -30px; right: 10px;"
-              v-show="$vuetify.breakpoint.mobile && mobile_keyboard_active"
-              @click="mobile_keyboard_active = false"
+          <div class="box_keyboard">
+            <div
+              class="keyboard_section"
+              v-show="!$vuetify.breakpoint.mobile || mobile_keyboard_active"
             >
-              <v-icon>mdi-close</v-icon>
-            </v-btn>
+              <!-- keyboard -->
+              <div class="flex-grow-1 d-flex justify-center align-center">
+                <div class="keyboard_wrapper">
+                  <keyboard
+                    :pressed="pressed"
+                    @clickKey="clickKeyboardKey"
+                    :layout="operating_system.toLowerCase()"
+                    :highlight="filtered_distinct_keys"
+                  />
+                </div>
+              </div>
+              <!-- mobile close -->
+              <v-btn
+                icon
+                color="orange"
+                style="position: absolute; top: -30px; right: 10px;"
+                v-show="$vuetify.breakpoint.mobile && mobile_keyboard_active"
+                @click="mobile_keyboard_active = false"
+              >
+                <v-icon>mdi-close</v-icon>
+              </v-btn>
+            </div>
+            <div class="comments_section">
+              <Disqus :identifier="$page.app.slug" />
+            </div>
           </div>
 
           <v-btn
@@ -876,9 +881,11 @@ export default {
 }
 .box_list {
   min-width: 0;
-  padding: 10px 10px 800px 10px;
+  padding: 10px 10px 100px 10px;
 }
 .box_keyboard {
+}
+.keyboard_section {
   position: fixed;
   bottom: 30px;
   left: 0;
@@ -887,6 +894,9 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.comments_section {
+  padding: 20px 20px 300px 20px;
 }
 .sticked_search {
   z-index: 1;
@@ -909,6 +919,7 @@ export default {
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 5fr;
   }
+
   .box_heading {
     padding: 10px 40px;
     grid-area: 1 / 2 / span 1 / span 2;
@@ -920,6 +931,11 @@ export default {
   .box_keyboard {
     position: relative;
     grid-area: 2 / 2 / span 1 / span 2;
+    overflow-y: auto;
+  }
+  .keyboard_section {
+    position: initial;
+    height: 100%;
   }
   .sticked_search {
     top: 0px;

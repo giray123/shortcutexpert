@@ -215,9 +215,9 @@ $key-width-small: 5%;
   background-color: #2196f3;
 }
 .keyboard_macos .key-row .key.pressed {
-  font-weight: bold;
-  border-color: #42a1ec;
-  background-color: #51a9ef;
+  font-weight: bold !important;
+  border-color: #42a1ec !important;
+  background-color: #51a9ef !important;
 }
 .key-row .key.pressed > div:nth-child(1) {
   color: #9cd0f8;
@@ -228,10 +228,10 @@ $key-width-small: 5%;
   color: white;
 }
 .key-row .key.shift-pressed {
-  font-weight: bold;
-  border-color: #dfa151;
-  background-color: #e0a455;
-  color: white;
+  font-weight: bold !important;
+  border-color: #dfa151 !important;
+  background-color: #e0a455 !important;
+  color: white !important;
 }
 .key-row .key.shift-pressed > div:nth-child(1) {
   color: white;
