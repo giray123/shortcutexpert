@@ -184,6 +184,21 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Toggle Text - Symbols",
+          "group": "Quick Access",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "t"
+                }
+              ]
+            }
+          ]
         }
       ]
     },

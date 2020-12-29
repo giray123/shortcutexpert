@@ -3,12 +3,18 @@
     <div id="body">
       <div
         id="left"
-        :class="{ highlight: pressed.includes('left mouse click') }"
+        :class="{
+          highlight: pressed.find((v) =>
+            v.match(/(left mouse click|double click)/)
+          ),
+        }"
         @click="clickMouse('left mouse click')"
       ></div>
       <div
         id="right"
-        :class="{ highlight: pressed.includes('right mouse click') }"
+        :class="{
+          highlight: pressed.find((v) => v.match(/right mouse click/)),
+        }"
         @click="clickMouse('right mouse click')"
       ></div>
       <div id="bottom"></div>

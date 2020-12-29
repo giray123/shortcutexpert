@@ -34,9 +34,10 @@
             >mdi-arrow-expand-right</v-icon
           >
 
-          <div class="key">
-            {{ stroke.text | textToSymbol(symbol_display) }}
-          </div>
+          <div
+            class="key"
+            v-html="$options.filters.textToSymbol(stroke.text, symbol_display)"
+          ></div>
         </div>
         <v-avatar
           v-if="shortcut.info"
@@ -72,7 +73,7 @@ export default {
 <style scoped>
 .shortcut {
   background-color: white;
-  display: inline-block;
+  display: inline-flex;
   position: relative;
   border-radius: 5px;
   color: gray;
@@ -92,10 +93,11 @@ export default {
   background-color: rgb(219, 219, 219);
 }
 .time {
-  display: inline-block;
+  display: inline-flex;
 }
 .key {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   border-radius: 3px;
   padding: 3px 10px;
   background-color: rgb(65, 65, 65);

@@ -15,6 +15,7 @@
         toggle_favorite: ['s'],
         filter_favorites: ['f'],
         clear_filter: ['c'],
+        text_symbol: ['t'],
       }"
       @shortkey="globalKeyPress"
     >
@@ -910,6 +911,10 @@ export default {
         case "clear_filter":
           console.log("clear_filter");
           this.clearFilters();
+          break;
+        case "text_symbol":
+          console.log("text_symbol");
+          this.toggleListSymbols();
           break;
       }
     },
