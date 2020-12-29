@@ -124,7 +124,7 @@
                   v-show="if_filtered"
                   @click="clearFilters"
                 >
-                  clear filters
+                  clear filters (C)
                 </v-btn>
               </div>
             </div>
@@ -132,7 +132,7 @@
               ref="filter_by_name"
               clearable
               solo
-              label="Filter by Name"
+              label="Filter by Name (N)"
               class="sticked_search"
               prepend-inner-icon="mdi-pen"
               append-icon="mdi-magnify"
@@ -163,7 +163,7 @@
             <v-checkbox
               dark
               v-model="filter_favorites"
-              label="Filter favorites"
+              label="Filter favorites (F)"
             ></v-checkbox>
 
             <div class="d-flex justify-between items-center mt-5">

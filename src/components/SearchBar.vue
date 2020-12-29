@@ -10,7 +10,7 @@
       :items="applications"
       v-model="search"
       v-bind="$attrs"
-      label="Search Application"
+      label="Search Application (A)"
       nudge-top="100"
       single-line
       clearable
