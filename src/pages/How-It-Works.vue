@@ -129,15 +129,15 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Plus (+)</td>
+                    <td>+ (plus)</td>
                     <td>Press Together</td>
                   </tr>
                   <tr>
-                    <td>Dash (-)</td>
+                    <td>- (dash)</td>
                     <td>Press after a delay</td>
                   </tr>
                   <tr>
-                    <td>Vertical Line (|)</td>
+                    <td>| (vertical line)</td>
                     <td>Release and press after a delay</td>
                   </tr>
                 </tbody>
@@ -160,6 +160,14 @@
                   between paranthesis at the end of each line.
                 </li>
               </ul>
+
+              <p>
+                Please check
+                <g-link to="/shortcuts/test-application"
+                  >Test Application</g-link
+                >
+                for several examples of shortcuts.
+              </p>
 
               <h3>Access</h3>
 
@@ -265,5 +273,8 @@ img {
   display: block;
   margin: 40px auto;
   max-width: 100%;
+}
+ul {
+  margin: 20px 0px;
 }
 </style>

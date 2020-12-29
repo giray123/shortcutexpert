@@ -15,7 +15,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "W"],
               "strokes": [
                 {
                   "mode": "now",
@@ -35,7 +34,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "O"],
               "strokes": [
                 {
                   "mode": "now",
@@ -55,7 +53,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "H"],
               "strokes": [
                 {
                   "mode": "now",
@@ -75,7 +72,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "S"],
               "strokes": [
                 {
                   "mode": "now",
@@ -95,7 +91,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "C"],
               "strokes": [
                 {
                   "mode": "now",
@@ -115,7 +110,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "V"],
               "strokes": [
                 {
                   "mode": "now",
@@ -135,7 +129,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Z"],
               "strokes": [
                 {
                   "mode": "now",
@@ -155,7 +148,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Delete"],
               "strokes": [
                 {
                   "mode": "now",
@@ -171,7 +163,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "H", "H"],
               "strokes": [
                 {
                   "mode": "now",
@@ -195,7 +186,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "X"],
               "strokes": [
                 {
                   "mode": "now",
@@ -215,7 +205,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "N"],
               "strokes": [
                 {
                   "mode": "now",
@@ -235,7 +224,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "B"],
               "strokes": [
                 {
                   "mode": "now",
@@ -255,7 +243,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "H", "A", "C"],
               "strokes": [
                 {
                   "mode": "now",
@@ -283,7 +270,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "P"],
               "strokes": [
                 {
                   "mode": "now",
@@ -303,7 +289,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "A"],
               "strokes": [
                 {
                   "mode": "now",
@@ -323,7 +308,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "W"],
               "strokes": [
                 {
                   "mode": "now",
@@ -343,7 +327,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "F10"],
               "strokes": [
                 {
                   "mode": "now",
@@ -357,11 +340,10 @@
             },
             {
               "info": "between the right Alt and right Ctrl keys",
-              "distinct_keys": ["Contextkey"],
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "contextkey"
+                  "text": "context key"
                 }
               ]
             }
@@ -373,7 +355,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "H", "B"],
               "strokes": [
                 {
                   "mode": "now",
@@ -397,7 +378,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "H", "D", "C"],
               "strokes": [
                 {
                   "mode": "now",
@@ -425,7 +405,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "M"],
               "strokes": [
                 {
                   "mode": "now",
@@ -445,7 +424,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -465,7 +443,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "0"],
               "strokes": [
                 {
                   "mode": "now",
@@ -485,7 +462,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "Q", "thenenterthesearchterm."],
               "strokes": [
                 {
                   "mode": "now",
@@ -497,7 +473,7 @@
                 },
                 {
                   "mode": "next",
-                  "text": "thenenterthesearchterm."
+                  "text": "then enter the search term."
                 }
               ]
             }
@@ -509,7 +485,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "F"],
               "strokes": [
                 {
                   "mode": "now",
@@ -529,7 +504,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "H"],
               "strokes": [
                 {
                   "mode": "now",
@@ -549,7 +523,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "N"],
               "strokes": [
                 {
                   "mode": "now",
@@ -569,7 +542,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "P"],
               "strokes": [
                 {
                   "mode": "now",
@@ -589,7 +561,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "M"],
               "strokes": [
                 {
                   "mode": "now",
@@ -609,7 +580,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "A"],
               "strokes": [
                 {
                   "mode": "now",
@@ -629,7 +599,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "R"],
               "strokes": [
                 {
                   "mode": "now",
@@ -649,7 +618,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "W"],
               "strokes": [
                 {
                   "mode": "now",
@@ -670,7 +638,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt"],
               "strokes": [
                 {
                   "mode": "now",
@@ -680,7 +647,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["F10"],
               "strokes": [
                 {
                   "mode": "now",
@@ -696,7 +662,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Tab"],
               "strokes": [
                 {
                   "mode": "now",
@@ -706,7 +671,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["Shift", "Tab"],
               "strokes": [
                 {
                   "mode": "now",
@@ -726,11 +690,10 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Arrowkeys"],
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "arrowkeys"
+                  "text": "arrow keys"
                 }
               ]
             }
@@ -742,7 +705,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -752,7 +714,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["Enter"],
               "strokes": [
                 {
                   "mode": "now",
@@ -768,7 +729,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["down"],
               "strokes": [
                 {
                   "mode": "now",
@@ -784,7 +744,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "Down"],
               "strokes": [
                 {
                   "mode": "now",
@@ -804,7 +763,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Down"],
               "strokes": [
                 {
                   "mode": "now",
@@ -820,7 +778,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "F1"],
               "strokes": [
                 {
                   "mode": "now",
@@ -840,7 +797,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "F10"],
               "strokes": [
                 {
                   "mode": "now",
@@ -854,11 +810,10 @@
             },
             {
               "info": "between the right Alt and right Ctrl keys",
-              "distinct_keys": ["Contextkey"],
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "contextkey"
+                  "text": "context key"
                 }
               ]
             }
@@ -870,11 +825,10 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Leftkey"],
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "leftkey"
+                  "text": "left key"
                 }
               ]
             }
@@ -886,7 +840,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "Tab"],
               "strokes": [
                 {
                   "mode": "now",
@@ -906,11 +859,10 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Upkeyup"],
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "upkeyup"
+                  "text": "up keyup"
                 }
               ]
             }
@@ -922,7 +874,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["up"],
               "strokes": [
                 {
                   "mode": "now",
@@ -938,7 +889,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Left"],
               "strokes": [
                 {
                   "mode": "now",
@@ -954,7 +904,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Right"],
               "strokes": [
                 {
                   "mode": "now",
@@ -970,7 +919,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Arrowkeys"],
               "strokes": [
                 {
                   "mode": "now",
@@ -978,7 +926,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "arrowkeys"
+                  "text": "arrow keys"
                 }
               ]
             }
@@ -990,7 +938,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["End", "Arrowkeys"],
               "strokes": [
                 {
                   "mode": "now",
@@ -998,7 +945,7 @@
                 },
                 {
                   "mode": "next",
-                  "text": "arrowkeys"
+                  "text": "arrow keys"
                 }
               ]
             }
@@ -1010,7 +957,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "End"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1030,7 +976,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "End"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1054,7 +999,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Home", "ScrollLock"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1062,7 +1006,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "scrolllock"
+                  "text": "scroll lock"
                 }
               ]
             }
@@ -1074,7 +1018,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Home"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1094,7 +1037,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["PageDown"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1110,7 +1052,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "PageDown"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1130,7 +1071,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "PageDown"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1150,7 +1090,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["PageUp"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1166,7 +1105,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "PageUp"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1186,7 +1124,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "PageUp"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1206,7 +1143,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Tab"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1222,7 +1158,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "Down"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1242,7 +1177,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Alt", "5", "tab"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1270,7 +1204,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Esc"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1286,7 +1219,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "scroll"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1310,7 +1242,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "1"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1330,7 +1261,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "F"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1348,7 +1278,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "P"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1372,7 +1301,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["F2"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1388,7 +1316,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "F2"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1402,7 +1329,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["Shift", "F2"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1422,7 +1348,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "F2"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1440,7 +1365,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "F2"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1464,7 +1388,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "'", ""],
               "strokes": [
                 {
                   "mode": "now",
@@ -1488,7 +1411,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "", ""],
               "strokes": [
                 {
                   "mode": "now",
@@ -1508,7 +1430,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", ":"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1532,7 +1453,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", ";"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1552,7 +1472,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "`"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1572,7 +1491,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "'"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1592,7 +1510,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "X"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1612,7 +1529,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "C"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1632,7 +1548,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "V"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1652,7 +1567,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Alt", "V"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1676,7 +1590,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "I"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1690,7 +1603,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "3"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1710,7 +1622,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "B"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1724,7 +1635,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "2"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1744,7 +1654,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "U"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1758,7 +1667,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "4"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1778,7 +1686,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "5"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1798,7 +1705,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "6"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1818,7 +1724,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "&"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1842,7 +1747,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "_"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1866,7 +1770,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "8"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1886,7 +1789,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "D"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1906,7 +1808,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "~"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1930,7 +1831,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "$"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1954,7 +1854,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "%"],
               "strokes": [
                 {
                   "mode": "now",
@@ -1978,7 +1877,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "^"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2002,7 +1900,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "#"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2026,7 +1923,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "@"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2050,7 +1946,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "!"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2074,7 +1969,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "K"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2094,7 +1988,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["F7"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2110,7 +2003,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Q"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2130,7 +2022,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "L"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2144,7 +2035,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "T"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2164,7 +2054,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "G"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2188,7 +2077,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["A"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2204,7 +2092,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["F"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2220,7 +2107,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["V"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2236,7 +2122,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["T"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2252,7 +2137,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["C"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2268,7 +2152,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["N"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2284,7 +2167,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["H"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2300,7 +2182,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["X"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2316,7 +2197,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["W"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2332,7 +2212,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["R"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2348,7 +2227,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["U"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2364,7 +2242,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "A"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2378,7 +2255,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "Space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2402,7 +2278,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "PageDown"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2426,7 +2301,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "PageUp"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2450,7 +2324,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "ArrowKeys"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2470,7 +2343,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "ArrowKeys"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2494,7 +2366,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["F8"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2510,7 +2381,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "F8"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2530,7 +2400,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "Enter"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2550,7 +2419,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Enter"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2570,7 +2438,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "Enter"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2590,7 +2457,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2610,7 +2476,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "Space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2630,7 +2495,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "Space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2654,7 +2518,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "Home"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2678,7 +2541,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "AorCtrl", "Shift", "Space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2686,7 +2548,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "aorctrl"
+                  "text": "a or ctrl"
                 },
                 {
                   "mode": "now",
@@ -2706,7 +2568,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "*"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2730,7 +2591,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Home"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2746,7 +2606,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Y"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2766,7 +2625,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Z"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2786,7 +2644,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["F2"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2802,7 +2659,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "U"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2826,7 +2682,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Esc"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2842,7 +2697,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Enter"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2858,7 +2712,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "End"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2878,7 +2731,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "End"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2902,7 +2754,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["F9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2918,7 +2769,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "F9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2938,7 +2788,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Alt", "F9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2962,7 +2811,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Alt", "Shift", "F9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -2990,7 +2838,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "Shift", "F10"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3014,7 +2861,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "A"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3034,7 +2880,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "A"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3058,7 +2903,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "E"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3078,7 +2922,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["F4"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3094,7 +2937,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "F3"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3114,7 +2956,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "\""],
               "strokes": [
                 {
                   "mode": "now",
@@ -3138,7 +2979,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "F1"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3158,7 +2998,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["F11"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3174,7 +3013,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "M", "M", "D"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3202,7 +3040,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["F3"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3218,7 +3055,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Enter"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3234,7 +3070,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "F8"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3254,7 +3089,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "F11"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3274,7 +3108,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["RightClick"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3290,7 +3123,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "A"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3310,7 +3142,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "C"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3330,7 +3161,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "D"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3350,7 +3180,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "M"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3370,7 +3199,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "R"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3390,7 +3218,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "S"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3410,7 +3237,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Y"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3430,7 +3256,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Z"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3450,7 +3275,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3470,7 +3294,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "Space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3490,7 +3313,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "PageUp"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3510,7 +3332,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "PageDown"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3530,7 +3351,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "End"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3550,7 +3370,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Shift", "Home"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3570,7 +3389,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "PageUp"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3590,7 +3408,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "PageDown"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3610,7 +3427,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Home"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3630,7 +3446,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "End"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3650,7 +3465,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Left"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3670,7 +3484,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Right"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3690,7 +3503,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Up"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3710,7 +3522,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Down"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3730,7 +3541,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Esc"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3750,7 +3560,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Alt", "Down"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3770,7 +3579,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["F5"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3786,7 +3594,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["F9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3802,7 +3609,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Press"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3818,7 +3624,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Shift", "F10"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3842,7 +3647,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3862,7 +3666,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["Ctrl", "Space", "selectClose"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3874,7 +3677,7 @@
                 },
                 {
                   "mode": "next",
-                  "text": "selectclose"
+                  "text": "select close"
                 }
               ]
             }
@@ -3887,7 +3690,6 @@
           "shortcuts": [
             {
               "info": "displays the Excel Help task pane",
-              "distinct_keys": ["F1"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3897,7 +3699,6 @@
             },
             {
               "info": "displays or hides the ribbon",
-              "distinct_keys": ["Ctrl", "F1"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3911,7 +3712,6 @@
             },
             {
               "info": "creates an embedded chart of the data in the current range",
-              "distinct_keys": ["Alt", "F1"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3925,7 +3725,6 @@
             },
             {
               "info": "inserts a new worksheet",
-              "distinct_keys": ["Alt", "Shift", "F1"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3950,7 +3749,6 @@
           "shortcuts": [
             {
               "info": "edit the active cell and put the insertion point at the end of its contents. or, if editing is turned off for the cell, move the insertion point into the formula bar. If editing a formula, toggle Point mode off or on so you can use arrow keys to create a reference",
-              "distinct_keys": ["F2"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3960,7 +3758,6 @@
             },
             {
               "info": "adds or edits a cell note",
-              "distinct_keys": ["Shift", "F2"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3974,7 +3771,6 @@
             },
             {
               "info": "displays the print preview area on the Print tab in the Backstage view",
-              "distinct_keys": ["Ctrl", "F2"],
               "strokes": [
                 {
                   "mode": "now",
@@ -3995,7 +3791,6 @@
           "shortcuts": [
             {
               "info": "displays the Paste Name dialog. Available only if names have been defined in the workbook",
-              "distinct_keys": ["F3"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4005,7 +3800,6 @@
             },
             {
               "info": "displays the Insert Function dialog",
-              "distinct_keys": ["Shift", "F3"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4026,7 +3820,6 @@
           "shortcuts": [
             {
               "info": "repeats the last command or action, if possible. When a cell reference or range is selected in a formula, F4 cycles through all the various combinations of absolute and relative references",
-              "distinct_keys": ["F4"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4036,7 +3829,6 @@
             },
             {
               "info": "closes the selected workbook window",
-              "distinct_keys": ["Ctrl", "F4"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4050,7 +3842,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["Alt", "F4(closesExcel"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4058,7 +3849,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "f4(closesexcel"
+                  "text": "f4(closes excel"
                 }
               ]
             }
@@ -4071,7 +3862,6 @@
           "shortcuts": [
             {
               "info": "displays the Go To dialog",
-              "distinct_keys": ["F5"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4081,7 +3871,6 @@
             },
             {
               "info": "restores the window size of the selected workbook window",
-              "distinct_keys": ["Ctrl", "F5"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4102,7 +3891,6 @@
           "shortcuts": [
             {
               "info": "switches between the worksheet, ribbon, task pane, and Zoom controls) In a worksheet that has been split , F6 includes the split panes when switching between panes and the ribbon area",
-              "distinct_keys": ["F6"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4112,7 +3900,6 @@
             },
             {
               "info": "switches between the worksheet, Zoom controls, task pane, and ribbon",
-              "distinct_keys": ["Shift", "F6"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4126,7 +3913,6 @@
             },
             {
               "info": "switches between 2 Excel windows",
-              "distinct_keys": ["Ctrl", "F6"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4140,7 +3926,6 @@
             },
             {
               "info": "switches between all Excel windows",
-              "distinct_keys": ["Ctrl", "Shift", "F6"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4165,7 +3950,6 @@
           "shortcuts": [
             {
               "info": "Opens the Spelling dialog to check spelling in the active worksheet or selected range",
-              "distinct_keys": ["F7"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4175,7 +3959,6 @@
             },
             {
               "info": "performs the Move command on the workbook window when it is not maximized) Use the arrow keys to move the window, and when finished press Enter, or Esc to cancel",
-              "distinct_keys": ["Ctrl", "F7"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4196,7 +3979,6 @@
           "shortcuts": [
             {
               "info": "turns extend mode on or off) In extend mode, Extended Selection appears in the status line, and the arrow keys extend the selection",
-              "distinct_keys": ["F8"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4206,7 +3988,6 @@
             },
             {
               "info": "enables you to add a non-adjacent cell or range to a selection of cells by using the arrow keys",
-              "distinct_keys": ["Shift", "F8"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4220,7 +4001,6 @@
             },
             {
               "info": "performs the Size command when a workbook is not maximized",
-              "distinct_keys": ["Ctrl", "F8"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4234,7 +4014,6 @@
             },
             {
               "info": "displays the Macro dialog to create, run, edit, or delete a macro",
-              "distinct_keys": ["Alt", "F8"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4255,7 +4034,6 @@
           "shortcuts": [
             {
               "info": "calculates all worksheets in all open workbooks",
-              "distinct_keys": ["F9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4265,7 +4043,6 @@
             },
             {
               "info": "calculates the active worksheet",
-              "distinct_keys": ["Shift", "F9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4279,7 +4056,6 @@
             },
             {
               "info": "calculates all worksheets in all open workbooks, regardless of whether they have changed since the last calculation",
-              "distinct_keys": ["Ctrl", "Alt", "F9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4297,7 +4073,6 @@
             },
             {
               "info": "rechecks dependent formulas, and then calculates all cells in all open workbooks, including cells not marked as needing to be calculated",
-              "distinct_keys": ["Ctrl", "Alt", "Shift", "F9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4319,7 +4094,6 @@
             },
             {
               "info": "minimizes a workbook window to an icon",
-              "distinct_keys": ["Ctrl", "F9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4340,7 +4114,6 @@
           "shortcuts": [
             {
               "info": "Turns key tips on or off) (Pressing Alt does the same thing)",
-              "distinct_keys": ["F10"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4350,7 +4123,6 @@
             },
             {
               "info": "displays the shortcut menu for a selected item",
-              "distinct_keys": ["Shift", "F10"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4364,7 +4136,6 @@
             },
             {
               "info": "displays the menu or message for an Error Checking button",
-              "distinct_keys": ["Alt", "Shift", "F10"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4382,7 +4153,6 @@
             },
             {
               "info": "maximizes or restores the selected workbook window",
-              "distinct_keys": ["Ctrl", "F10"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4403,7 +4173,6 @@
           "shortcuts": [
             {
               "info": "Creates a chart of the data in the current range in a separate Chart sheet",
-              "distinct_keys": ["F11"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4413,7 +4182,6 @@
             },
             {
               "info": "inserts a new worksheet",
-              "distinct_keys": ["Shift", "F11"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4427,7 +4195,6 @@
             },
             {
               "info": "opens the Microsoft Visual Basic For Applications Editor, in which you can create a macro by using Visual Basic for Applications (VBA)",
-              "distinct_keys": ["Alt", "F11"],
               "strokes": [
                 {
                   "mode": "now",
@@ -4448,7 +4215,6 @@
           "shortcuts": [
             {
               "info": "displays the Save As dialog",
-              "distinct_keys": ["F12"],
               "strokes": [
                 {
                   "mode": "now",

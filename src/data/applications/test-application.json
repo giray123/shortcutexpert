@@ -355,6 +355,41 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Numbers",
+          "group": "Special text",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "numbers"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Multiple Keys",
+          "group": "Special text",
+          "description": "Each letter in square brackets will be highlighted",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "[01234]"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
