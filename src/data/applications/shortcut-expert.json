@@ -206,7 +206,7 @@
       "name": "windows",
       "list": [
         {
-          "name": "Next List Item",
+          "name": "Next List Item asd",
           "group": "Shortcut List",
           "shortcuts": [
             {
@@ -361,6 +361,36 @@
                 {
                   "mode": "now",
                   "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Clear filters",
+          "group": "Quick Access",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Toggle Text - Symbols",
+          "group": "Quick Access",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "t"
                 }
               ]
             }
