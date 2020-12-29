@@ -210,9 +210,19 @@
                 <div class="keyboard_wrapper">
                   <keyboard
                     :pressed="pressed"
-                    @clickKey="clickKeyboardKey"
+                    @clickKey="clickKeyboardMouse"
                     :layout="operating_system.toLowerCase()"
                     :highlight="filtered_distinct_keys"
+                  />
+                </div>
+              </div>
+              <!-- mouse -->
+              <div class="hidden-sm-and-down">
+                <div class="mouse_wrapper">
+                  <mouse
+                    v-show="!$vuetify.breakpoint.mobile"
+                    :pressed="pressed"
+                    @clickMouse="clickKeyboardMouse"
                   />
                 </div>
               </div>
@@ -430,6 +440,7 @@
 const se = require("../helpers/shortcut-expert");
 // import HelloWorld from './components/HelloWorld';
 import Keyboard from "../components/Keyboard";
+import Mouse from "../components/Mouse";
 import ShortcutList from "../components/ShortcutList";
 import SheetsFetcher from "../components/SheetsFetcher";
 // var text_symbol = require('../data/text-symbol').text_symbol;
@@ -489,6 +500,7 @@ export default {
   },
   components: {
     Keyboard,
+    Mouse,
     ShortcutList,
     SheetsFetcher,
   },
@@ -773,7 +785,7 @@ export default {
     toggleListSymbols() {
       this.symbol_display = !this.symbol_display;
     },
-    clickKeyboardKey(stroke) {
+    clickKeyboardMouse(stroke) {
       this.clearFilters();
       this.filter_stroke = stroke.toLowerCase();
       this.pressed = [stroke.toLowerCase()];
@@ -1045,6 +1057,11 @@ export default {
   padding-top: 37%;
   position: relative;
 }
+.mouse_wrapper {
+  width: 100%;
+  padding-top: 160%;
+  position: relative;
+}
 @media only screen and (min-width: 1264px) {
   .box_main {
     height: 100%;
@@ -1072,6 +1089,13 @@ export default {
   .keyboard_section {
     position: initial;
     height: 100%;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .keyboard_section div {
+    flex-grow: 1;
   }
   .sticked_search {
     top: 0px;

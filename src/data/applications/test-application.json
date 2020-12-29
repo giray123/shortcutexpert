@@ -16,7 +16,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["x"],
               "strokes": [
                 {
                   "mode": "now",
@@ -33,7 +32,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["command"],
               "strokes": [
                 {
                   "mode": "now",
@@ -43,7 +41,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["alt"],
               "strokes": [
                 {
                   "mode": "now",
@@ -53,7 +50,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -70,7 +66,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["command", "y"],
               "strokes": [
                 {
                   "mode": "now",
@@ -91,7 +86,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["shift", "z"],
               "strokes": [
                 {
                   "mode": "now",
@@ -112,7 +106,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["w", "e"],
               "strokes": [
                 {
                   "mode": "now",
@@ -133,7 +126,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["alt", "b", "z", "shift", "x"],
               "strokes": [
                 {
                   "mode": "now",
@@ -162,11 +154,10 @@
         {
           "name": "Multiple Shortcuts",
           "group": "All Shortcuts",
-          "description": "\"a | b | c\n a - b - c\"\n Create a new line for each shortcut or just put \"\\n\" between them",
+          "description": "\"a | b | c\n a - b - c\"",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["a", "b", "c"],
               "strokes": [
                 {
                   "mode": "now",
@@ -184,7 +175,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["a", "b", "c"],
               "strokes": [
                 {
                   "mode": "now",
@@ -205,11 +195,10 @@
         {
           "name": "Capitalization Matters",
           "group": "All Shortcuts",
-          "description": "\"a\n A\"\nShift keys are displayed in orange instead of blue",
+          "description": "\"a<br>\n A\"<br>\nShift keys are displayed in orange instead of blue",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["a"],
               "strokes": [
                 {
                   "mode": "now",
@@ -219,7 +208,6 @@
             },
             {
               "info": null,
-              "distinct_keys": ["A"],
               "strokes": [
                 {
                   "mode": "now",
@@ -236,7 +224,6 @@
           "shortcuts": [
             {
               "info": "chrome only",
-              "distinct_keys": ["command", "a"],
               "strokes": [
                 {
                   "mode": "now",
@@ -250,7 +237,6 @@
             },
             {
               "info": "other browsers",
-              "distinct_keys": ["shift", "a"],
               "strokes": [
                 {
                   "mode": "now",
@@ -271,7 +257,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["shift", "'", ""],
               "strokes": [
                 {
                   "mode": "now",
@@ -285,11 +270,87 @@
             },
             {
               "info": null,
-              "distinct_keys": ["'", ""],
               "strokes": [
                 {
                   "mode": "now",
                   "text": "|"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mouse Clicks",
+          "group": "Mouse",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "left mouse click"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "command"
+                },
+                {
+                  "mode": "now",
+                  "text": "right mouse click"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mouse Scroll",
+          "group": "Mouse",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "mouse scroll"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "mouse scroll up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "mouse scroll down"
                 }
               ]
             }

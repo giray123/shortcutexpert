@@ -215,10 +215,18 @@ $key-width-small: 5%;
   border-color: #128ef1;
   background-color: #2196f3;
 }
+.keyboard_windows .key-row .key.pressed:hover {
+  border-color: #266ca1;
+  background-color: #4292d4;
+}
 .keyboard_macos .key-row .key.pressed {
   font-weight: bold !important;
   border-color: #42a1ec !important;
   background-color: #51a9ef !important;
+}
+.keyboard_macos .key-row .key.pressed:hover {
+  border-color: #266ca1 !important;
+  background-color: #4292d4 !important;
 }
 .key-row .key.pressed > div:nth-child(1) {
   color: #9cd0f8;
@@ -233,6 +241,10 @@ $key-width-small: 5%;
   border-color: #dfa151 !important;
   background-color: #e0a455 !important;
   color: white !important;
+}
+.key-row .key.shift-pressed:hover {
+  border-color: #b4803b !important;
+  background-color: #d4994b !important;
 }
 .key-row .key.shift-pressed > div:nth-child(1) {
   color: white;

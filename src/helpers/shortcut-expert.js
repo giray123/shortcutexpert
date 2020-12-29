@@ -216,10 +216,6 @@ function parseKey(str) {
   const multiple_pattern_match = str.match(multiple_pattern);
   if (str.match(/^\[.+\]$/)) {
     return str.split("").slice(1, -1);
-  } else if (str.match(/^(left click|left mouse click)$/i)) {
-    return "left";
-  } else if (str.match(/^(right click|right mouse click)$/i)) {
-    return "right";
   } else if (str.match(/^numbers$/i)) {
     return ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
   } else return str;
