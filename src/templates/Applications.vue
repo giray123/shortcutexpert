@@ -187,7 +187,9 @@
                     </v-btn>
                   </template>
                   <span>{{
-                    symbol_display ? "symbols to text" : "text to symbols"
+                    symbol_display
+                      ? "symbols to text (T)"
+                      : "text to symbols (T)"
                   }}</span>
                 </v-tooltip>
               </div>
