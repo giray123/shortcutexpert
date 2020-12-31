@@ -1040,7 +1040,7 @@
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "pagedown"
+                  "text": "page down"
                 }
               ]
             }
@@ -1059,7 +1059,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "pagedown"
+                  "text": "page down"
                 }
               ]
             }
@@ -1078,7 +1078,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "pagedown"
+                  "text": "page down"
                 }
               ]
             }
@@ -1093,7 +1093,7 @@
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "pageup"
+                  "text": "page up"
                 }
               ]
             }
@@ -1112,7 +1112,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "pageup"
+                  "text": "page up"
                 }
               ]
             }
@@ -1131,7 +1131,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "pageup"
+                  "text": "page up"
                 }
               ]
             }
@@ -1326,19 +1326,6 @@
                   "text": "f2"
                 }
               ]
-            },
-            {
-              "info": null,
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "shift"
-                },
-                {
-                  "mode": "now",
-                  "text": "f2"
-                }
-              ]
             }
           ]
         },
@@ -1346,23 +1333,6 @@
           "name": "Insert a threaded comment or\nOpen and reply to a threaded comment",
           "group": "Keyboard shortcuts for formatting cells",
           "shortcuts": [
-            {
-              "info": null,
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "ctrl"
-                },
-                {
-                  "mode": "now",
-                  "text": "shift"
-                },
-                {
-                  "mode": "now",
-                  "text": "f2"
-                }
-              ]
-            },
             {
               "info": null,
               "strokes": [
@@ -2289,7 +2259,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "pagedown"
+                  "text": "page down"
                 }
               ]
             }
@@ -2312,7 +2282,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "pageup"
+                  "text": "page up"
                 }
               ]
             }
@@ -2331,7 +2301,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "arrowkeys"
+                  "text": "arrow keys"
                 }
               ]
             }
@@ -2354,7 +2324,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "arrowkeys"
+                  "text": "arrow keys"
                 }
               ]
             }
@@ -2548,7 +2518,16 @@
                 },
                 {
                   "mode": "now",
-                  "text": "a or ctrl"
+                  "text": "A"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
                 },
                 {
                   "mode": "now",
@@ -3111,7 +3090,7 @@
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "rightclick"
+                  "text": "right mouse click"
                 }
               ]
             }
@@ -3320,7 +3299,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "pageup"
+                  "text": "page up"
                 }
               ]
             }
@@ -3339,7 +3318,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "pagedown"
+                  "text": "page down"
                 }
               ]
             }
@@ -3396,7 +3375,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "pageup"
+                  "text": "page up"
                 }
               ]
             }
@@ -3415,7 +3394,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "pagedown"
+                  "text": "page down"
                 }
               ]
             }
@@ -3598,21 +3577,6 @@
                 {
                   "mode": "now",
                   "text": "f9"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "To do this",
-          "group": "Keyboard shortcuts in Office Add-ins",
-          "shortcuts": [
-            {
-              "info": null,
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "press"
                 }
               ]
             }
@@ -3841,7 +3805,7 @@
               ]
             },
             {
-              "info": null,
+              "info": "closes Excel",
               "strokes": [
                 {
                   "mode": "now",
@@ -3849,7 +3813,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "f4(closes excel"
+                  "text": "f4"
                 }
               ]
             }

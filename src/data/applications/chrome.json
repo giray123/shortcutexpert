@@ -142,7 +142,6 @@
         {
           "name": "Jump to a specific tab",
           "group": "Tab and window shortcuts",
-          "description": "numbers from 1 to 8",
           "shortcuts": [
             {
               "info": null,
@@ -153,20 +152,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "1"
-                }
-              ]
-            },
-            {
-              "info": null,
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "command"
-                },
-                {
-                  "mode": "now",
-                  "text": "8"
+                  "text": "[12345678]"
                 }
               ]
             }
@@ -1378,7 +1364,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "click a link"
+                  "text": "left mouse click a link"
                 }
               ]
             }
@@ -1401,7 +1387,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "click a link"
+                  "text": "left mouse click a link"
                 }
               ]
             }
@@ -1435,7 +1421,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "click a link"
+                  "text": "left mouse click a link"
                 }
               ]
             }
@@ -1514,7 +1500,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "click a link"
+                  "text": "left mouse click a link"
                 }
               ]
             }
@@ -1529,11 +1515,7 @@
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "right"
-                },
-                {
-                  "mode": "next",
-                  "text": "click on back"
+                  "text": "right mouse click on back"
                 }
               ]
             },
@@ -1542,7 +1524,7 @@
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "click & hold on back"
+                  "text": "left mouse click & hold on back"
                 }
               ]
             },
@@ -1551,11 +1533,7 @@
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "right"
-                },
-                {
-                  "mode": "next",
-                  "text": "click on next"
+                  "text": "right mouse click on next"
                 }
               ]
             },
@@ -1564,7 +1542,7 @@
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "click & hold on next"
+                  "text": "left mouse click & hold on next"
                 }
               ]
             }
@@ -1579,11 +1557,7 @@
               "strokes": [
                 {
                   "mode": "now",
-                  "text": "double"
-                },
-                {
-                  "mode": "next",
-                  "text": "click a blank area of the tab strip"
+                  "text": "double click a blank area of the tab strip"
                 }
               ]
             }
@@ -1749,7 +1723,6 @@
         {
           "name": "Jump to a specific tab",
           "group": "Tab and window shortcuts",
-          "description": "numbers from 1 to 8",
           "shortcuts": [
             {
               "info": null,
@@ -1760,20 +1733,7 @@
                 },
                 {
                   "mode": "now",
-                  "text": "1"
-                }
-              ]
-            },
-            {
-              "info": null,
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "ctrl"
-                },
-                {
-                  "mode": "now",
-                  "text": "8"
+                  "text": "[12345678]"
                 }
               ]
             }
