@@ -1,0 +1,745 @@
+{
+  "name": "Youtube",
+  "slug": "youtube",
+  "url_logo": "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg",
+  "url_app": "https://www.youtube.com/",
+  "url_shortcuts": "https://support.google.com/youtube/answer/7631406?hl=en",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1f0hKTT1AQOGhdeTZtLytoAlRiO8tnn7zBE-sFGx0mNM/edit?usp=sharing",
+  "operating_systems": [
+    {
+      "name": "macos",
+      "list": [
+        {
+          "name": "Play / Pause",
+          "group": "All Shortcuts",
+          "description": "when the seek bar is selected. Activate a button if a button has focus.",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pause / Play in player",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mute / Unmute",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seek backward/forward 5 seconds.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seek backward 10 seconds in player.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "j"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seek forward 10 seconds in player.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "l"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next Frame",
+          "group": "All Shortcuts",
+          "description": "While the video is paused",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous Frame",
+          "group": "All Shortcuts",
+          "description": "While the video is paused",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Speed up the video playback rate.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ">"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Slow down the video playback rate.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "<"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seek to the beginning/last seconds of the video",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Increase / Decrease volume 5%.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seek to the 10% to 90% of the video",
+          "group": "All Shortcuts",
+          "description": "not on the numeric pad",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "[123456789]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seek to the beginning of the video",
+          "group": "All Shortcuts",
+          "description": "not on the numeric pad",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move between H1 headers",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to search box.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Activate / Deactivate Full Screen",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Activate / Deactivate closed captions and subtitles",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the next video",
+          "group": "All Shortcuts",
+          "description": "If you're using a playlist, will go to the next video of the playlist. If not using a playlist, it will move to the next YouTube suggested video",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the previous video",
+          "group": "All Shortcuts",
+          "description": "Note that this shortcut only works when you're using a playlist",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open the Miniplayer",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "i"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "windows",
+      "list": [
+        {
+          "name": "Play / Pause",
+          "group": "All Shortcuts",
+          "description": "when the seek bar is selected. Activate a button if a button has focus.",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "space"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pause / Play in player",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "k"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mute / Unmute",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "m"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seek backward/forward 5 seconds.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seek backward 10 seconds in player.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "j"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seek forward 10 seconds in player.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "l"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Next Frame",
+          "group": "All Shortcuts",
+          "description": "While the video is paused",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ","
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous Frame",
+          "group": "All Shortcuts",
+          "description": "While the video is paused",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Speed up the video playback rate.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": ">"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Slow down the video playback rate.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "<"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seek to the beginning/last seconds of the video",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "home"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "end"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Increase / Decrease volume 5%.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "up"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "down"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seek to the 10% to 90% of the video",
+          "group": "All Shortcuts",
+          "description": "not on the numeric pad",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "[123456789]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seek to the beginning of the video",
+          "group": "All Shortcuts",
+          "description": "not on the numeric pad",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move between H1 headers",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Go to search box.",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Activate / Deactivate Full Screen",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "f"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Activate / Deactivate closed captions and subtitles",
+          "group": "All Shortcuts",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the next video",
+          "group": "All Shortcuts",
+          "description": "If you're using a playlist, will go to the next video of the playlist. If not using a playlist, it will move to the next YouTube suggested video",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "N"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move to the previous video",
+          "group": "All Shortcuts",
+          "description": "Note that this shortcut only works when you're using a playlist",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "P"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
