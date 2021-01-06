@@ -9,6 +9,9 @@
 <a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fgiray123%2Fshortcutexpert"><img alt="Twitter" src="https://img.shields.io/twitter/url?logo=twitter&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2Fgiray123%2Fshortcutexpert"></a>
 </p>
 
+## :star:&nbsp; Demo
+<a href="https://shortcutexpert.com">shortcutexpert.com</a>
+
 ## :heart:&nbsp; Purpose
 
 - :package:&nbsp; Gather all application shortcuts into a single platform
