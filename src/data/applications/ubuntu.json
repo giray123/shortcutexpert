@@ -1,0 +1,635 @@
+{
+  "name": "Ubuntu",
+  "slug": "ubuntu",
+  "url_logo": "https://upload.wikimedia.org/wikipedia/commons/0/01/Ubuntu_logo_copyleft_1.svg",
+  "url_app": "https://ubuntu.com/",
+  "url_shortcuts": "https://help.ubuntu.com/stable/ubuntu-help/shell-keyboard-shortcuts.html.en",
+  "url_google_sheets": "https://docs.google.com/spreadsheets/d/1J7praKy12RfCHue1STkEpV9ySfusIJSFljR3hu8kZQI/edit?usp=sharing",
+  "operating_systems": [
+    {
+      "name": "windows",
+      "list": [
+        {
+          "name": "Toggle Activites Overview",
+          "group": "Desktop",
+          "description": "In the overview, start typing to instantly search your applications, contacts, and documents",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "super"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quick Run Command",
+          "group": "Desktop",
+          "description": "Use the arrow keys to quickly access previously run commands",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch Windows",
+          "group": "Desktop",
+          "description": "Hold down Shift for reverse order",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch same application windows",
+          "group": "Desktop",
+          "description": "After Switch Windows\nThis shortcut uses ` on US keyboards, where the ` key is above Tab. On all other keyboards, the shortcut is Super plus the key above Tab",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "`"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch Windows Instant",
+          "group": "Desktop",
+          "description": "In the current workspace. Hold down Shift for reverse order",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "esc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Focus topbar / dash",
+          "group": "Desktop",
+          "description": "Top bar, dash, windows overview, applications list, and search field. Use the arrow keys to navigate",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "tab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Application Menu",
+          "group": "Desktop",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Switch Workspaces",
+          "group": "Desktop",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "pageup"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "pagedown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move Window to workspace",
+          "group": "Desktop",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "pageup"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "pagedown"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move Window to left monitor",
+          "group": "Desktop",
+          "description": "Move the current window one monitor to the left",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "left"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Move Window to right monitor",
+          "group": "Desktop",
+          "description": "Move the current window one monitor to the right",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "right"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Power Off",
+          "group": "Desktop",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "delete"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lock the screen",
+          "group": "Desktop",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "L"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Show Desktop",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "D"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "D"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Notification List",
+          "group": "Desktop",
+          "description": "Press again or Esc to close",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "V"
+                }
+              ]
+            },
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "M"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Snap Window",
+          "group": "Desktop",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "super"
+                },
+                {
+                  "mode": "now",
+                  "text": "arrow keys"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Close Application",
+          "group": "Desktop",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "f4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select All",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "A"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cut",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "X"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Copy",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "C"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paste",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "V"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Undo",
+          "group": "Editing",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Screenshot",
+          "group": "Capture Screen",
+          "description": "Take a screenshot",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "prntscrn"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Screenshot Window",
+          "group": "Capture Screen",
+          "description": "Take a screenshot of a window",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "print"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Screenshot Area",
+          "group": "Capture Screen",
+          "description": "The pointer changes to a crosshair. Click and drag to select an area",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "print"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Screencast Record/Stop",
+          "group": "Capture Screen",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "shift"
+                },
+                {
+                  "mode": "now",
+                  "text": "R"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Terminal",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl"
+                },
+                {
+                  "mode": "now",
+                  "text": "alt"
+                },
+                {
+                  "mode": "now",
+                  "text": "T"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
