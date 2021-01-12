@@ -17,7 +17,7 @@
           `
         "
         :style="`${key.style || ''}`"
-        @click="clickKey(key.stroke || null)"
+        @click="clickKey(key || null, $event)"
       >
         <div
           v-for="(text, g) in key.texts"
@@ -55,8 +55,12 @@ export default {
     changeLayout() {
       this.keyboard = Object.assign({}, layouts[this.layout]);
     },
-    clickKey(stroke) {
-      this.$emit("clickKey", stroke);
+    clickKey(key, e) {
+      if(e.shiftKey){
+        this.$emit("clickKey", key.stroke_shift || key.stroke);
+      }else{
+        this.$emit("clickKey", key.stroke);
+      }
     },
   },
   data: () => ({
@@ -169,6 +173,13 @@ $key-width-small: 5%;
   border-radius: 6px;
   padding: 0.1vw 0.3vw;
   flex-flow: column;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 .key .div {
   flex-grow: 1;

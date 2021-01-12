@@ -790,8 +790,8 @@ export default {
     },
     clickKeyboardMouse(stroke) {
       this.clearFilters();
-      this.filter_stroke = stroke.toLowerCase();
-      this.pressed = [stroke.toLowerCase()];
+      this.filter_stroke = stroke;
+      this.pressed = [stroke];
     },
     globalKeyPress(event) {
       console.log("globalKeyPress");

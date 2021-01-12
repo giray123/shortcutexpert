@@ -218,6 +218,10 @@ function parseKey(str) {
     return str.split("").slice(1, -1);
   } else if (str.match(/^numbers$/i)) {
     return ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
+  } else if (str.match(/^arrow keys$/i)) {
+    return ["left", "right", "up", "down"];
+  } else if (str.match(/^click$/i)) {
+    return ["left mouse click"];
   } else return str;
 }
 

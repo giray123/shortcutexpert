@@ -35,4 +35,7 @@ export default {
 #nprogress .bar {
   background: rgb(238, 47, 47) !important;
 }
+.keyboard-icon{
+  width: 30%;
+}
 </style>

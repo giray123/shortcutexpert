@@ -224,7 +224,7 @@ exports.layout = [
       { stroke: "fn", texts: [{ name: "Fn", class: "key-text-sm" }] },
       {
         stroke: "windows",
-        texts: [{ name: "<font face=Wingdings>&#xff;</font>", class: "" }],
+        texts: [{ name: '<img class="keyboard-icon" src="/img/windows-keyboard-icon.svg">', class: "" }],
       },
       { stroke: "alt", texts: [{ name: "Alt", class: "key-text-sm" }] },
       { stroke: "space", texts: [{ name: "" }] },
