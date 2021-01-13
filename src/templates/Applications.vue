@@ -514,8 +514,6 @@ export default {
   },
   mixins: [updateForm],
   created() {
-    // check iframe
-    this.iframe = this.$route.query.iframe == "true"
     // heading & meta data
     // fill update form
     this.name = this.$page.app.name;
@@ -534,6 +532,8 @@ export default {
     this.setOperatingSystem();
   },
   mounted() {
+    // check iframe
+    this.iframe = this.$route.query.iframe == "true"
     // mark favorites
     var local_favorites = localStorage.getItem("favorites");
     if (local_favorites) {
