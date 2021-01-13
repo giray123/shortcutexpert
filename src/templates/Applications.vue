@@ -1,5 +1,5 @@
 <template>
-  <Layout toolbar fullheight>
+  <Layout :toolbar="!iframe" fullheight>
     <v-container
       fluid
       pa-0
@@ -19,13 +19,18 @@
       }"
       @shortkey="globalKeyPress"
     >
+    <v-row class="blue darken-1 text-right justify-end align-center" v-if="iframe" style="height: 35px;" flex>
+      <a :href="'https://shortcutexpert.com/shortcuts/'+$page.app.slug" target="_blank" class="mx-3">
+        <img :src="require('@/assets/img/logo-light.svg')" alt="Shortcut Expert Logo" width="150">
+      </a>
+    </v-row>
       <v-row
         no-gutters
         style="flex-wrap: nowrap; width: 100%;"
         class="fill-height"
       >
         <div class="box_main">
-          <div class="box_heading">
+          <div class="box_heading" v-if="!iframe">
             <!-- heading -->
             <div class="d-flex align-strecth justify-start">
               <div class="d-flex align-center justify-center">
@@ -203,7 +208,7 @@
               @clickFavorite="clickFavorite"
             />
           </div>
-          <div class="box_keyboard">
+          <div class="box_keyboard" :style="iframe ? 'grid-area: 1 / 2 / span 2 / span 2;' : ''">
             <div
               class="keyboard_section"
               v-show="!$vuetify.breakpoint.mobile || mobile_keyboard_active"
@@ -246,7 +251,7 @@
           </div>
 
           <v-btn
-            style="position: fixed; bottom: 15px; right: 15px;"
+            style="position: fixed; bottom: 15px; right: 15px;z-index:1;"
             fab
             dark
             color="orange"
@@ -509,6 +514,8 @@ export default {
   },
   mixins: [updateForm],
   created() {
+    // check iframe
+    this.iframe = this.$route.query.iframe == "true"
     // heading & meta data
     // fill update form
     this.name = this.$page.app.name;
@@ -554,6 +561,7 @@ export default {
     this.form_update.url_google_sheets = this.$page.app.url_google_sheets;
   },
   data: () => ({
+    iframe: false,
     name: "",
     url_logo: "",
     url_app: "",
@@ -1049,6 +1057,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1;
 }
 .comments_section {
   padding: 20px 20px 300px 20px;
