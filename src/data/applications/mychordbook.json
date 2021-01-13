@@ -10,12 +10,27 @@
       "name": "windows",
       "list": [
         {
+          "name": "Jump to Lyric / Chord",
+          "group": "Video",
+          "description": "click on any lyric or chord",
+          "shortcuts": [
+            {
+              "info": null,
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "left mouse click"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Video Play / Pause",
           "group": "Video",
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -31,7 +46,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["left"],
               "strokes": [
                 {
                   "mode": "now",
@@ -47,7 +61,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["right"],
               "strokes": [
                 {
                   "mode": "now",
@@ -63,7 +76,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["m"],
               "strokes": [
                 {
                   "mode": "now",
@@ -79,28 +91,10 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["p"],
               "strokes": [
                 {
                   "mode": "now",
                   "text": "p"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Toggle Play Chord Once",
-          "group": "Instrument",
-          "description": "Plays the chord everytime it changes",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["o"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "o"
                 }
               ]
             }
@@ -112,7 +106,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["", ""],
               "strokes": [
                 {
                   "mode": "now",
@@ -128,7 +121,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["'", ""],
               "strokes": [
                 {
                   "mode": "now",
@@ -145,7 +137,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["[12345678]"],
               "strokes": [
                 {
                   "mode": "now",
@@ -161,7 +152,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -177,27 +167,10 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["0"],
               "strokes": [
                 {
                   "mode": "now",
                   "text": "0"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Toggle Metronome",
-          "group": "Other",
-          "shortcuts": [
-            {
-              "info": null,
-              "distinct_keys": ["x"],
-              "strokes": [
-                {
-                  "mode": "now",
-                  "text": "x"
                 }
               ]
             }
@@ -214,7 +187,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["space"],
               "strokes": [
                 {
                   "mode": "now",
@@ -230,7 +202,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["left"],
               "strokes": [
                 {
                   "mode": "now",
@@ -246,7 +217,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["right"],
               "strokes": [
                 {
                   "mode": "now",
@@ -262,7 +232,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["m"],
               "strokes": [
                 {
                   "mode": "now",
@@ -278,7 +247,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["p"],
               "strokes": [
                 {
                   "mode": "now",
@@ -295,7 +263,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["o"],
               "strokes": [
                 {
                   "mode": "now",
@@ -311,7 +278,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["", ""],
               "strokes": [
                 {
                   "mode": "now",
@@ -327,7 +293,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["'", ""],
               "strokes": [
                 {
                   "mode": "now",
@@ -344,7 +309,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["[12345678]"],
               "strokes": [
                 {
                   "mode": "now",
@@ -360,7 +324,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["9"],
               "strokes": [
                 {
                   "mode": "now",
@@ -376,7 +339,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["0"],
               "strokes": [
                 {
                   "mode": "now",
@@ -392,7 +354,6 @@
           "shortcuts": [
             {
               "info": null,
-              "distinct_keys": ["x"],
               "strokes": [
                 {
                   "mode": "now",
