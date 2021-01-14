@@ -235,7 +235,66 @@
                 src="@/assets/img/tutorial/make-a-copy.png"
               ></g-image>
 
-              <p></p>
+              <h2>Embed Into Your Application</h2>
+              <p>
+                If you are an application owner, after you publish your
+                shortcuts with ShortCut Expert, you can embed the your shortcuts
+                to ypur website.
+              </p>
+
+              <p>
+                Just insert <code>/?iframe=true</code> at the end of your
+                Shortcut Expert URL and embed it via an iframe. Below, you can
+                find the code snippets to embed a responsive iframe to your
+                website.
+              </p>
+
+              <span class="text-overline">html</span>
+              <vue-code-highlight language="html">
+                <pre>
+&#60;div class="video-container"&#62;
+    &#60;iframe
+      width="560"
+      height="700"
+      src="https://shortcutexpert.com/shortcuts/shortcut-expert/?iframe=true"
+      frameborder="0"
+    &#62;&#60;/iframe&#62;
+&#60;/div&#62;
+                </pre>
+              </vue-code-highlight>
+
+              <span class="text-overline mt-5">css</span>
+              <vue-code-highlight language="css">
+                <pre>
+.video-container {
+  position: relative;
+  padding-bottom: 150%; /* aspect ratio 3:2 */
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+                </pre>
+              </vue-code-highlight>
+
+              <span class="text-overline mt-10">output</span>
+              <div class="video-container mt-3 custom-scrollbar">
+                <iframe
+                  width="560"
+                  height="700"
+                  src="https://shortcutexpert.com/shortcuts/shortcut-expert/?iframe=true"
+                  frameborder="0"
+                ></iframe>
+              </div>
             </div>
           </div>
         </v-col>
@@ -245,12 +304,19 @@
 </template>
 
 <script>
+import { component as VueCodeHighlight } from "vue-code-highlight";
+import "vue-code-highlight/themes/prism-okaidia.css";
+import "vue-code-highlight/themes/window.css";
+
 export default {
   name: "Favorites",
   metaInfo: {
     title: "Shortcut Expert | How It Works?",
     description:
       "Learn how Shortcut Expert works. You can create your own applications and contribute to the existing ones.",
+  },
+  components: {
+    VueCodeHighlight,
   },
 };
 </script>
@@ -276,5 +342,23 @@ img {
 }
 ul {
   margin: 20px 0px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 150%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 </style>
