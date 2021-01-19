@@ -19,11 +19,24 @@
       }"
       @shortkey="globalKeyPress"
     >
-    <v-row class="blue darken-1 text-right justify-end align-center" v-if="iframe" style="height: 35px;" flex>
-      <a :href="'https://shortcutexpert.com/shortcuts/'+$page.app.slug" target="_blank" class="mx-3">
-        <img :src="require('@/assets/img/logo-light.svg')" alt="Shortcut Expert Logo" width="150">
-      </a>
-    </v-row>
+      <v-row
+        class="blue darken-1 text-right justify-end align-center"
+        v-if="iframe"
+        style="height: 35px;"
+        flex
+      >
+        <a
+          :href="'https://shortcutexpert.com/shortcuts/' + $page.app.slug"
+          target="_blank"
+          class="mx-3"
+        >
+          <img
+            :src="require('@/assets/img/logo-light.svg')"
+            alt="Shortcut Expert Logo"
+            width="150"
+          />
+        </a>
+      </v-row>
       <v-row
         no-gutters
         style="flex-wrap: nowrap; width: 100%;"
@@ -208,7 +221,10 @@
               @clickFavorite="clickFavorite"
             />
           </div>
-          <div class="box_keyboard" :style="iframe ? 'grid-area: 1 / 2 / span 2 / span 2;' : ''">
+          <div
+            class="box_keyboard"
+            :style="iframe ? 'grid-area: 1 / 2 / span 2 / span 2;' : ''"
+          >
             <div
               class="keyboard_section"
               v-show="!$vuetify.breakpoint.mobile || mobile_keyboard_active"
@@ -219,7 +235,11 @@
                   <keyboard
                     :pressed="pressed"
                     @clickKey="clickKeyboardMouse"
-                    :layout="operating_system.toLowerCase()"
+                    :layout="
+                      operating_system.toLowerCase() == 'linux' // TODO: this is a small hack for linux FIX IT later
+                        ? 'windows'
+                        : operating_system.toLowerCase()
+                    "
                     :highlight="filtered_distinct_keys"
                   />
                 </div>
@@ -533,7 +553,7 @@ export default {
   },
   mounted() {
     // check iframe
-    this.iframe = this.$route.query.iframe == "true"
+    this.iframe = this.$route.query.iframe == "true";
     // mark favorites
     var local_favorites = localStorage.getItem("favorites");
     if (local_favorites) {
@@ -568,7 +588,7 @@ export default {
     url_shortcuts: "",
     mobile_keyboard_active: true,
     operating_system: "macos",
-    operating_systems: ["macos", "windows", "ios", "android"],
+    operating_systems: ["macos", "windows", "linux", "ios", "android"],
     favorites: [],
     list: [
       {

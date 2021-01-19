@@ -56,9 +56,9 @@ export default {
       this.keyboard = Object.assign({}, layouts[this.layout]);
     },
     clickKey(key, e) {
-      if(e.shiftKey){
+      if (e.shiftKey) {
         this.$emit("clickKey", key.stroke_shift || key.stroke);
-      }else{
+      } else {
         this.$emit("clickKey", key.stroke);
       }
     },
@@ -174,11 +174,11 @@ $key-width-small: 5%;
   padding: 0.1vw 0.3vw;
   flex-flow: column;
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 .key .div {
