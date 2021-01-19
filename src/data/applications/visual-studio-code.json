@@ -12,9 +12,11 @@
         {
           "name": "Open the command palette",
           "group": "General",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -35,9 +37,11 @@
         {
           "name": "Open keyboard shortcuts",
           "group": "General",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -50,7 +54,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -67,9 +72,11 @@
         {
           "name": "Open user settings",
           "group": "General",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -86,9 +93,11 @@
         {
           "name": "Undo",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -105,9 +114,11 @@
         {
           "name": "Redo",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -128,9 +139,11 @@
         {
           "name": "Remove one word",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -147,9 +160,11 @@
         {
           "name": "Cut line",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -166,9 +181,11 @@
         {
           "name": "Copy line",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -185,9 +202,11 @@
         {
           "name": "Paste line",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -204,9 +223,11 @@
         {
           "name": "Delete line",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -227,9 +248,11 @@
         {
           "name": "Move line up/down",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -242,7 +265,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -259,9 +283,11 @@
         {
           "name": "Copy line up/down",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -278,7 +304,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -299,9 +326,11 @@
         {
           "name": "Toggle line commment",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -318,9 +347,11 @@
         {
           "name": "Select the next/previous letter",
           "group": "Selecting",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -333,7 +364,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -350,9 +382,11 @@
         {
           "name": "Select the next/previous word",
           "group": "Selecting",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -369,7 +403,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -393,7 +428,8 @@
           "description": "you can press multiple times",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -410,9 +446,11 @@
         {
           "name": "Select line up/down",
           "group": "Selecting",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -425,7 +463,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -442,9 +481,11 @@
         {
           "name": "Select to the beginning/end of file",
           "group": "Selecting",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -461,7 +502,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -482,9 +524,11 @@
         {
           "name": "Expand/Shrink selection",
           "group": "Selecting",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -501,7 +545,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -522,9 +567,11 @@
         {
           "name": "Go to the next/previous word",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -541,9 +588,11 @@
         {
           "name": "Go to beginning/end of line",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -556,7 +605,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -573,9 +623,11 @@
         {
           "name": "Go to beginning/end of file",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -588,7 +640,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -605,9 +658,11 @@
         {
           "name": "Go to line",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -627,7 +682,8 @@
           "description": "you can press multiple times",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -644,9 +700,11 @@
         {
           "name": "Open next opened tab",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -663,9 +721,11 @@
         {
           "name": "Go to symbol",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -686,9 +746,11 @@
         {
           "name": "Go to symbol in the workspace",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -705,9 +767,11 @@
         {
           "name": "Save file",
           "group": "Files",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -724,9 +788,11 @@
         {
           "name": "Close file",
           "group": "Files",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -743,9 +809,11 @@
         {
           "name": "Close all files",
           "group": "Files",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -758,7 +826,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -775,9 +844,11 @@
         {
           "name": "Open previously closed",
           "group": "Files",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -798,9 +869,11 @@
         {
           "name": "Find",
           "group": "Search",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -817,9 +890,11 @@
         {
           "name": "Replace",
           "group": "Search",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -840,9 +915,11 @@
         {
           "name": "Find next/previous",
           "group": "Search",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -855,7 +932,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -876,9 +954,11 @@
         {
           "name": "Insert cursor",
           "group": "Cursors",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -895,9 +975,11 @@
         {
           "name": "Insert cursor above",
           "group": "Cursors",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -914,7 +996,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -935,9 +1018,11 @@
         {
           "name": "Select next match",
           "group": "Cursors",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -954,9 +1039,11 @@
         {
           "name": "De-select previous match",
           "group": "Cursors",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -973,9 +1060,11 @@
         {
           "name": "Select all occurrences of current word",
           "group": "Cursors",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -996,9 +1085,11 @@
         {
           "name": "Remove cursors",
           "group": "Cursors",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1011,9 +1102,11 @@
         {
           "name": "Show Explorer",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1034,9 +1127,11 @@
         {
           "name": "Show Search",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1057,9 +1152,11 @@
         {
           "name": "Show Source Control",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1080,9 +1177,11 @@
         {
           "name": "Show Debug",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1103,9 +1202,11 @@
         {
           "name": "Show Extensions",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1126,9 +1227,11 @@
         {
           "name": "Toggle Sidebar",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1145,9 +1248,11 @@
         {
           "name": "Split editor",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1164,9 +1269,11 @@
         {
           "name": "Enter zen mode",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1187,9 +1294,11 @@
         {
           "name": "Show (focus) integrated terminal",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1206,9 +1315,11 @@
         {
           "name": "Focus first/second/third editor window",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1230,9 +1341,11 @@
         {
           "name": "Open the command palette",
           "group": "General",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1253,9 +1366,11 @@
         {
           "name": "Open keyboard shortcuts",
           "group": "General",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1268,7 +1383,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1285,9 +1401,11 @@
         {
           "name": "Open user settings",
           "group": "General",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1304,9 +1422,11 @@
         {
           "name": "Undo",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1323,9 +1443,11 @@
         {
           "name": "Redo",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1346,9 +1468,11 @@
         {
           "name": "Remove one word",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1365,9 +1489,11 @@
         {
           "name": "Cut line",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1384,9 +1510,11 @@
         {
           "name": "Copy line",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1403,9 +1531,11 @@
         {
           "name": "Paste line",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1422,9 +1552,11 @@
         {
           "name": "Delete line",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1445,9 +1577,11 @@
         {
           "name": "Move line up/down",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1460,7 +1594,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1477,9 +1612,11 @@
         {
           "name": "Copy line up/down",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1496,7 +1633,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1517,9 +1655,11 @@
         {
           "name": "Toggle line commment",
           "group": "Editing",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1536,9 +1676,11 @@
         {
           "name": "Select the next/previous letter",
           "group": "Selecting",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1551,7 +1693,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1568,9 +1711,11 @@
         {
           "name": "Select the next/previous word",
           "group": "Selecting",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1587,7 +1732,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1611,7 +1757,8 @@
           "description": "you can press multiple times",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1628,9 +1775,11 @@
         {
           "name": "Select line up/down",
           "group": "Selecting",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1647,7 +1796,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1668,9 +1818,11 @@
         {
           "name": "Select to the beginning/end of file",
           "group": "Selecting",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1687,7 +1839,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1708,9 +1861,11 @@
         {
           "name": "Expand/Shrink selection",
           "group": "Selecting",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1727,7 +1882,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1748,9 +1904,11 @@
         {
           "name": "Go to the next/previous word",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1763,7 +1921,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1780,9 +1939,11 @@
         {
           "name": "Go to beginning/end of line",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1791,7 +1952,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1804,9 +1966,11 @@
         {
           "name": "Go to beginning/end of file",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1819,7 +1983,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1836,9 +2001,11 @@
         {
           "name": "Go to line",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1858,7 +2025,8 @@
           "description": "you can press multiple times",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1875,9 +2043,11 @@
         {
           "name": "Open next opened tab",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1894,9 +2064,11 @@
         {
           "name": "Go to symbol",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1917,9 +2089,11 @@
         {
           "name": "Go to symbol in the workspace",
           "group": "Navigating",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1936,9 +2110,11 @@
         {
           "name": "Save file",
           "group": "Files",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1955,9 +2131,11 @@
         {
           "name": "Close file",
           "group": "Files",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1974,9 +2152,11 @@
         {
           "name": "Close all files",
           "group": "Files",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -1989,7 +2169,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2006,9 +2187,11 @@
         {
           "name": "Open previously closed",
           "group": "Files",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2029,9 +2212,11 @@
         {
           "name": "Find",
           "group": "Search",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2048,9 +2233,11 @@
         {
           "name": "Replace",
           "group": "Search",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2067,9 +2254,11 @@
         {
           "name": "Find next/previous",
           "group": "Search",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2082,7 +2271,8 @@
               ]
             },
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2103,9 +2293,11 @@
         {
           "name": "Insert cursor",
           "group": "Cursors",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2122,9 +2314,11 @@
         {
           "name": "Insert cursor above",
           "group": "Cursors",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2145,9 +2339,11 @@
         {
           "name": "Select next match",
           "group": "Cursors",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2164,9 +2360,11 @@
         {
           "name": "De-select previous match",
           "group": "Cursors",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2183,9 +2381,11 @@
         {
           "name": "Select all occurrences of current word",
           "group": "Cursors",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2206,9 +2406,11 @@
         {
           "name": "Remove cursors",
           "group": "Cursors",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2221,9 +2423,11 @@
         {
           "name": "Show Explorer",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2244,9 +2448,11 @@
         {
           "name": "Show Search",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2267,9 +2473,11 @@
         {
           "name": "Show Source Control",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2293,7 +2501,8 @@
           "description": "Show Debug",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2314,9 +2523,11 @@
         {
           "name": "Show Extensions",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2337,9 +2548,11 @@
         {
           "name": "Toggle Sidebar",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2356,9 +2569,11 @@
         {
           "name": "Split editor",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2375,9 +2590,11 @@
         {
           "name": "Enter zen mode",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2398,9 +2615,11 @@
         {
           "name": "Show (focus) integrated terminal",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
@@ -2417,9 +2636,11 @@
         {
           "name": "Focus first/second/third editor window",
           "group": "Display",
+          "description": "",
           "shortcuts": [
             {
-              "info": null,
+              "info": "",
+              "distinct_keys": [],
               "strokes": [
                 {
                   "mode": "now",
