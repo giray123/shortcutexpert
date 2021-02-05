@@ -34,6 +34,7 @@
 var layouts = {
   windows: require("../data/keyboards/keyboard-windows").layout,
   macos: require("../data/keyboards/keyboard-macos").layout,
+  linux: require("../data/keyboards/keyboard-linux").layout,
 };
 
 export default {
@@ -93,7 +94,8 @@ $key-width-small: 5%;
   display: grid;
   grid-template-columns: 100%;
 }
-.keyboard_windows {
+.keyboard_windows,
+.keyboard_linux {
   grid-template-rows: 1fr, repeat(5, 2fr);
   grid-gap: 0.6vw;
   padding: 0.8%;
@@ -106,7 +108,8 @@ $key-width-small: 5%;
 .key-row {
   display: grid;
 }
-.keyboard_windows .key-row {
+.keyboard_windows .key-row,
+.keyboard_linux .key-row {
   grid-gap: 0.8%;
   grid-template-rows: 1fr;
 }
@@ -114,22 +117,28 @@ $key-width-small: 5%;
   grid-gap: 0.7%;
   grid-template-rows: 1fr;
 }
-.keyboard_windows .row1 {
+.keyboard_windows .row1,
+.keyboard_linux .row1 {
   grid-template-columns: repeat(16, 1fr);
 }
-.keyboard_windows .row2 {
+.keyboard_windows .row2,
+.keyboard_linux .row2 {
   grid-template-columns: repeat(13, $key-width) auto;
 }
-.keyboard_windows .row3 {
+.keyboard_windows .row3,
+.keyboard_linux .row3 {
   grid-template-columns: auto repeat(12, $key-width) $key-width-small;
 }
-.keyboard_windows .row4 {
+.keyboard_windows .row4,
+.keyboard_linux .row4 {
   grid-template-columns: auto repeat(11, $key-width) auto;
 }
-.keyboard_windows .row5 {
+.keyboard_windows .row5,
+.keyboard_linux .row5 {
   grid-template-columns: auto repeat(10, $key-width) auto;
 }
-.keyboard_windows .row6 {
+.keyboard_windows .row6,
+.keyboard_linux .row6 {
   grid-template-columns: repeat(3, $key-width) 7% auto 7% repeat(4, $key-width);
 }
 
@@ -149,7 +158,8 @@ $key-width-small: 5%;
   grid-template-columns: auto repeat(10, $key-width) auto;
 }
 .keyboard_macos .row6,
-.keyboard_windows .row6 {
+.keyboard_windows .row6,
+.keyboard_linux .row6 {
   grid-template-columns: repeat(3, $key-width) 7% auto 7% repeat(4, $key-width);
   /* span 2 row on parent */
   grid-row-end: span 2;
@@ -157,7 +167,8 @@ $key-width-small: 5%;
   grid-template-rows: 1fr 1fr;
 }
 .keyboard_macos .row6 .key,
-.keyboard_windows .row6 .key {
+.keyboard_windows .row6 .key,
+.keyboard_linux .row6 .key {
   /* last row has two rows make all default keys span 2 rows */
   grid-row-end: span 2;
 }
@@ -187,7 +198,8 @@ $key-width-small: 5%;
   justify-content: center;
   align-items: center;
 }
-.keyboard_windows .key-row .key {
+.keyboard_windows .key-row .key,
+.keyboard_linux .key-row .key {
   border: 1px solid #000000;
   background-color: rgb(49, 49, 49);
   font-size: 1vw;
@@ -197,7 +209,8 @@ $key-width-small: 5%;
   background-color: white;
   font-size: 1vw;
 }
-.keyboard_windows .key-row .key:hover {
+.keyboard_windows .key-row .key:hover,
+.keyboard_linux .key-row .key:hover {
   background-color: black;
   cursor: pointer;
 }
@@ -217,16 +230,19 @@ $key-width-small: 5%;
   border-color: #b9b9b9;
   color: #ffffff;
 }
-.keyboard_windows .key-row .key.highlight {
+.keyboard_windows .key-row .key.highlight,
+.keyboard_linux .key-row .key.highlight {
   background-color: rgb(110, 110, 110);
   border-color: rgb(65, 65, 65);
 }
-.keyboard_windows .key-row .key.pressed {
+.keyboard_windows .key-row .key.pressed,
+.keyboard_linux .key-row .key.pressed {
   font-weight: bold;
   border-color: #128ef1;
   background-color: #2196f3;
 }
-.keyboard_windows .key-row .key.pressed:hover {
+.keyboard_windows .key-row .key.pressed:hover,
+.keyboard_linux .key-row .key.pressed:hover {
   border-color: #266ca1;
   background-color: #4292d4;
 }

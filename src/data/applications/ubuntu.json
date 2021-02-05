@@ -7,7 +7,7 @@
   "url_google_sheets": "https://docs.google.com/spreadsheets/d/1J7praKy12RfCHue1STkEpV9ySfusIJSFljR3hu8kZQI/edit?usp=sharing",
   "operating_systems": [
     {
-      "name": "windows",
+      "name": "linux",
       "list": [
         {
           "name": "Toggle Activites Overview",
@@ -325,6 +325,7 @@
         },
         {
           "name": "Show Desktop",
+          "group": "Desktop",
           "shortcuts": [
             {
               "info": null,
@@ -609,6 +610,7 @@
         },
         {
           "name": "Terminal",
+          "group": "Desktop",
           "shortcuts": [
             {
               "info": null,
@@ -624,6 +626,21 @@
                 {
                   "mode": "now",
                   "text": "T"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enter",
+          "group": "Deneme",
+          "shortcuts": [
+            {
+              "info": "yo naber",
+              "strokes": [
+                {
+                  "mode": "now",
+                  "text": "ctrl+"
                 }
               ]
             }

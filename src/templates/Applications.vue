@@ -235,11 +235,7 @@
                   <keyboard
                     :pressed="pressed"
                     @clickKey="clickKeyboardMouse"
-                    :layout="
-                      operating_system.toLowerCase() == 'linux' // TODO: this is a small hack for linux FIX IT later
-                        ? 'windows'
-                        : operating_system.toLowerCase()
-                    "
+                    :layout="operating_system.toLowerCase()"
                     :highlight="filtered_distinct_keys"
                   />
                 </div>
@@ -625,7 +621,6 @@ export default {
     keyboard_types: ["asd", "asdasadd"],
     pressed: ["s", "E"],
     symbol_display: true,
-    activeKeyboard: "KeyboardWindows",
     dialog_update: false,
     form_update: {
       name: "",
@@ -1057,7 +1052,7 @@ export default {
 .box_heading {
   padding: 10px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   min-width: 0;
   max-width: 100%;
