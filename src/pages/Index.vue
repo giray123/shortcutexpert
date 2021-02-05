@@ -191,7 +191,7 @@
                 <div>
                   <h3 class="text-h5">Fast & SEO Friendly</h3>
                   <p class="ma-0 mt-1">
-                    beacuse each app page is distributed completely static with
+                    because each app page is distributed completely static with
                     CDNs
                   </p>
                 </div>
